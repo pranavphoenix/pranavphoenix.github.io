@@ -14,4 +14,4 @@ Although transformers have become the neural architectures of choice for natural
 
 [Paper Link](https://openaccess.thecvf.com/content/WACV2022/papers/Jeevan_Resource-Efficient_Hybrid_X-Formers_for_Vision_WACV_2022_paper.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: P. Jeevan and A. Sethi, "Resource-efficient Hybrid X-formers for Vision," 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA, 2022, pp. 3555-3563, doi: 10.1109/WACV51458.2022.00361.
