@@ -2,11 +2,10 @@
 title: "Resource-Efficient Hybrid X-Formers for Vision"
 collection: publications
 permalink: /publication/vixwacv22
-excerpt: 'We develop a resource-efficient architecture for vision by making three modifications on ViT to address their shortcomings, which significantly improve their performance and make them more accessible.'
+excerpt: 'We developed a resource-efficient architecture for vision by making three modifications on ViT to address their shortcomings, which significantly improved their performance and made them more accessible.'
 date: 2022-01-04
 venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA'
-paperurl: 'https://openaccess.thecvf.com/content/WACV2022/papers/Jeevan_Resource-Efficient_Hybrid_X-Formers_for_Vision_WACV_2022_paper.pdf'
-citation: 'P. Jeevan and A. Sethi, "Resource-efficient Hybrid X-formers for Vision," 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA, 2022, pp. 3555-3563, doi: 10.1109/WACV51458.2022.00361.'
+
 image: 'vix.jpg'
 width: '800'
 ---
