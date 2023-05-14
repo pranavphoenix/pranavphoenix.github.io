@@ -11,30 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Artificial Intelligence, Department of Electrical Engineering, IIT Bombay, 2024 (expected)
+* M.Tech. in Robotics, Depatment of Mechanical Engineering, IIT Kanpur, 2015
+* B.Tech. in Mechancial Engineering, University of Calicut, 2013
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-2019: Research Scholar
+  * Department of Physics, IIT Madras
+  * Quantum Information and Quantum Computing Lab
+  * Supervisor: Professor Vaibhav Madhok
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2015 -2016: Post-graduate Engineer Trainee
+  * Engineering Research Centre, Tata Motors Limited, Pune.
+  * Appplication Engieering and vehicle evaluation
+  * Thermal analysis of brakes
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -42,7 +34,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -56,4 +48,11 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+
+Technical Skills
+======
+
+| <b>Programming languages</b> |                <b>Python, C/C++, R</b>               |
+|   <b>Software Libraries</b>  |       <b>TensorFlow, PyTorch, Keras, Torch</b>       |
+|         <b>Tools</b>         |           <b>MATLAB, Mathematica, ChatGPT</b>        |
