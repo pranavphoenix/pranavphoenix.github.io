@@ -22,7 +22,7 @@ Work experience
   * Quantum Information and Quantum Computing Lab
   * Supervisor: Professor Vaibhav Madhok
 
-* 2015 -2016: Post-graduate Engineer Trainee
+* 2015-2016: Post-graduate Engineer Trainee
   * Engineering Research Centre, Tata Motors Limited, Pune.
   * Appplication Engieering and vehicle evaluation
   * Thermal analysis of brakes
