@@ -3,7 +3,7 @@ title: "WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting
 collection: publications
 permalink: /publication/wavepaint
 excerpt: 'WavePaint is a new resource-efficient neural architecture for image inpainting that achieves comparable or better performance than the current state-of-the-art models without using adversarial training or diffusion.'
-date: 2022-05-28
+date: 2023-07-01
 venue: 'Arxiv'
 image: 'wavepaint.jpg'
 width: '800'
