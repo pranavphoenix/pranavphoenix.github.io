@@ -17,6 +17,10 @@ Education
 
 Work experience
 ======
+* 2023 Jul-Dec: Intership
+  * Samsung R&D Institute, Bangalore
+  * AI Camera Team, Camera Solutions Group, Visual Intelligence Division
+
 * 2017-2019: Research Scholar
   * Department of Physics, IIT Madras
   * Quantum Information and Quantum Computing Lab
