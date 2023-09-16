@@ -17,7 +17,7 @@ redirect_from:
 
 <h2>Recent Updates </h2> 
 
-1. Our paper titled ""Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the 5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis 2023.
-2. Our paper titled ""Resource-efficient Image Inpainting" has been accpeted as Tiny Paper in ICLR 2023.
+1. Our paper titled ""Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the 5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023.
+2. Our tiny paper titled ""Resource-efficient Image Inpainting" has been accpeted in ICLR 2023.
 3. Our paper titled "“Resource-efficient Hybrid X-Formers for Vision" has been accepted in WACV 2022. 
 4. Our paper titled "“So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in EMNLP 2021. 
