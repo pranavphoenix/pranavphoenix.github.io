@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/vixwacv22
 excerpt: 'We developed a resource-efficient architecture for vision by making three modifications on ViT to address their shortcomings, which significantly improved their performance and made them more accessible.'
 date: 2022-01-04
-venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikoloa, HI, USA'
+venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2022, Waikoloa, HI, USA'
 image: 'vix.jpg'
 width: '800'
 ---
