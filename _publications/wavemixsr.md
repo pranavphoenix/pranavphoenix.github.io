@@ -3,7 +3,7 @@ title: "WaveMixSR: A Resource-efficient Neural Network for Image Super-resolutio
 collection: publications
 permalink: /publication/wavemixsr
 excerpt: 'WaveMixSR is a new neural network for image super-resolution that uses the WaveMix architecture, which is based on a 2D-discrete wavelet transform for spatial token-mixing, and achieves higher performance while requiring fewer resources and training data than transformer-based models.'
-date: 2023-07-01
+date: 2024-04-01
 venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikaloa, HI, USA'
 image: 'wavemixsr.jpg'
 width: '800'
