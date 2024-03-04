@@ -11,6 +11,6 @@ Convolution Neural Networks (CNNs) are widely used in medical image analysis, bu
 
 [Paper Link](https://www.scitepress.org/PublicationsDetail.aspx?ID=SZAO62y/tp4=&t=1)
 
-Won the Best Student Paper Award
+Won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing)
 
 Recommended citation: Jeevan, P.; Kurian, N. and Sethi, A. (2024). Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers. In Proceedings of the 17th International Joint Conference on Biomedical Engineering Systems and Technologies - BIOIMAGING; ISBN 978-989-758-688-0; ISSN 2184-4305, SciTePress, pages 216-222. DOI: 10.5220/0012362900003657 
