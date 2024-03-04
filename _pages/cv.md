@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<embed src="/Certificate.pdf" type="application/pdf"   height="700px" width="500">
+
 Education
 ======
 * Ph.D in Artificial Intelligence, Department of Electrical Engineering, IIT Bombay, 2024 (expected)
