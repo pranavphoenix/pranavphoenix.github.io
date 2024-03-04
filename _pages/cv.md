@@ -32,6 +32,7 @@ Work experience
   * Appplication Engieering and vehicle evaluation
   * Thermal analysis of brakes
   
+Serving as Reviewer for International Conferences such as CVPR, ICCV, ECCV, ICLR, ICML, WACV, NeurIPS from 2022.
 
 Publications
 ======
