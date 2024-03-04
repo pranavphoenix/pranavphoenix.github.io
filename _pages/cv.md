@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="/Certificate.pdf" type="application/pdf"   height="700px" width="500">
+PDF of my  CV can be found [here](_pages\Certificate.pdf)
 
 Education
 ======
