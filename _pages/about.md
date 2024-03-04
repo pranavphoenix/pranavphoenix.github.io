@@ -16,7 +16,7 @@ redirect_from:
 <br>I maintain a list of my publications under the Research tab and my full Resume is attached in the CV Tab.
 
 <h2>Recent Updates </h2> 
-1. Our paper titled "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in Bioimaging 2024.
+1. Our paper titled "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in Bioimaging 2024 and won the Best Student Paper Award.
 2. Our paper titled "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in WACV 2024.
 3. Our paper titled "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the 5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023.
 4. Our tiny paper titled ""Resource-efficient Image Inpainting" has been accpeted in ICLR 2023.
