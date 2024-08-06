@@ -3,7 +3,7 @@ title: "CHATTY: Coupled Holistic Adversarial Transport Terms with Yield for Unsu
 collection: publications
 permalink: /publication/chatty
 excerpt: 'The new technique, CHATTY, enhances unsupervised domain adaptation by introducing a novel transport loss that displaces classifier outputs to reduce class confusion and improve domain-invariant representations, leading to superior UDA results on benchmark datasets.'
-date: 2024-08-06
+date: 2023-04-19
 venue: 'Proceedings of the 27th International Conference on Pattern Recognition, Kolkata, India'
 
 ---
