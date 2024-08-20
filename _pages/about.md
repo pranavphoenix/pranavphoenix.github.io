@@ -13,7 +13,14 @@ redirect_from:
 
 <div style='text-align: justify;'>After completing my Masters degree, I worked as Post-graduate Engineering Trainee at <a href="https://www.tatamotors.com/" style="text-decoration: none;">Engineering Research Centre, Tata Motors Limited.</a> I have worked on vehicle evaluation and thermal analysis of brakes in Consumer Vehicle Business Unit. After working in industry for sometime, I moved back to academic research at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Department of Physics</a>, Indian Institute of Technology, Madras.  I did coursework in theoretical physics with special focus on Quantum Computing and Quantum Information. I did a 6 month Internship with the AI Camera Team, Camera Solutions Group, Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none;">Samsung R&D Institute India, Bangalore (SRI-B)</a> from July 2023 to January 2024. I worked on developing various models for tasks such a classification, detection and generation. These models have been commercialized and deployed in Samsung's flagship Galaxy S24 series.</div>
 
-<br>I maintain a list of my publications under the Research tab and my full Resume is attached in the CV Tab.
+<br>I maintain a list of my publications under the Publications tab.
+
+<a href="https://drive.google.com/file/d/1gnrv9X-ane2WAk90_mi2KheX7ePm-vet/view?usp=sharing" target="_blank">
+  <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+    Download PDF
+  </button>
+</a>
+
 
 <h2>Recent Updates </h2> 
 1. Our paper titled "CHATTY: Coupled Holistic Adversarial Transport Terms with Yield for Unsupervised Domain Adaptation" has been accpeted in ICPR 2024.
