@@ -17,7 +17,7 @@ redirect_from:
 
 <a href="https://drive.google.com/file/d/1gnrv9X-ane2WAk90_mi2KheX7ePm-vet/view?usp=sharing" target="_blank">
   <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-    Download PDF
+    My Resume
   </button>
 </a>
 
