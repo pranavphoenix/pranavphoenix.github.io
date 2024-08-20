@@ -15,7 +15,7 @@ redirect_from:
 
 <br>I maintain a list of my publications under the Publications tab.
 
-<a href="https://drive.google.com/file/d/1gnrv9X-ane2WAk90_mi2KheX7ePm-vet/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/15aKRAYxgXmz621VvQgLYPz3KQa2wP0_O/view?usp=sharing" target="_blank">
   <button style="background-color: #87CEFA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
     My Resume
   </button>
