@@ -2,7 +2,7 @@
 title: "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch"
 collection: publications
 permalink: /publication/federated
-excerpt: 'WavePaint is a new resource-efficient neural architecture for image inpainting that achieves comparable or better performance than the current state-of-the-art models without using adversarial training or diffusion.'
+excerpt: 'FLeNS combines Nesterov acceleration with adaptive Hessian sketching to achieve super-linear convergence in federated learning while significantly reducing communication overhead.'
 date: 2024-09-23
 venue: 'Arxiv'
 image: 'wavepaint.jpg'
