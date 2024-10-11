@@ -22,8 +22,9 @@ redirect_from:
 </a>
 
 
-<h2>Recent Updates </h2> 
-1. <a href="https://arxiv.org/abs/2304.09623" style="text-decoration: none;">CHATTY: Coupled Holistic Adversarial Transport Terms with Yield for Unsupervised Domain Adaptation</a> <a style="color:#006400">ICPR 2024<\a>
+### Recent Publications 
+
+- <a href="https://arxiv.org/abs/2304.09623" style="text-decoration: none;">CHATTY: Coupled Holistic Adversarial Transport Terms with Yield for Unsupervised Domain Adaptation</a> <a style="color:#006400">ICPR 2024<\a>
 <a style="color:#2A00FF">Chirag P, Mukta Wagle, Ravi Kant Gupta, Pranav Jeevan, Amit Sethi<\a>
 2. Our paper titled "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in Bioimaging 2024 and won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing).
 3. Our paper titled "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in WACV 2024.
