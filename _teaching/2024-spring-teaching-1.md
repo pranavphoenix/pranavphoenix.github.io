@@ -1,5 +1,5 @@
 ---
-title: "Transformers: How ChatGPT Works"
+title: "Transformers"
 collection: teaching
 type: "Graduate Course"
 permalink: /teaching/2024-spring-teaching-1
@@ -7,7 +7,7 @@ venue: "Department of Electrical Engineering, IIT Bombay"
 date: 2024-03-31
 location: "Mumbai, India"
 ---
-EE 769 Intro to ML: Transformers (Deep learning Architectures) 
+EE 769 Lecture: Intro to Transformers  
 
 Took a lecture for EE 769: Introduction to Machine Learning, a graduate level course in IIT Bombay and introduced the transformer architecture and self attention to students. This introductory lecture on the transformer architecture is inspired by the Stanford lecture on Introduction to transformers by <a href="https://karpathy.ai/" style="text-decoration: none;">Andrej Karpathy.</a>
 
