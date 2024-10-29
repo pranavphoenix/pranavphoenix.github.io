@@ -3,8 +3,8 @@ title: "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch"
 collection: publications
 permalink: /publication/federated
 excerpt: 'FLeNS combines Nesterov acceleration with adaptive Hessian sketching to achieve super-linear convergence in federated learning while significantly reducing communication overhead.'
-date: 2024-09-23
-venue: 'Arxiv'
+date: 2024-12-15
+venue: 'Proceedings of the 2024 IEEE International Conference on Big Data (IEEE BigData), Washington DC, USA'
 image: 'wavepaint.jpg'
 width: '800'
 ---
