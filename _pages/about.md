@@ -31,5 +31,5 @@ redirect_from:
 6. Our paper "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the <a style="color:#FF0000; text-decoration:none">5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023</a>.
 7. Our tiny paper "Resource-efficient Image Inpainting" has been accepted in <a style="color:#FF0000; text-decoration:none">ICLR 2023</a>.
 8. Our paper "Resource-efficient Hybrid X-Formers for Vision" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2022</a>. 
-9. Our paper "“So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>. 
+9. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>. 
 
