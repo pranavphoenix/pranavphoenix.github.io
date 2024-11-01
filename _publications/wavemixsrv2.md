@@ -9,6 +9,7 @@ venue: 'Proceedings of the 2025 AAAI Conference on Artificial Intelligence (AAAI
 ---
 Recent advancements in single image super-resolution have been predominantly driven by token mixers and transformer architectures. WaveMixSR utilized the WaveMix architecture, employing a two-dimensional discrete wavelet transform for spatial token mixing, achieving superior performance in super-resolution tasks with remarkable resource efficiency. In this work, we present an enhanced version of the WaveMixSR architecture by (1) replacing the traditional transpose convolution layer with a pixel shuffle operation and (2) implementing a multistage design for higher resolution tasks (4×). Our experiments demonstrate that our enhanced model -- WaveMixSR-V2 -- outperforms other architectures in multiple super-resolution tasks, achieving state-of-the-art for the BSD100 dataset, while also consuming fewer resources, exhibits higher parameter efficiency, lower latency and higher throughput. 
 
+Accepted as Oral Presentation.
 
 [Paper Link](https://arxiv.org/abs/2409.10582)
 
