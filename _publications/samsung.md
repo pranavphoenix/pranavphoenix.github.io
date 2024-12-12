@@ -2,7 +2,7 @@
 title: "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition"
 collection: publications
 permalink: /publication/samsung
-excerpt: 'WaveMixSR is a new neural network for image super-resolution that uses the WaveMix architecture, which is based on a 2D-discrete wavelet transform for spatial token-mixing, and achieves higher performance while requiring fewer resources and training data than transformer-based models.'
+excerpt: 'Developed a multi-label classification system for detecting facial action units in dogs and cats using a semi-supervised pseudo-labeling strategy, significantly enhancing the understanding of pet emotions by annotating 8,918 images and showing that the Swin Transformer-Tiny model achieves the highest accuracy on the CatVsDog dataset.'
 date: 2024-11-25
 venue: 'Proceedings of the 35th British Machine Vision Conference (BMVC) 2024, Glasgow, UK'
 image: 'wavemixsr.jpg'
