@@ -15,7 +15,7 @@ redirect_from:
 
 
 
-<a href="https://drive.google.com/file/d/1-8fqtTJ8YWEHZe00PanuWqX6cA9QwMRs/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank">
   <button style="background-color: #87CEFA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
     My Resume
   </button>
@@ -27,7 +27,7 @@ redirect_from:
 1. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
 2. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
 3. Our paper "Adversarial Transport Terms for Unsupervised Domain Adaptation" has been accepted in <a style="color:#FF0000; text-decoration:none">ICPR 2024</a>.
-4. Our paper "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition" about my work in Samsung has been accepted in <a style="color:#FF0000; text-decoration:none">BMVC 2024</a>.
+4. Our paper "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition" about my work in Samsung has been accepted in <a style="color:#FF0000; text-decoration:none">BMVC 2024</a>. A patent has also been filed.
 5. Our paper "A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis" has been accpeted in <a style="color:#FF0000; text-decoration:none">CCIS</a>.
 6. Our paper "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in <a style="color:#FF0000; text-decoration:none">Bioimaging 2024</a> and won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing).
 7. Our paper "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2024</a>.
