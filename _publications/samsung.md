@@ -2,7 +2,7 @@
 title: "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition"
 collection: publications
 permalink: /publication/samsung
-excerpt: 'Developed a multi-label classification system for detecting facial action units in dogs and cats using a semi-supervised pseudo-labeling strategy, significantly enhancing the understanding of pet emotions by annotating 8,918 images and showing that the Swin Transformer-Tiny model achieves the highest accuracy on the CatVsDog dataset.'
+excerpt: 'My work as an intern at Samsung Research where I developed a multi-label classification system for detecting facial action units in dogs and cats using a semi-supervised pseudo-labeling strategy, significantly enhancing the understanding of pet emotions by annotating 8,918 images and showing that the Swin Transformer-Tiny model achieves the highest accuracy on the CatVsDog dataset.'
 date: 2024-11-25
 venue: 'Proceedings of the 35th British Machine Vision Conference (BMVC) 2024, Glasgow, UK'
 image: 'wavemixsr.jpg'
