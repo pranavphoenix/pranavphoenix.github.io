@@ -13,4 +13,4 @@ We propose two new evaluation metrics to assess realness of generated images bas
 
 [Paper Link](https://arxiv.org/abs/2410.02004)
 
-Recommended  Jeevan, P., Nixon, N., & Sethi, A. (2024). Normalizing Flow Based Metric for Image Generation.
+Recommended Citation: Jeevan, P., Nixon, N., & Sethi, A. (2024). Normalizing Flow Based Metric for Image Generation.

@@ -24,6 +24,7 @@ redirect_from:
 
 
 <h2>Recent Updates </h2>
+1. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
 1. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
 2. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
 3. Our paper "Adversarial Transport Terms for Unsupervised Domain Adaptation" has been accepted in <a style="color:#FF0000; text-decoration:none">ICPR 2024</a>.
