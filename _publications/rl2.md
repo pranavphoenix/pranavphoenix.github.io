@@ -3,7 +3,7 @@ title: "Evaluation Metric for Quality Control and Generative Models in Histopath
 collection: publications
 permalink: /publication/rl2
 excerpt: 'Our study introduces ResNet-L2 (RL2), a novel metric using ResNet features and a normalizing flow for evaluating generative models in histopathology, offering reliable assessments with fewer images and quicker assessments than traditional metrics, effectively handling diverse degradation types and diffusion processes.'
-date: 2024-11-01
+date: 2025-04-14
 venue: 'Proceedings of the 2025 IEEE International Symposium on Biomedical Imaging (ISBI), Huston TX, USA'
 image: 'wavepaint.jpg'
 width: '800'
