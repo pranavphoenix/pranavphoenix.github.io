@@ -11,6 +11,8 @@ Recent advancements in single image super-resolution have been predominantly dri
 
 Accepted as Oral Presentation.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w4wmDxZVPR4?si=JtVBAqkFIc_dMvjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [Paper Link](https://arxiv.org/abs/2409.10582)
 
 Recommended citation: Jeevan, P., Nixon, N., & Sethi, A. (2024). WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency.
