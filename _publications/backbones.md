@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/backbones
 excerpt: 'Our study evaluates lightweight, pre-trained CNN backbones across diverse datasets, offering crucial insights for model selection in small dataset scenarios.'
 date: 2024-06-09
-venue: 'Arxiv'
+venue: 'Transactions on Machine Learning Research (TMLR)'
 width: '800'
 ---
 
