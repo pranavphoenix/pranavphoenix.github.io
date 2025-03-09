@@ -3,7 +3,7 @@ title: "Which Backbone to Use: A Resource-efficient Domain Specific Comparison f
 collection: publications
 permalink: /publication/backbones
 excerpt: 'Our study evaluates lightweight, pre-trained CNN backbones across diverse datasets, offering crucial insights for model selection in small dataset scenarios.'
-date: 2024-06-09
+date: 2025-03-09
 venue: 'Transactions on Machine Learning Research (TMLR)'
 width: '800'
 ---
