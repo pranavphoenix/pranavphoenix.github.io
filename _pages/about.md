@@ -24,7 +24,7 @@ redirect_from:
 
 
 <h2>Recent Updates </h2>
-1. Our paper "" has been accepted in the <a style="color:#FF0000; text-decoration:none">TMLR</a> Journal.
+1. Our paper "Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision" has been accepted in the <a style="color:#FF0000; text-decoration:none">TMLR</a> Journal.
 2. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
 3. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
 4. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
