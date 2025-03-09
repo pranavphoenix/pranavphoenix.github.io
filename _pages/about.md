@@ -25,16 +25,16 @@ redirect_from:
 
 <h2>Recent Updates </h2>
 1. Our paper "" has been accepted in the <a style="color:#FF0000; text-decoration:none">Transactions on Machine Learning Research</a> Journal.
-1. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
-1. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
-2. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
-3. Our paper "Adversarial Transport Terms for Unsupervised Domain Adaptation" has been accepted in <a style="color:#FF0000; text-decoration:none">ICPR 2024</a>.
-4. My work during internship at Samsung Research was published as "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition" at <a style="color:#FF0000; text-decoration:none">BMVC 2024</a>. A patent has also been filed.
-5. Our paper "A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis" has been accpeted in <a style="color:#FF0000; text-decoration:none">CCIS</a>.
-6. Our paper "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in <a style="color:#FF0000; text-decoration:none">Bioimaging 2024</a> and won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing).
-7. Our paper "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2024</a>.
-8. Our paper "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the <a style="color:#FF0000; text-decoration:none">5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023</a>.
-9. Our tiny paper "Resource-efficient Image Inpainting" has been accepted in <a style="color:#FF0000; text-decoration:none">ICLR 2023</a>.
-10. Our paper "Resource-efficient Hybrid X-Formers for Vision" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2022</a>. 
-11. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>. 
+2. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
+3. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
+4. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
+5. Our paper "Adversarial Transport Terms for Unsupervised Domain Adaptation" has been accepted in <a style="color:#FF0000; text-decoration:none">ICPR 2024</a>.
+6. My work during internship at Samsung Research was published as "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition" at <a style="color:#FF0000; text-decoration:none">BMVC 2024</a>. A patent has also been filed.
+7. Our paper "A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis" has been accpeted in <a style="color:#FF0000; text-decoration:none">CCIS</a>.
+8. Our paper "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in <a style="color:#FF0000; text-decoration:none">Bioimaging 2024</a> and won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing).
+9. Our paper "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2024</a>.
+10. Our paper "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the <a style="color:#FF0000; text-decoration:none">5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023</a>.
+11. Our tiny paper "Resource-efficient Image Inpainting" has been accepted in <a style="color:#FF0000; text-decoration:none">ICLR 2023</a>.
+12. Our paper "Resource-efficient Hybrid X-Formers for Vision" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2022</a>. 
+13. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>. 
 
