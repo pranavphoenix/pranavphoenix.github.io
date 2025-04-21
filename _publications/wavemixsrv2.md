@@ -13,6 +13,6 @@ Accepted as Oral Presentation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w4wmDxZVPR4?si=JtVBAqkFIc_dMvjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[Paper Link](https://arxiv.org/abs/2409.10582)
+[Paper Link](https://ojs.aaai.org/index.php/AAAI/article/view/35262)
 
-Recommended citation: Jeevan, P., Nixon, N., & Sethi, A. (2024). WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency.
+Recommended citation: Jeevan, P., Nixon, N., & Sethi, A. (2025). WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency (Student Abstract). Proceedings of the AAAI Conference on Artificial Intelligence, 39(28), 29390-29392. https://doi.org/10.1609/aaai.v39i28.35262
