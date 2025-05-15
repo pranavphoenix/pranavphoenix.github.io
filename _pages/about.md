@@ -14,6 +14,33 @@ redirect_from:
 <div style='text-align: justify;'>After completing my Masters degree, I worked as Post-graduate Engineering Trainee at <a href="https://www.tatamotors.com/" style="text-decoration: none;">Engineering Research Centre, Tata Motors Limited.</a> I have worked on vehicle evaluation and thermal analysis of brakes in Consumer Vehicle Business Unit. After working in industry for sometime, I moved back to academic research at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Department of Physics</a>, Indian Institute of Technology, Madras under the supervision of <a href="https://sites.google.com/view/madhok" style="text-decoration: none;">Prof. Vaibhav Madhok</a>.  I did coursework in theoretical physics with special focus on Quantum Computing and Quantum Information. I did a 6 month Internship with the AI Camera Team, Camera Solutions Group, Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none;">Samsung R&D Institute India, Bangalore (SRI-B)</a> from July 2023 to January 2024. I worked on developing various models for tasks such a classification, detection and generation. These models have been commercialized and deployed in Samsung's flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series.</a></div>
 
 
+<h1>About Me</h1>
+<div style="text-align: justify;">
+  I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none;">sync</a>, where I lead the development of advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
+</div>
+
+<div style="text-align: justify; margin-top: 1em;">
+  I earned my Ph.D. in Electrical Engineering from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures capable of tackling multiple computer vision tasks simultaneously. During my doctoral studies, I collaborated closely with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none;">Prof. Amit Sethi</a>.
+</div>
+
+<div style="text-align: justify; margin-top: 1em;">
+  Prior to my Ph.D., I completed a Master’s in Robotics at the <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
+</div>
+
+<div style="text-align: justify; margin-top: 1em;">
+  I began my professional career as a Post-Graduate Engineering Trainee at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems. Subsequently, I returned to academia at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Department of Physics</a>, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none;">Prof. Vaibhav Madhok</a>.
+</div>
+
+<div style="text-align: justify; margin-top: 1em;">
+  Most recently, I completed a six-month internship (July 2023–January 2024) with the AI Camera Team at Samsung R&amp;D Institute India, Bangalore, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship Galaxy S24 series.
+</div>
+
+<div style="text-align: justify; margin-top: 1em;">
+  I regularly serve as a reviewer for premier conferences in computer vision and machine learning, including CVPR, ICCV, ECCV, ICLR, AAAI, and WACV.
+</div>
+
+
+
 
 <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank">
   <button style="background-color: #87CEFA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
