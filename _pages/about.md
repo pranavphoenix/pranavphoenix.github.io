@@ -45,6 +45,8 @@ redirect_from:
 
 
 <h2>Recent Updates </h2>
+1. Our paper "FLD+: Data-efficient Evaluation Metric for Generative Models" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
+2. Our paper "WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
 1. Our paper "Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision" has been accepted in the <a style="color:#FF0000; text-decoration:none">TMLR</a> Journal.
 2. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
 3. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
