@@ -68,6 +68,12 @@ body { font-family: 'Inter', sans-serif; }
     border-right: 2px solid #667eea;
     animation: typing 3.5s steps(40) 1s 1 normal both,
                blink 0.7s infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+    .typing-effect { font-size: 2.25rem; }
 }
 @keyframes typing {
     from { width: 0; }
@@ -79,11 +85,11 @@ body { font-family: 'Inter', sans-serif; }
 }
 </style>
 
-<div class="container mx-auto px-4 py-12 max-w-4xl">
+<div class="container mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-12 max-w-full md:max-w-4xl">
     <!-- About Section -->
-    <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-        <h2 class="text-2xl font-bold mb-6 gradient-text">About Me</h2>
-        <div class="space-y-4 text-gray-700 leading-relaxed">
+    <section class="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mb-8 md:mb-10 card-hover">
+        <h2 class="text-xl md:text-2xl font-bold mb-4 md:mb-6 gradient-text">About Me</h2>
+        <div class="space-y-3 md:space-y-4 text-gray-700 leading-relaxed text-base md:text-lg">
             <p>I am <strong class="text-gray-900">Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.</p>
             <p>I earned my Ph.D. in Artificial Intelligence from the <a href="https://www.ee.iitb.ac.in" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainting and super-resolution. During my doctoral studies, I was associated with the <em class="text-gray-800">MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Prof. Amit Sethi</a>.</p>
             <p>Prior to my Ph.D., I completed a Master's in Robotics at the <a href="https://www.iitk.ac.in/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.</p>
@@ -91,8 +97,8 @@ body { font-family: 'Inter', sans-serif; }
             <p>I also completed a six-month internship (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung's flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" class="text-blue-600 hover:text-blue-800 font-medium transition-colors">Galaxy S24 series</a>.</p>
             <p>I regularly serve as a reviewer for premier conferences in computer vision and machine learning, including CVPR, ICCV, ECCV, ICLR, AAAI, and WACV.</p>
         </div>
-        <div class="mt-8 flex justify-center">
-            <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center">
+        <div class="mt-6 md:mt-8 flex justify-center">
+            <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center text-base md:text-lg">
                 <i class="fas fa-file-pdf mr-2"></i>
                 My Resume
             </a>
@@ -100,12 +106,12 @@ body { font-family: 'Inter', sans-serif; }
     </section>
 
     <!-- Timeline Section -->
-    <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-        <h2 class="text-2xl font-bold mb-6 gradient-text">Professional Journey</h2>
-        <div class="relative pl-8 border-l-2 border-gray-200">
+    <section class="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mb-8 md:mb-10 card-hover">
+        <h2 class="text-xl md:text-2xl font-bold mb-4 md:mb-6 gradient-text">Professional Journey</h2>
+        <div class="relative pl-6 md:pl-8 border-l-2 border-gray-200">
             <div class="timeline-item">
                 <h3 class="text-lg font-semibold text-gray-900">Research Scientist</h3>
-                <p class="text-blue-600 font-medium">sync • 2023 – Present</p>
+                <p class="text-blue-600 font-medium">sync • Mar 2025 – Present</p>
                 <p class="text-gray-600 mt-1">Developing AI-driven video editing tools with generative architectures for precise human appearance and motion modification.</p>
             </div>
             <div class="timeline-item">
@@ -137,22 +143,22 @@ body { font-family: 'Inter', sans-serif; }
     </section>
 
     <!-- Publications Section -->
-    <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-        <h2 class="text-2xl font-bold mb-6 gradient-text">Recent Publications & Awards</h2>
-        <div id="publications-container" class="space-y-3">
+    <section class="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mb-8 md:mb-10 card-hover">
+        <h2 class="text-xl md:text-2xl font-bold mb-4 md:mb-6 gradient-text">Recent Publications & Awards</h2>
+        <div id="publications-container" class="space-y-2 md:space-y-3">
             <!-- Publications will be dynamically inserted here -->
         </div>
-        <div class="mt-6 text-center">
-            <button id="load-more-btn" class="bg-gray-100 hover:bg-gray-200 text-gray-700 px-6 py-2 rounded-lg font-medium transition-colors duration-300">
+        <div class="mt-4 md:mt-6 text-center">
+            <button id="load-more-btn" class="bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 md:px-6 py-2 rounded-lg font-medium transition-colors duration-300 text-base md:text-lg">
                 Load More
             </button>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-        <h2 class="text-2xl font-bold mb-6 gradient-text">Expertise</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <section class="bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mb-8 md:mb-10 card-hover">
+        <h2 class="text-xl md:text-2xl font-bold mb-4 md:mb-6 gradient-text">Expertise</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 md:gap-4">
             <div class="bg-blue-50 p-4 rounded-lg text-center">
                 <i class="fas fa-brain text-2xl text-blue-600 mb-2"></i>
                 <h3 class="font-semibold text-gray-900">Deep Learning</h3>
@@ -178,8 +184,8 @@ body { font-family: 'Inter', sans-serif; }
                 <h3 class="font-semibold text-gray-900">Robotics</h3>
             </div>
         </div>
-        <div class="mt-6 pt-6 border-t border-gray-200">
-            <h3 class="font-semibold text-gray-900 mb-3">Programming & Tools</h3>
+        <div class="mt-4 md:mt-6 pt-4 md:pt-6 border-t border-gray-200">
+            <h3 class="font-semibold text-gray-900 mb-2 md:mb-3">Programming & Tools</h3>
             <div class="flex flex-wrap gap-2">
                 <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Python</span>
                 <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">PyTorch</span>
@@ -194,9 +200,9 @@ body { font-family: 'Inter', sans-serif; }
     </section>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 text-sm py-8">
+    <footer class="text-center text-gray-500 text-xs md:text-sm py-6 md:py-8">
         <p>© 2025 Pranav Jeevan P. All rights reserved.</p>
-        <p class="mt-2">Built with HTML, CSS, and JavaScript</p>
+        <p class="mt-1 md:mt-2">Built with HTML, CSS, and JavaScript</p>
     </footer>
 </div>
 
