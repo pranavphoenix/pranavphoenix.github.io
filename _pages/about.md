@@ -138,7 +138,7 @@ redirect_from:
                 </a>
             </div>
 
-<h2>Recent Updates </h2>
+<h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
 1. Our paper "FLD+: Data-efficient Evaluation Metric for Generative Models" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
 2. Our paper "WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
 1. Our paper "Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision" has been accepted in the <a style="color:#FF0000; text-decoration:none">TMLR</a> Journal.
@@ -158,7 +158,7 @@ redirect_from:
 
 
  <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-            <h2 class="text-2xl font-bold mb-6 gradient-text">Expertise</h2>
+            <h2 class="text-2xl font-bold mb-6 gradient-text" style="color: #111;">Expertise</h2>
             
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="bg-blue-50 p-4 rounded-lg text-center">
@@ -208,7 +208,7 @@ redirect_from:
                     <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">CUDA</span>
                     <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">OpenCV</span>
                     <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">MATLAB</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">ROS</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">C++</span>
                     <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Git</span>
                 </div>
             </div>
