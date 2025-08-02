@@ -199,7 +199,7 @@ redirect_from:
                 </div>
             </div>
             
-            <div class="mt-6 pt-6 border-t border-gray-200">
+            <div class="mt-6 pt-6 border-t border-gray-200" style="color: #111;">
                 <h3 class="font-semibold text-gray-900 mb-3">Programming & Tools</h3>
                 <div class="flex flex-wrap gap-2">
                     <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Python</span>
