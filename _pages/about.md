@@ -36,13 +36,15 @@ redirect_from:
 
 
 
-<a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank">
-  <button style="background-color: #87CEFA; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+<div class="flex justify-center my-6">
+  <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank"
+     class="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold shadow-md hover:from-blue-600 hover:to-purple-700 transition-all duration-300 text-base md:text-lg">
+    <svg class="w-5 h-5 mr-2 -ml-1" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.828A2 2 0 0 0 19.414 7.414l-4.828-4.828A2 2 0 0 0 12.172 2H6zm6 1.414L18.586 10H14a2 2 0 0 1-2-2V3.414zM8 14h8v2H8v-2zm0-4h8v2H8v-2z"/>
+    </svg>
     My Resume
-  </button>
-</a>
-
-
+  </a>
+</div>
 
 <h2>Recent Updates </h2>
 1. Our paper "FLD+: Data-efficient Evaluation Metric for Generative Models" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
@@ -59,7 +61,7 @@ redirect_from:
 10. Our paper "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the <a style="color:#FF0000; text-decoration:none">5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023</a>.
 11. Our tiny paper "Resource-efficient Image Inpainting" has been accepted in <a style="color:#FF0000; text-decoration:none">ICLR 2023</a>.
 12. Our paper "Resource-efficient Hybrid X-Formers for Vision" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2022</a>. 
-13. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>. 
+13. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>.
 
 
 
