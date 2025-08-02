@@ -80,26 +80,6 @@ body { font-family: 'Inter', sans-serif; }
 </style>
 
 <div class="container mx-auto px-4 py-12 max-w-4xl">
-    <!-- Header Section -->
-    <header class="text-center mb-12">
-        <div class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white shadow-lg">
-            <img src="https://placehold.co/300x300/667eea/ffffff?text=PJ" alt="Pranav Jeevan P" class="w-full h-full object-cover">
-        </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Pranav Jeevan P</h1>
-        <p class="text-xl text-gray-600 mb-2">Research Scientist</p>
-        <div class="flex justify-center space-x-4 mt-4">
-            <a href="https://github.com" class="text-gray-500 hover:text-gray-700 transition-colors">
-                <i class="fab fa-github text-xl"></i>
-            </a>
-            <a href="https://linkedin.com" class="text-gray-500 hover:text-blue-600 transition-colors">
-                <i class="fab fa-linkedin text-xl"></i>
-            </a>
-            <a href="mailto:pranav@example.com" class="text-gray-500 hover:text-red-600 transition-colors">
-                <i class="fas fa-envelope text-xl"></i>
-            </a>
-        </div>
-    </header>
-
     <!-- About Section -->
     <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
         <h2 class="text-2xl font-bold mb-6 gradient-text">About Me</h2>
