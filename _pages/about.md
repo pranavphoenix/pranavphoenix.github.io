@@ -102,7 +102,7 @@ redirect_from:
 </head>
 
 
-<h2 class="text-2xl font-bold mb-6 gradient-text">About Me</h2>
+<h2 class="text-2xl font-bold mb-6" style="color: #111;">About Me</h2>
 
 <div style="text-align: justify;">
   I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
