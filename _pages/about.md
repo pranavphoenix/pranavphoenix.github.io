@@ -157,3 +157,48 @@ redirect_from:
 
 
 
+ <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
+            <h2 class="text-2xl font-bold mb-6 gradient-text">Expertise</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="bg-blue-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-brain text-2xl text-blue-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Deep Learning</h3>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-image text-2xl text-purple-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Computer Vision</h3>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-project-diagram text-2xl text-green-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Generative Models</h3>
+                </div>
+                <div class="bg-yellow-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-microchip text-2xl text-yellow-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Neural Architecture</h3>
+                </div>
+                <div class="bg-red-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-medkit text-2xl text-red-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Medical Imaging</h3>
+                </div>
+                <div class="bg-indigo-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-robot text-2xl text-indigo-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Robotics</h3>
+                </div>
+            </div>
+            
+            <div class="mt-6 pt-6 border-t border-gray-200">
+                <h3 class="font-semibold text-gray-900 mb-3">Programming & Tools</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Python</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">PyTorch</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">TensorFlow</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">CUDA</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">OpenCV</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">MATLAB</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">ROS</span>
+                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Git</span>
+                </div>
+            </div>
+            
+</section>
