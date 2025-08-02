@@ -185,10 +185,18 @@ redirect_from:
                     <i class="fas fa-robot text-2xl text-indigo-600 mb-2"></i>
                     <h3 class="font-semibold text-gray-900">Robotics</h3>
                 </div>
-                 <div className="bg-pink-50 p-4 rounded-lg text-center">
-        <i className="fas fa-atom text-2xl text-pink-600 mb-2"></i>
-        <h3 className="font-semibold text-gray-900">Theoretical Physics</h3>
-      </div>
+                <div class="bg-pink-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-atom text-2xl text-pink-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Theoretical Physics</h3>
+                </div>
+                <div class="bg-teal-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-language text-2xl text-teal-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">NLP</h3>
+                </div>
+                <div class="bg-orange-50 p-4 rounded-lg text-center">
+                    <i class="fas fa-cogs text-2xl text-orange-600 mb-2"></i>
+                    <h3 class="font-semibold text-gray-900">Mechanical Engg</h3>
+                </div>
             </div>
             
             <div class="mt-6 pt-6 border-t border-gray-200">
