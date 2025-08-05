@@ -459,85 +459,111 @@ redirect_from:
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Career Timeline</h2>
 <div class="relative border-l-4 border-blue-500 pl-6 pb-8">
   <!-- Timeline Entry: Samsung Internship -->
-  <div class="mb-10 relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">Jul 2023 – Jan 2024</div>
-        <div class="font-semibold text-blue-700">AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)</div>
-        <div class="text-gray-700">
-          Developed and optimized deep learning models for image classification, object detection, and generative tasks. Integrated models into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series</a>.
+  <div class="mb-10 relative group cursor-pointer transition-all duration-300 flex">
+    <!-- Date on the left -->
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">Jul 2023 – Jan 2024</span>
+    </div>
+    <!-- Timeline dot and content -->
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-blue-700">AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)</div>
+          <div class="text-gray-700">
+            Developed and optimized deep learning models for image classification, object detection, and generative tasks. Integrated models into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series</a>.
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Timeline Entry: Sync -->
-  <div class="mb-10 relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-purple-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">Present</div>
-        <div class="font-semibold text-purple-700">Research Scientist, <a href="https://sync.so/" style="text-decoration: none;">sync</a></div>
-        <div class="text-gray-700">
-          Develop advanced AI-driven video editing tools using generative architectures (diffusion models, GANs, transformers) for controllable video modification.
+  <div class="mb-10 relative group cursor-pointer transition-all duration-300 flex">
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">2024 – Present</span>
+    </div>
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-purple-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-purple-700">Research Scientist, <a href="https://sync.so/" style="text-decoration: none;">sync</a></div>
+          <div class="text-gray-700">
+            Develop advanced AI-driven video editing tools using generative architectures (diffusion models, GANs, transformers) for controllable video modification.
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Timeline Entry: PhD IIT Bombay -->
-  <div class="mb-10 relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-green-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://www.iitb.ac.in/sites/www.iitb.ac.in/themes/touchm/logo.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">Ph.D.</div>
-        <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
-        <div class="text-gray-700">
-          Developed resource-efficient neural architectures for computer vision tasks (classification, segmentation, inpainting, super-resolution). Member of <em>MeDAL</em> under <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none;">Prof. Amit Sethi</a>.
+  <div class="mb-10 relative group cursor-pointer transition-all duration-300 flex">
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">2018 – 2023</span>
+    </div>
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://www.iitb.ac.in/sites/www.iitb.ac.in/themes/touchm/logo.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
+          <div class="text-gray-700">
+            Developed resource-efficient neural architectures for computer vision tasks (classification, segmentation, inpainting, super-resolution). Member of <em>MeDAL</em> under <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none;">Prof. Amit Sethi</a>.
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Timeline Entry: Masters IIT Kanpur -->
-  <div class="mb-10 relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-yellow-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">M.Tech.</div>
-        <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
-        <div class="text-gray-700">
-          Designed and prototyped a lower-extremity exoskeleton for rehabilitation at the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none;">Center for Mechatronics</a> under <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none;">Prof. Ashish Dutta</a>.
+  <div class="mb-10 relative group cursor-pointer transition-all duration-300 flex">
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">2016 – 2018</span>
+    </div>
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-yellow-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
+          <div class="text-gray-700">
+            Designed and prototyped a lower-extremity exoskeleton for rehabilitation at the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none;">Center for Mechatronics</a> under <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none;">Prof. Ashish Dutta</a>.
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Timeline Entry: Tata Motors -->
-  <div class="mb-10 relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-red-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">First Job</div>
-        <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
-        <div class="text-gray-700">
-          Conducted vehicle performance and thermal analysis for braking systems at the Engineering Research Centre.
+  <div class="mb-10 relative group cursor-pointer transition-all duration-300 flex">
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">2015 – 2016</span>
+    </div>
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-red-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
+          <div class="text-gray-700">
+            Conducted vehicle performance and thermal analysis for braking systems at the Engineering Research Centre.
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Timeline Entry: IIT Madras -->
-  <div class="relative group cursor-pointer transition-all duration-300">
-    <span class="absolute -left-7 top-1 w-4 h-4 bg-gray-500 rounded-full border-4 border-white z-10"></span>
-    <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4">
-      <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
-      <div>
-        <div class="text-sm text-gray-500 mb-1">Academia</div>
-        <div class="font-semibold text-gray-700">Research, <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Dept. of Physics</a>, IIT Madras</div>
-        <div class="text-gray-700">
-          Focused on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none;">Prof. Vaibhav Madhok</a>.
+  <div class="relative group cursor-pointer transition-all duration-300 flex">
+    <div class="w-32 flex-shrink-0 flex items-center justify-end pr-4">
+      <span class="text-xs text-gray-500 font-semibold whitespace-nowrap">2014 – 2015</span>
+    </div>
+    <div class="flex-1 flex">
+      <span class="absolute left-28 top-6 w-4 h-4 bg-gray-500 rounded-full border-4 border-white z-10"></span>
+      <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
+        <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div>
+          <div class="font-semibold text-gray-700">Research, <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Dept. of Physics</a>, IIT Madras</div>
+          <div class="text-gray-700">
+            Focused on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none;">Prof. Vaibhav Madhok</a>.
+          </div>
         </div>
       </div>
     </div>
