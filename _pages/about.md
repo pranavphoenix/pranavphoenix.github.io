@@ -191,6 +191,210 @@ redirect_from:
       <i class="fas fa-layer-group text-blue-400 text-2xl group-hover:scale-110 transition-transform"></i>
     </div>
   </div>
+  <!-- Paper 4 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Evaluation Metric for Quality Control and Generative Models in Histopathology Images
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-pink-500 to-red-500 text-white px-2 py-0.5 rounded mr-2">ISBI 2025</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">Quality Control</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Histopathology image metrics</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-microscope text-pink-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 5 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-2 py-0.5 rounded mr-2">AAAI 2025</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Student Abstract (Oral)</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">Super-resolution</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Efficient super-resolution</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-expand-arrows-alt text-blue-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 6 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white px-2 py-0.5 rounded mr-2">IEEE BigData 2024</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Special Session</span>
+        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">Federated Learning</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Enhanced Nesterov-Newton Sketch</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-network-wired text-green-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 7 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Adversarial Transport Terms for Unsupervised Domain Adaptation
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-blue-500 to-green-500 text-white px-2 py-0.5 rounded mr-2">ICPR 2024</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Domain Adaptation</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Unsupervised domain adaptation</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-random text-green-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 8 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-2 py-0.5 rounded mr-2">BMVC 2024</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Patent Filed</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">Semi-Supervised</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Pet facial action recognition</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-dog text-yellow-500 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 9 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-pink-500 to-red-500 text-white px-2 py-0.5 rounded mr-2">CCIS</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-red-100 text-red-700 px-2 py-0.5 rounded">Histopathology</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Magnification invariant analysis</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-vials text-pink-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 10 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white px-2 py-0.5 rounded mr-2">Bioimaging 2024</span>
+        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded mr-2">Best Student Paper Award</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded">Medical Imaging</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Comparison of architectures</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-award text-yellow-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 11 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        WaveMixSR: Resource-efficient Neural Network for Image Super-resolution
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-2 py-0.5 rounded mr-2">WACV 2024</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">Super-resolution</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Resource-efficient super-resolution</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-expand-arrows-alt text-blue-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 12 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-green-500 to-blue-500 text-white px-2 py-0.5 rounded mr-2">MICCAI GRAIL 2023</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Workshop</span>
+        <span class="inline-block bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Graphs</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Graphs in biomedicine</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-project-diagram text-green-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 13 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Resource-efficient Image Inpainting
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-2 py-0.5 rounded mr-2">ICLR 2023</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Inpainting</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Efficient inpainting</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-fill-drip text-purple-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 14 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        Resource-efficient Hybrid X-Formers for Vision
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-blue-500 to-green-500 text-white px-2 py-0.5 rounded mr-2">WACV 2022</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">Hybrid X-Formers</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Hybrid transformer architectures</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-shapes text-green-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+  <!-- Paper 15 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
+        So You Think You're Funny?": Rating the Humour Quotient in Standup Comedy
+      </h3>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-2 py-0.5 rounded mr-2">EMNLP 2021</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">NLP</span>
+      </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Humour rating in NLP</div>
+    </div>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-laugh text-yellow-400 text-2xl group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
   <!-- Repeat similar blocks for each paper, customizing the text, conference, highlights, and icon as needed -->
 </div>
 
