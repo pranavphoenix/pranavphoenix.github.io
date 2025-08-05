@@ -139,23 +139,70 @@ redirect_from:
             </div>
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
-1. Our paper "FLD+: Data-efficient Evaluation Metric for Generative Models" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
-2. Our paper "WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting" has been accepted in the <a style="color:#FF0000; text-decoration:none"> Workshop on Computer Vision for Developing Countries (CV4DC) at ICCV 2025.
-1. Our paper "Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision" has been accepted in the <a style="color:#FF0000; text-decoration:none">TMLR</a> Journal.
-2. Our paper "Evaluation Metric for Quality Control and Generative Models in Histopathology Images" has been accepted in <a style="color:#FF0000; text-decoration:none">ISBI 2025</a>.
-3. Our paper "WaveMixSR-V2: Enhancing Super-resolution with Higher Efficiency" has been accepted for the <a style="color:#FF0000; text-decoration:none">AAAI 2025</a> Student Abstract and Poster Program (oral presentation).
-4. Our paper "FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch" has been accepted for the Special Session on Federated Learning at <a style="color:#FF0000; text-decoration:none">IEEE BigData 2024</a>.
-5. Our paper "Adversarial Transport Terms for Unsupervised Domain Adaptation" has been accepted in <a style="color:#FF0000; text-decoration:none">ICPR 2024</a>.
-6. My work during internship at Samsung Research was published as "PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition" at <a style="color:#FF0000; text-decoration:none">BMVC 2024</a>. A patent has also been filed.
-7. Our paper "A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis" has been accpeted in <a style="color:#FF0000; text-decoration:none">CCIS</a>.
-8. Our paper "Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers" has been accepted in <a style="color:#FF0000; text-decoration:none">Bioimaging 2024</a> and won the [Best Student Paper Award](https://drive.google.com/file/d/17-C_NkOn2xRtFkSaV_MvQg69bnZ8LnlZ/view?usp=sharing).
-9. Our paper "WaveMixSR: Resource-efficient Neural Network for Image Super-resolution" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2024</a>.
-10. Our paper "Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis" has been accepted in the <a style="color:#FF0000; text-decoration:none">5th MICCAI Workshop on GRaphs in biomedicAl Image anaLysis (GRAIL) 2023</a>.
-11. Our tiny paper "Resource-efficient Image Inpainting" has been accepted in <a style="color:#FF0000; text-decoration:none">ICLR 2023</a>.
-12. Our paper "Resource-efficient Hybrid X-Formers for Vision" has been accepted in <a style="color:#FF0000; text-decoration:none">WACV 2022</a>. 
-13. Our paper "So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy" has been accepted in <a style="color:#FF0000; text-decoration:none">EMNLP 2021</a>.
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <!-- Example tile, repeat for each paper -->
+  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div>
+      <div class="flex items-center mb-2">
+        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
+        <span class="text-xs text-gray-400">ICCV CV4DC Workshop</span>
+      </div>
+      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+        FLD+: Data-efficient Evaluation Metric for Generative Models
+      </h3>
+      <div class="mt-2 text-xs text-gray-600">
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1 mb-1">Generative Models</span>
+      </div>
+    </div>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xs text-gray-500">Highlight: Data-efficient metric</span>
+      <i class="fas fa-award text-yellow-400 text-lg group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
 
+  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div>
+      <div class="flex items-center mb-2">
+        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
+        <span class="text-xs text-gray-400">ICCV CV4DC Workshop</span>
+      </div>
+      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+        WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting
+      </h3>
+      <div class="mt-2 text-xs text-gray-600">
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1 mb-1">Inpainting</span>
+      </div>
+    </div>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xs text-gray-500">Highlight: Token-mixer</span>
+      <i class="fas fa-paint-brush text-purple-400 text-lg group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
 
+  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div>
+      <div class="flex items-center mb-2">
+        <span class="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
+        <span class="text-xs text-gray-400">TMLR Journal</span>
+      </div>
+      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+        Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision
+      </h3>
+      <div class="mt-2 text-xs text-gray-600">
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
+        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded mr-1 mb-1">Backbone Study</span>
+      </div>
+    </div>
+    <div class="mt-4 flex items-center justify-between">
+      <span class="text-xs text-gray-500">Highlight: Domain-specific</span>
+      <i class="fas fa-layer-group text-blue-400 text-lg group-hover:scale-110 transition-transform"></i>
+    </div>
+  </div>
+
+  <!-- Repeat similar tiles for each paper, customizing year, venue, highlights, and icons as needed. -->
+</div>
 
  <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
             <h2 class="text-2xl font-bold mb-6 gradient-text" style="color: #111;">Expertise</h2>
