@@ -139,69 +139,59 @@ redirect_from:
             </div>
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  <!-- Example tile, repeat for each paper -->
-  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-    <div>
-      <div class="flex items-center mb-2">
-        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
-        <span class="text-xs text-gray-400">ICCV CV4DC Workshop</span>
-      </div>
-      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+<div class="space-y-5">
+  <!-- Paper 1 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
         FLD+: Data-efficient Evaluation Metric for Generative Models
       </h3>
-      <div class="mt-2 text-xs text-gray-600">
-        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
-        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1 mb-1">Generative Models</span>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white px-2 py-0.5 rounded mr-2">ICCV 2025 CV4DC Workshop</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded">Generative Models</span>
       </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Data-efficient metric for generative models</div>
     </div>
-    <div class="mt-4 flex items-center justify-between">
-      <span class="text-xs text-gray-500">Highlight: Data-efficient metric</span>
-      <i class="fas fa-award text-yellow-400 text-lg group-hover:scale-110 transition-transform"></i>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-award text-yellow-400 text-2xl group-hover:scale-110 transition-transform"></i>
     </div>
   </div>
-
-  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-    <div>
-      <div class="flex items-center mb-2">
-        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
-        <span class="text-xs text-gray-400">ICCV CV4DC Workshop</span>
-      </div>
-      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+  <!-- Paper 2 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
         WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting
       </h3>
-      <div class="mt-2 text-xs text-gray-600">
-        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
-        <span class="inline-block bg-green-100 text-green-700 px-2 py-0.5 rounded mr-1 mb-1">Inpainting</span>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-red-500 to-pink-500 text-white px-2 py-0.5 rounded mr-2">ICCV 2025 CV4DC Workshop</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-purple-100 text-purple-700 px-2 py-0.5 rounded">Inpainting</span>
       </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Resource-efficient token-mixer</div>
     </div>
-    <div class="mt-4 flex items-center justify-between">
-      <span class="text-xs text-gray-500">Highlight: Token-mixer</span>
-      <i class="fas fa-paint-brush text-purple-400 text-lg group-hover:scale-110 transition-transform"></i>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-paint-brush text-purple-400 text-2xl group-hover:scale-110 transition-transform"></i>
     </div>
   </div>
-
-  <div class="group bg-white rounded-xl shadow-md p-5 flex flex-col justify-between border border-gray-100 hover:border-blue-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-    <div>
-      <div class="flex items-center mb-2">
-        <span class="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">2025</span>
-        <span class="text-xs text-gray-400">TMLR Journal</span>
-      </div>
-      <h3 class="font-semibold text-gray-900 text-base group-hover:text-blue-700 transition-colors">
+  <!-- Paper 3 -->
+  <div class="group bg-white rounded-xl shadow-md p-5 border border-gray-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col md:flex-row md:items-center">
+    <div class="flex-1">
+      <h3 class="font-semibold text-gray-900 text-base md:text-lg group-hover:text-blue-700 transition-colors">
         Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision
       </h3>
-      <div class="mt-2 text-xs text-gray-600">
-        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-1 mb-1">Accepted</span>
-        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded mr-1 mb-1">Backbone Study</span>
+      <div class="mt-1 text-sm text-gray-600">
+        <span class="inline-block bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-2 py-0.5 rounded mr-2">TMLR Journal</span>
+        <span class="inline-block bg-blue-100 text-blue-700 px-2 py-0.5 rounded mr-2">Accepted</span>
+        <span class="inline-block bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">Backbone Study</span>
       </div>
+      <div class="mt-2 text-xs text-gray-500">Highlight: Domain-specific backbone comparison</div>
     </div>
-    <div class="mt-4 flex items-center justify-between">
-      <span class="text-xs text-gray-500">Highlight: Domain-specific</span>
-      <i class="fas fa-layer-group text-blue-400 text-lg group-hover:scale-110 transition-transform"></i>
+    <div class="mt-3 md:mt-0 md:ml-6 flex-shrink-0 flex items-center">
+      <i class="fas fa-layer-group text-blue-400 text-2xl group-hover:scale-110 transition-transform"></i>
     </div>
   </div>
-
-  <!-- Repeat similar tiles for each paper, customizing year, venue, highlights, and icons as needed. -->
+  <!-- Repeat similar blocks for each paper, customizing the text, conference, highlights, and icon as needed -->
 </div>
 
  <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
