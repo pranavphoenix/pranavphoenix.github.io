@@ -504,7 +504,7 @@ redirect_from:
     <div class="flex-1 flex">
       <span class="absolute left-28 top-6 w-4 h-4 bg-green-500 rounded-full border-4 border-white z-10"></span>
       <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
-        <img src="https://www.iitb.ac.in/sites/www.iitb.ac.in/themes/touchm/logo.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <img src="https://en.wikipedia.org/wiki/File:Indian_Institute_of_Technology_Bombay_Logo.svg" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
         <div>
           <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
           <div class="text-gray-700">
@@ -522,7 +522,7 @@ redirect_from:
     <div class="flex-1 flex">
       <span class="absolute left-28 top-6 w-4 h-4 bg-yellow-500 rounded-full border-4 border-white z-10"></span>
       <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
-        <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <img src="https://en.wikipedia.org/wiki/File:IIT_Kanpur_Logo.svg" alt="IIT Kanpur Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
         <div>
           <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
           <div class="text-gray-700">
@@ -540,7 +540,7 @@ redirect_from:
     <div class="flex-1 flex">
       <span class="absolute left-28 top-6 w-4 h-4 bg-red-500 rounded-full border-4 border-white z-10"></span>
       <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <img src="https://en.wikipedia.org/wiki/File:Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
         <div>
           <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
           <div class="text-gray-700">
@@ -558,7 +558,7 @@ redirect_from:
     <div class="flex-1 flex">
       <span class="absolute left-28 top-6 w-4 h-4 bg-gray-500 rounded-full border-4 border-white z-10"></span>
       <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 ml-6">
-        <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <img src="https://en.wikipedia.org/wiki/File:IIT_Madras_Logo.svg" alt="IIT Madras Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
         <div>
           <div class="font-semibold text-gray-700">Research, <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Dept. of Physics</a>, IIT Madras</div>
           <div class="text-gray-700">
