@@ -460,6 +460,8 @@ redirect_from:
 <div class="w-full flex flex-col">
   <!-- Timeline Container -->
   <div class="relative flex flex-col">
+  <!-- Timeline Line (Centered Vertical Line) -->
+  <div class="absolute left-1/6 md:left-1/4 top-4 bottom-0 w-0.5 bg-gray-300 z-0"></div>
     <!-- Timeline Entry: Sync -->
     <div class="flex items-start mb-10">
       <div class="w-1/6 flex justify-end pr-4">
