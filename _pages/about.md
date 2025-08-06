@@ -183,6 +183,7 @@ redirect_from:
       .desc {
         flex: 1;
         padding-left: 10px;
+        text-align: justify;
       }
       .htxt {
         margin-bottom: 15px;
@@ -342,7 +343,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/tata.png" />
         </div>
         <div class="desc">
-          I began my professional career as a Post-Graduate Engineering Trainee at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none; color: #2563eb;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems.
+          <strong>Post-Graduate Engineering Trainee</strong> at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none; color: #2563eb;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems.
         </div>
       </div>
       <div class="entry row">
@@ -353,7 +354,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITK.png" />
         </div>
         <div class="desc">
-          Prior to my Ph.D., I completed a Master’s in Robotics at the <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
+          <strong>M.Tech in Robotics</strong> at the <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
         </div>
       </div>
 </div>
