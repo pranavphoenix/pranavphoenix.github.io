@@ -155,6 +155,7 @@ redirect_from:
         margin-right: 20px;
         flex-shrink: 0;
         text-align: right;
+        font-size: 14px;
       }
       .ico {
         position: relative;
