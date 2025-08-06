@@ -15,57 +15,6 @@ redirect_from:
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .gradient-text {
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-        .timeline-item {
-            position: relative;
-            padding-left: 2rem;
-            margin-bottom: 1.5rem;
-        }
-        .timeline-item:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0.5rem;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #667eea;
-        }
-        .timeline-item:after {
-            content: '';
-            position: absolute;
-            left: 4px;
-            top: 15px;
-            bottom: -1rem;
-            width: 2px;
-            background: #e2e8f0;
-        }
-        .timeline-item:last-child:after {
-            display: none;
-        }
-        .publication-item {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        .animated-gradient {
-            background-size: 200% 200%;
-            animation: gradient 3s ease infinite;
-        }
         @keyframes gradient {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
