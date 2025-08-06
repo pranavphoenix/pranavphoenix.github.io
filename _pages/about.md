@@ -149,7 +149,7 @@ redirect_from:
         margin-bottom: 30px;
       }
       .timespan {
-        width: 100px;
+        width: 200px;
         font-weight: bold;
         color: #555;
         margin-right: 20px;
@@ -657,7 +657,6 @@ redirect_from:
           2020 - 2025
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://pranavphoenix.github.io/images/IITB.png" />
         </div>
         <div class="desc">
@@ -669,7 +668,6 @@ redirect_from:
           2023 - 2024
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" />
         </div>
         <div class="desc">
@@ -681,7 +679,6 @@ redirect_from:
           2017 - 2019
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://pranavphoenix.github.io/images/IITM.png" />
         </div>
         <div class="desc">
