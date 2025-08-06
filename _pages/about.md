@@ -303,7 +303,7 @@ redirect_from:
       .news-container {
         overflow: hidden;
         position: relative;
-        height: 300px;
+        height: 500px;
       }
       .news-list {
         list-style: none;
@@ -311,7 +311,7 @@ redirect_from:
         margin: 0;
         position: absolute;
         width: 100%;
-        animation: scrollNews 30s linear infinite;
+        animation: scrollNews 40s linear infinite;
       }
       .news-item {
         border-top: 1px solid #eee;
@@ -573,8 +573,6 @@ redirect_from:
     </ul>
     </div>
 </div>
-
-
 
 
  <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
