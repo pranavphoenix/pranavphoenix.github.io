@@ -310,7 +310,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITB.png" />
         </div>
         <div class="desc">
-          I earned my Ph.D. in Artificial Intelligence from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none; color: #2563eb;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainitng and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none; color: #2563eb;">Prof. Amit Sethi</a>.
+          I earned my <strong>Ph.D. in Artificial Intelligence</strong> from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none; color: #2563eb;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainitng and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none; color: #2563eb;">Prof. Amit Sethi</a>.
         </div>
       </div>
       <div class="entry row">
@@ -321,7 +321,7 @@ redirect_from:
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" />
         </div>
         <div class="desc">
-           I also completed a six-month internship (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none; color: #2563eb;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
+           I also completed a six-month <strong>internship</strong> (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none; color: #2563eb;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
         </div>
       </div>
       <div class="entry row">
@@ -332,7 +332,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITM.png" />
         </div>
         <div class="desc">
-          Subsequently, I returned to academia at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
+          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
         </div>
       </div>
       <div class="entry row">
@@ -357,27 +357,19 @@ redirect_from:
           <strong>M.Tech in Robotics</strong> at the <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
         </div>
       </div>
+      <div class="entry row">
+        <div class="timespan">
+          2009 - 2013
+        </div>
+        <div class="ico">
+          <img src="/images/calicut.png" />
+        </div>
+        <div class="desc">
+          <strong>B.Tech in Mechanical Engineering</strong> from <a href="https://www.nssce.ac.in/" style="text-decoration: none; color: #2563eb;">NSS College of Engineering</a>, <a href="https://uoc.ac.in/" style="text-decoration: none; color: #2563eb;">University of Calicut</a>. 
+        </div>
+      </div>
 </div>
 
-<div style="text-align: justify;">
-  I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
-</div>
-
-<div style="text-align: justify; margin-top: 1em;">
-  I earned my Ph.D. in Artificial Intelligence from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainitng and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none;">Prof. Amit Sethi</a>.
-</div>
-
-<div style="text-align: justify; margin-top: 1em;">
-  Prior to my Ph.D., I completed a Master’s in Robotics at the <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
-</div>
-
-<div style="text-align: justify; margin-top: 1em;">
-  I began my professional career as a Post-Graduate Engineering Trainee at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems. Subsequently, I returned to academia at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Department of Physics</a>, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none;">Prof. Vaibhav Madhok</a>.
-</div>
-
-<div style="text-align: justify; margin-top: 1em;">
-   I also completed a six-month internship (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series</a>.
-</div>
 
 <div style="text-align: justify; margin-top: 1em;">
   I regularly serve as a reviewer for premier conferences in computer vision and machine learning, including CVPR, ICCV, ECCV, ICLR, AAAI, and WACV.
