@@ -13,7 +13,7 @@ redirect_from:
     <title>Pranav Jeevan P - Research Scientist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
+    <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
@@ -84,7 +84,7 @@ redirect_from:
             0%, 100% { border-color: transparent; }
             50% { border-color: #667eea; }
         }
-    </style>
+    </style> -->
     <style>
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
