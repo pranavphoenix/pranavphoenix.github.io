@@ -469,7 +469,7 @@ redirect_from:
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-purple-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
@@ -490,7 +490,7 @@ redirect_from:
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-green-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-green-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
@@ -513,7 +513,7 @@ redirect_from:
       <!-- Center line and dot (centered and full height, dark grey) -->
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-800" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-gray-600 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <!-- Content on the right -->
       <div class="w-5/6 pl-8">
@@ -559,7 +559,7 @@ redirect_from:
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-red-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-red-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+       <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
@@ -580,7 +580,7 @@ redirect_from:
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-yellow-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-yellow-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+       <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
