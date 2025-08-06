@@ -289,6 +289,75 @@ redirect_from:
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">About Me</h2>
 
+<div id="history" class="container">
+      <div class="entry row">
+        <div class="timespan">
+          2025 -
+        </div>
+        <div class="ico">
+          <img src="https://sync.so/favicon.ico" />
+        </div>
+        <div class="desc">
+           I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
+        </div>
+      </div>
+      <div class="entry row">
+        <div class="timespan">
+          2020 - 2025
+        </div>
+        <div class="ico">
+          <img src="https://pranavphoenix.github.io/images/IITB.png" />
+        </div>
+        <div class="desc">
+          I earned my Ph.D. in Artificial Intelligence from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none; color: #2563eb;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainitng and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none; color: #2563eb;">Prof. Amit Sethi</a>.
+        </div>
+      </div>
+      <div class="entry row">
+        <div class="timespan">
+          2023 - 2024
+        </div>
+        <div class="ico">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" />
+        </div>
+        <div class="desc">
+          Six-month internship with the AI Camera Team of Visual Intelligence Division at Samsung R&D Institute India, Bangalore (SRI-B), where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung's flagship Galaxy S24 series.
+        </div>
+      </div>
+      <div class="entry row">
+        <div class="timespan">
+          2017 - 2019
+        </div>
+        <div class="ico">
+          <img src="https://pranavphoenix.github.io/images/IITM.png" />
+        </div>
+        <div class="desc">
+          Research at the Department of Physics, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under Prof. Vaibhav Madhok.
+        </div>
+      </div>
+      <div class="entry row">
+        <div class="timespan">
+          2015 - 2016
+        </div>
+        <div class="ico">
+          <img src="https://pranavphoenix.github.io/images/tata.png" />
+        </div>
+        <div class="desc">
+          Post-Graduate Engineering Trainee at the Engineering Research Centre of Tata Motors Limited, where I conducted vehicle performance and thermal analysis for braking systems.
+        </div>
+      </div>
+      <div class="entry row">
+        <div class="timespan">
+          2013 - 2015
+        </div>
+        <div class="ico">
+          <img src="https://pranavphoenix.github.io/images/IITK.png" />
+        </div>
+        <div class="desc">
+          Master's in Robotics at the Department of Mechanical Engineering, Indian Institute of Technology Kanpur, where I was part of the Center for Mechatronics. Under the guidance of Prof. Ashish Dutta, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
+        </div>
+      </div>
+</div>
+
 <div style="text-align: justify;">
   I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
 </div>
@@ -641,74 +710,7 @@ redirect_from:
             
 </section>
 
-<div id="history" class="container">
-      <div class="entry row">
-        <div class="timespan">
-          2025 -
-        </div>
-        <div class="ico">
-          <img src="https://sync.so/favicon.ico" />
-        </div>
-        <div class="desc">
-           I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2020 - 2025
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITB.png" />
-        </div>
-        <div class="desc">
-          Ph.D. in Artificial Intelligence from the Department of Electrical Engineering at the Indian Institute of Technology Bombay, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainting and super-resolution. I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of Prof. Amit Sethi.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2023 - 2024
-        </div>
-        <div class="ico">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" />
-        </div>
-        <div class="desc">
-          Six-month internship with the AI Camera Team of Visual Intelligence Division at Samsung R&D Institute India, Bangalore (SRI-B), where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung's flagship Galaxy S24 series.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2017 - 2019
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITM.png" />
-        </div>
-        <div class="desc">
-          Research at the Department of Physics, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under Prof. Vaibhav Madhok.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2015 - 2016
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/tata.png" />
-        </div>
-        <div class="desc">
-          Post-Graduate Engineering Trainee at the Engineering Research Centre of Tata Motors Limited, where I conducted vehicle performance and thermal analysis for braking systems.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2013 - 2015
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITK.png" />
-        </div>
-        <div class="desc">
-          Master's in Robotics at the Department of Mechanical Engineering, Indian Institute of Technology Kanpur, where I was part of the Center for Mechatronics. Under the guidance of Prof. Ashish Dutta, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
-        </div>
-      </div>
-</div>
+
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Career Timeline</h2>
 <div class="w-full flex flex-col">
