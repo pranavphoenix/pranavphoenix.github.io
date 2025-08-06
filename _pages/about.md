@@ -537,7 +537,7 @@ redirect_from:
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
-          <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+          <img src="/images/IITK.png" alt="IIT Kanpur Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
             <div class="text-gray-700">
@@ -558,7 +558,7 @@ redirect_from:
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+          <img src="/images/tata.png" alt="Tata Motors Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
             <div class="text-gray-700">
@@ -579,7 +579,7 @@ redirect_from:
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
-          <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+          <img src="/images/IITM.png" alt="IIT Madras Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-gray-700">Research, <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Dept. of Physics</a>, IIT Madras</div>
             <div class="text-gray-700">
