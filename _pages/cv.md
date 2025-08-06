@@ -78,14 +78,14 @@ redirect_from:
             {
                 id: 1,
                 title: "Evaluation Metric for Quality Control and Generative Models in Histopathology Images",
-                authors: "Pranav Singh, Faisal Mahmood",
+                authors: "Pranav Jeevan, Neeraj Nixon, Abijeet Patil, Amit Sethi",
                 venue: "Proceedings of the 2025 IEEE International Symposium on Biomedical Imaging (ISBI), Huston TX, USA",
                 year: 2025,
                 description: "Our study introduces ResNet-L2 (RL2), a novel metric using ResNet features and a normalizing flow for evaluating generative models in histopathology, offering reliable assessments with fewer images and quicker assessments than traditional metrics, effectively handling diverse degradation types and diffusion processes.",
-                pdf: "#",
+                link: "https://ieeexplore.ieee.org/document/10981064",
                 code: "#",
                 slides: "#",
-                image: "https://placehold.co/400x500/e3f2fd/1976d2?text=ISBI+2025"
+                image: "/images/isbi.png"
             },
             {
                 id: 2,
