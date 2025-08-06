@@ -379,11 +379,11 @@ redirect_from:
 
 
 <div class="mt-8 flex justify-center">
-                <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center">
-                    <i class="fas fa-file-pdf mr-2"></i>
-                    My Resume
-                </a>
-            </div>
+  <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center" style="text-decoration: none;">
+    <i class="fas fa-file-pdf mr-2"></i>
+    My Resume
+  </a>
+</div>
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
 <div class="space-y-5">
