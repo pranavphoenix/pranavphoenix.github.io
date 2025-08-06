@@ -464,12 +464,12 @@ redirect_from:
     <div class="flex items-start mb-10">
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2025 –</span>
-      <div class="relative flex flex-col items-center px-4" style="min-width: 24px; flex-shrink: 0;">
-  <!-- Vertical Line -->
-  <div class="absolute left-1/2 transform -translate-x-1/2 top-8 bottom-0 w-0.5 bg-gray-400"></div>
-  <!-- Dot -->
-  <div class="relative z-10 w-4 h-4 bg-gray-400 rounded-full border-2 border-white shadow-sm"></div>
-</div>
+        <div class="relative flex flex-col items-center px-4" style="min-width: 24px; flex-shrink: 0;">
+        <!-- Vertical Line -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 top-8 bottom-0 w-0.5 bg-gray-400"></div>
+        <!-- Dot -->
+        <div class="relative z-10 w-4 h-4 bg-gray-400 rounded-full border-2 border-white shadow-sm"></div>
+        </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
