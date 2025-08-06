@@ -320,7 +320,7 @@ redirect_from:
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" />
         </div>
         <div class="desc">
-          Six-month internship with the AI Camera Team of Visual Intelligence Division at Samsung R&D Institute India, Bangalore (SRI-B), where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung's flagship Galaxy S24 series.
+           I also completed a six-month internship (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none; color: #2563eb;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
         </div>
       </div>
       <div class="entry row">
@@ -331,7 +331,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITM.png" />
         </div>
         <div class="desc">
-          Research at the Department of Physics, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under Prof. Vaibhav Madhok.
+          Subsequently, I returned to academia at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, IIT Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
         </div>
       </div>
       <div class="entry row">
@@ -342,7 +342,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/tata.png" />
         </div>
         <div class="desc">
-          Post-Graduate Engineering Trainee at the Engineering Research Centre of Tata Motors Limited, where I conducted vehicle performance and thermal analysis for braking systems.
+          I began my professional career as a Post-Graduate Engineering Trainee at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none; color: #2563eb;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems.
         </div>
       </div>
       <div class="entry row">
@@ -353,7 +353,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITK.png" />
         </div>
         <div class="desc">
-          Master's in Robotics at the Department of Mechanical Engineering, Indian Institute of Technology Kanpur, where I was part of the Center for Mechatronics. Under the guidance of Prof. Ashish Dutta, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
+          Prior to my Ph.D., I completed a Master’s in Robotics at the <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Mechanical Engineering</a>, Indian Institute of Technology Kanpur, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
         </div>
       </div>
 </div>
