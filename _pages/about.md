@@ -516,7 +516,7 @@ redirect_from:
       </div>
       <div class="w-3/4 pl-4">
         <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="D:\Github\pranavphoenix.github.io\images\IITB.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+          <img src="/images/IITB.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
             <div class="text-gray-700">
