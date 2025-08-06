@@ -385,6 +385,114 @@ redirect_from:
   </a>
 </div>
 
+<!-- News Section -->
+<div class="container news-section">
+    <div class="news-title">News</div>
+    <div class="news-container">
+    <ul class="news-list">
+        <!-- First set of news items -->
+        <li class="news-item">
+        <span class="news-date">JUN'25</span>
+        <div class="news-content">Our paper on <strong>FLD+</strong>, a data-efficient evaluation metric for generative models, has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JUN'25</span>
+        <div class="news-content">Our paper on <strong>WavePaint</strong>, a resource-efficient token-mixer for self-supervised inpainting, has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">DEC'24</span>
+        <div class="news-content">Paper on <strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency, accepted at <strong>AAAI 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">NOV'24</span>
+        <div class="news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&D Institute, Bangalore.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'24</span>
+        <div class="news-content">Defended Ph.D. thesis on resource-efficient neural architectures for computer vision tasks at IIT Bombay.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">MAY'24</span>
+        <div class="news-content">Paper on <strong>FLeNS</strong>, Federated Learning with Enhanced Nesterov-Newton Sketch, has been accepted at <strong>IEEE BigData 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">APR'24</span>
+        <div class="news-content">Paper on <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> accepted at <strong>ICPR 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">MAR'24</span>
+        <div class="news-content">Paper on <strong>PawFACS</strong> for pet facial action recognition accepted at <strong>BMVC 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">FEB'24</span>
+        <div class="news-content">Our work on Magnification Invariant Medical Image Analysis received the <strong>Best Student Paper Award</strong> at Bioimaging 2024.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JAN'24</span>
+        <div class="news-content">Paper on a comparative study of deep neural networks in breast cancer analysis has been published in <strong>CCIS</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">DEC'23</span>
+        <div class="news-content">Our paper on <strong>WaveMixSR</strong>, a resource-efficient neural network for image super-resolution, accepted at <strong>WACV 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">NOV'23</span>
+        <div class="news-content">Paper on Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis accepted at <strong>MICCAI 2023</strong>.</div>
+        </li>
+        <!-- Duplicate the news items to create a seamless loop -->
+        <li class="news-item">
+        <span class="news-date">JUN'25</span>
+        <div class="news-content">Our paper on <strong>FLD+</strong>, a data-efficient evaluation metric for generative models, has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JUN'25</span>
+        <div class="news-content">Our paper on <strong>WavePaint</strong>, a resource-efficient token-mixer for self-supervised inpainting, has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">DEC'24</span>
+        <div class="news-content">Paper on <strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency, accepted at <strong>AAAI 2025</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">NOV'24</span>
+        <div class="news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&D Institute, Bangalore.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'24</span>
+        <div class="news-content">Defended Ph.D. thesis on resource-efficient neural architectures for computer vision tasks at IIT Bombay.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">MAY'24</span>
+        <div class="news-content">Paper on <strong>FLeNS</strong>, Federated Learning with Enhanced Nesterov-Newton Sketch, has been accepted at <strong>IEEE BigData 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">APR'24</span>
+        <div class="news-content">Paper on <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> accepted at <strong>ICPR 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">MAR'24</span>
+        <div class="news-content">Paper on <strong>PawFACS</strong> for pet facial action recognition accepted at <strong>BMVC 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">FEB'24</span>
+        <div class="news-content">Our work on Magnification Invariant Medical Image Analysis received the <strong>Best Student Paper Award</strong> at Bioimaging 2024.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JAN'24</span>
+        <div class="news-content">Paper on a comparative study of deep neural networks in breast cancer analysis has been published in <strong>CCIS</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">DEC'23</span>
+        <div class="news-content">Our paper on <strong>WaveMixSR</strong>, a resource-efficient neural network for image super-resolution, accepted at <strong>WACV 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">NOV'23</span>
+        <div class="news-content">Paper on Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis accepted at <strong>MICCAI 2023</strong>.</div>
+        </li>
+    </ul>
+    </div>
+</div>
+    <!-- End News Section -->
+
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
 <div class="space-y-5">
   <!-- Paper 1 -->
