@@ -284,6 +284,88 @@ redirect_from:
       .nodot li {
         margin: 8px 0;
       }
+      /* News Section Styles */
+      .news-section {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 30px 0;
+        overflow: hidden;
+      }
+      .news-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 15px 0;
+        color: #333;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+      }
+      .news-container {
+        overflow: hidden;
+        position: relative;
+        height: 300px;
+      }
+      .news-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        animation: scrollNews 30s linear infinite;
+      }
+      .news-item {
+        border-top: 1px solid #eee;
+        padding: 15px 0;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+      }
+      .news-item:hover {
+        opacity: 1;
+      }
+      .news-item:first-child {
+        border-top: none;
+      }
+      .news-date {
+        display: inline-block;
+        background-color: #e3f2fd;
+        color: #1565c0;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+      .news-content {
+        font-size: 16px;
+        color: #333;
+      }
+      .news-content a {
+        color: #1976d2;
+        text-decoration: none;
+      }
+      .news-content a:hover {
+        text-decoration: underline;
+      }
+      @keyframes scrollNews {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-100%);
+        }
+      }
+      /* Add a gradient fade at the bottom to enhance the looping effect */
+      .news-section::after {
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        height: 20px;
+        background: linear-gradient(to bottom, rgba(248, 249, 250, 0), rgba(248, 249, 250, 1));
+        pointer-events: none;
+        z-index: 1;
+      }
     </style>
 </head>
 
