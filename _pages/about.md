@@ -650,7 +650,7 @@ redirect_from:
           <img src="https://sync.so/favicon.ico" />
         </div>
         <div class="desc">
-          Research Scientist at <a href="https://sync.so/">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
+           I am <strong>Pranav Jeevan P</strong>, a Research Scientist at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
         </div>
       </div>
       <div class="entry row">
@@ -691,7 +691,6 @@ redirect_from:
           2015 - 2016
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://pranavphoenix.github.io/images/tata.png" />
         </div>
         <div class="desc">
@@ -703,7 +702,6 @@ redirect_from:
           2013 - 2015
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://pranavphoenix.github.io/images/IITK.png" />
         </div>
         <div class="desc">
