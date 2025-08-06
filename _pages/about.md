@@ -464,19 +464,16 @@ redirect_from:
     <div class="flex items-start mb-10">
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2025 –</span>
-        <div class="relative flex flex-col items-center px-4" style="min-width: 24px; flex-shrink: 0;">
-            <!-- Vertical Line -->
-            <div class="absolute left-1/2 transform -translate-x-1/2 top-8 bottom-0 w-0.5 bg-gray-400"></div>
-            <!-- Dot -->
-            <div class="relative z-10 w-4 h-4 bg-gray-400 rounded-full border-2 border-white shadow-sm"></div>
-        </div>
+      </div>
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-purple-200" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+      </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
-            <div class="font-semibold text-purple-700">
-              Research Scientist, <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>
-            </div>
+            <div class="font-semibold text-purple-700">Research Scientist, <a href="https://sync.so/" style="text-decoration: none;">sync</a></div>
             <div class="text-gray-700">
               Develop advanced AI-driven video editing tools using generative architectures (diffusion models, GANs, transformers) for controllable video modification.
             </div>
@@ -489,19 +486,17 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2020 – 2025</span>
       </div>
-      <div class="relative flex flex-col items-center w-0" style="min-width:24px;">
-        <div class="absolute" style="left: 12px; top: 0; bottom: 0; width: 2px; background: #6b7280; z-index:0;"></div>
-        <span class="absolute" style="left: 4px; top: 32px; width: 16px; height: 16px; background: #6b7280; border-radius: 50%; border: 2px solid #fff; z-index:10;"></span>
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-green-200" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-green-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/IITB.png" alt="IIT Bombay Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
-            <div class="font-semibold text-green-700">
-              Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none; color: #2563eb;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none; color: #2563eb;">IIT Bombay</a>
-            </div>
+            <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
             <div class="text-gray-700">
-              Developed resource-efficient neural architectures for computer vision tasks (classification, segmentation, inpainting, super-resolution). Member of <em>MeDAL</em> under <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none; color: #2563eb;">Prof. Amit Sethi</a>.
+              Developed resource-efficient neural architectures for computer vision tasks (classification, segmentation, inpainting, super-resolution). Member of <em>MeDAL</em> under <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none;">Prof. Amit Sethi</a>.
             </div>
           </div>
         </div>
@@ -509,22 +504,23 @@ redirect_from:
     </div>
     <!-- Timeline Entry: Samsung Internship -->
     <div class="flex items-start mb-10">
+      <!-- Date on the left -->
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
-      <div class="relative flex flex-col items-center w-0" style="min-width:24px;">
-        <div class="absolute" style="left: 12px; top: 0; bottom: 0; width: 2px; background: #6b7280; z-index:0;"></div>
-        <span class="absolute" style="left: 4px; top: 32px; width: 16px; height: 16px; background: #6b7280; border-radius: 50%; border: 2px solid #fff; z-index:10;"></span>
+      <!-- Center line and dot (centered and full height, dark grey) -->
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-800" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-gray-600 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
+      <!-- Content on the right -->
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
-            <div class="font-semibold text-blue-700">
-              AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)
-            </div>
+            <div class="font-semibold text-blue-700">AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)</div>
             <div class="text-gray-700">
-              Developed and optimized deep learning models for image classification, object detection, and generative tasks. Integrated models into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
+              Developed and optimized deep learning models for image classification, object detection, and generative tasks. Integrated models into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series</a>.
             </div>
           </div>
         </div>
@@ -535,9 +531,10 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2017 – 2019</span>
       </div>
-      <div class="relative flex flex-col items-center w-0" style="min-width:24px;">
-        <div class="absolute" style="left: 12px; top: 0; bottom: 0; width: 2px; background: #6b7280; z-index:0;"></div>
-        <span class="absolute" style="left: 4px; top: 32px; width: 16px; height: 16px; background: #6b7280; border-radius: 50%; border: 2px solid #fff; z-index:10;"></span>
+      <div class="relative flex flex-col items-center w-0">
+        <!-- Thinner line and smaller dot -->
+        <div class="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-600" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
@@ -558,17 +555,15 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2015 – 2016</span>
       </div>
-      <div class="relative flex flex-col items-center w-0" style="min-width:24px;">
-        <div class="absolute" style="left: 12px; top: 0; bottom: 0; width: 2px; background: #6b7280; z-index:0;"></div>
-        <span class="absolute" style="left: 4px; top: 32px; width: 16px; height: 16px; background: #6b7280; border-radius: 50%; border: 2px solid #fff; z-index:10;"></span>
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-red-200" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-red-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/tata.png" alt="Tata Motors Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
-            <div class="font-semibold text-red-700">
-              Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none; color: #2563eb;">Tata Motors Limited</a>
-            </div>
+            <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
             <div class="text-gray-700">
               Conducted vehicle performance and thermal analysis for braking systems at the Engineering Research Centre.
             </div>
@@ -581,19 +576,17 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2013 – 2015</span>
       </div>
-      <div class="relative flex flex-col items-center w-0" style="min-width:24px;">
-        <div class="absolute" style="left: 12px; top: 0; bottom: 0; width: 2px; background: #6b7280; z-index:0;"></div>
-        <span class="absolute" style="left: 4px; top: 32px; width: 16px; height: 16px; background: #6b7280; border-radius: 50%; border: 2px solid #fff; z-index:10;"></span>
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-yellow-200" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-yellow-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <div class="w-5/6 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/IITK.png" alt="IIT Kanpur Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
-            <div class="font-semibold text-yellow-700">
-              Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Dept. of Mechanical Engineering</a>, IIT Kanpur
-            </div>
+            <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
             <div class="text-gray-700">
-              Designed and prototyped a lower-extremity exoskeleton for rehabilitation at the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a> under <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>.
+              Designed and prototyped a lower-extremity exoskeleton for rehabilitation at the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none;">Center for Mechatronics</a> under <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none;">Prof. Ashish Dutta</a>.
             </div>
           </div>
         </div>
