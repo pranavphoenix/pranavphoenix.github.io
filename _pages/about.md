@@ -464,7 +464,7 @@ redirect_from:
     <div class="flex items-start mb-10">
       <!-- Date on the left -->
       <div class="w-1/4 flex justify-end pr-4">
-        <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">Jul 2023 – Jan 2024</span>
+        <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
       <!-- Center line and dot (moved left) -->
       <div class="relative flex flex-col items-center w-10">
