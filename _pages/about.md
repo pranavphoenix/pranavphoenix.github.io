@@ -463,7 +463,7 @@ redirect_from:
     <!-- Timeline Entry: Samsung Internship -->
     <div class="flex items-start mb-10">
       <!-- Date on the left -->
-      <div class="w-1/4 flex justify-end pr-4">
+      <div class="w-1/5 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
       <!-- Center line and dot (moved left) -->
@@ -472,7 +472,7 @@ redirect_from:
         <span class="w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <!-- Content on the right -->
-      <div class="w-3/4 pl-4">
+      <div class="w-4/5 pl-4">
         <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
