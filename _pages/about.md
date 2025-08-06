@@ -466,15 +466,15 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">Jul 2023 – Jan 2024</span>
       </div>
-      <!-- Center line and dot -->
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-blue-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <!-- Center line and dot (moved left) -->
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-blue-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <!-- Content on the right -->
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-blue-700">AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)</div>
             <div class="text-gray-700">
@@ -489,13 +489,13 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2024 – Present</span>
       </div>
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-purple-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-purple-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-purple-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-purple-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-purple-700">Research Scientist, <a href="https://sync.so/" style="text-decoration: none;">sync</a></div>
             <div class="text-gray-700">
@@ -510,13 +510,13 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2018 – 2023</span>
       </div>
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-green-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-green-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-green-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-green-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="/images/IITB.png" alt="IIT Bombay Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="/images/IITB.png" alt="IIT Bombay Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-green-700">Artificial Intelligence, <a href="https://www.ee.iitb.ac.in" style="text-decoration: none;">Dept. of Electrical Engineering</a>, <a href="https://www.iitb.ac.in/" style="text-decoration: none;">IIT Bombay</a></div>
             <div class="text-gray-700">
@@ -531,13 +531,13 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2016 – 2018</span>
       </div>
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-yellow-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-yellow-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-yellow-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-yellow-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="https://www.iitk.ac.in/new/images/logo-iitk.png" alt="IIT Kanpur Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-yellow-700">Robotics, <a href="https://www.iitk.ac.in/" style="text-decoration: none;">Dept. of Mechanical Engineering</a>, IIT Kanpur</div>
             <div class="text-gray-700">
@@ -552,13 +552,13 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2015 – 2016</span>
       </div>
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-red-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-red-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-red-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-red-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tata_Motors_Logo.svg" alt="Tata Motors Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-red-700">Post-Graduate Engineering Trainee, <a href="https://www.tatamotors.com/" style="text-decoration: none;">Tata Motors Limited</a></div>
             <div class="text-gray-700">
@@ -573,13 +573,13 @@ redirect_from:
       <div class="w-1/4 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2014 – 2015</span>
       </div>
-      <div class="relative flex flex-col items-center w-12">
-        <div class="h-full w-1 bg-gray-200 absolute left-1/2 top-0" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="w-4 h-4 bg-gray-500 rounded-full border-4 border-white z-10 mt-2"></span>
+      <div class="relative flex flex-col items-center w-10">
+        <div class="h-full w-1 bg-gray-200 absolute left-2 top-0" style="z-index:0;"></div>
+        <span class="w-4 h-4 bg-gray-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
       <div class="w-3/4 pl-4">
-        <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-4 card-hover">
-          <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-10 h-10 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+        <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
+          <img src="https://www.iitm.ac.in/sites/default/files/images/logo.svg" alt="IIT Madras Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
             <div class="font-semibold text-gray-700">Research, <a href="https://physics.iitm.ac.in/" style="text-decoration: none;">Dept. of Physics</a>, IIT Madras</div>
             <div class="text-gray-700">
