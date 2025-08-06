@@ -646,7 +646,6 @@ redirect_from:
           2025 -
         </div>
         <div class="ico">
-          <div class="entry-dot"></div>
           <img src="https://sync.so/favicon.ico" />
         </div>
         <div class="desc">
