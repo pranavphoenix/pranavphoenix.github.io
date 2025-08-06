@@ -182,7 +182,7 @@ redirect_from:
       }
       .desc {
         flex: 1;
-        padding-left: 10px;
+        padding-left: 0;
         text-align: justify;
       }
       .htxt {
