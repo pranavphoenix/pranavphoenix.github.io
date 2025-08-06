@@ -466,21 +466,18 @@ redirect_from:
           <img src="assets/eureka.png" />
         </div>
         <div class="desc">
-          I started <a href="https://eurekalabs.ai/">Eureka Labs</a>, a new AI+Education company.
-
-          <br><br>
-          Meanwhile, I also make educational videos on AI on my <a href="https://www.youtube.com/@AndrejKarpathy">YouTube channel</a>. There are two tracks.
-
-          <br><br>
-          General audience track:
-          <ol>
-            <li><a href="https://www.youtube.com/watch?v=7xTGNNLPyMI">Deep Dive into LLMs like ChatGPT</a> is on under-the hood fundamentals of LLMs.</li>
-            <li><a href="https://www.youtube.com/watch?v=EWvNQjAaOHw">How I use LLMs</a> is a more practical guide to examples of use in my own life.</li>
-            <li><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g">Intro to Large Language Models</a> is a third, parallel, more optional video from a longer time ago.</li>
-          </ol>
-
-          <br>
-          Technical track: Follow the <a href="https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ">Zero to Hero</a> playlist.
+            I started <a href="https://eurekalabs.ai/">Eureka Labs</a>, a new AI+Education company.
+            <br><br>
+            Meanwhile, I also make educational videos on AI on my <a href="https://www.youtube.com/@AndrejKarpathy">YouTube channel</a>. There are two tracks.
+            <br><br>
+            General audience track:
+            <ol>
+                <li><a href="https://www.youtube.com/watch?v=7xTGNNLPyMI">Deep Dive into LLMs like ChatGPT</a> is on under-the hood fundamentals of LLMs.</li>
+                <li><a href="https://www.youtube.com/watch?v=EWvNQjAaOHw">How I use LLMs</a> is a more practical guide to examples of use in my own life.</li>
+                <li><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g">Intro to Large Language Models</a> is a third, parallel, more optional video from a longer time ago.</li>
+            </ol>
+            <br>
+            Technical track: Follow the <a href="https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ">Zero to Hero</a> playlist.
 
         </div>
     </div>
