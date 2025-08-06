@@ -522,8 +522,20 @@ redirect_from:
         <div class="news-content">Our paper <strong>WaveMixSR: a resource-efficient neural network for image super-resolution</strong> has been accepted at <strong>WACV 2024</strong>.</div>
         </li>
         <li class="news-item">
-        <span class="news-date">NOV'23</span>
+        <span class="news-date">AUG'23</span>
         <div class="news-content">Our paper <strong>Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis</strong> accepted at <strong>MICCAI 2023</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">MAR'23</span>
+        <div class="news-content">Our paper <strong>Resource-efficient Image Inpainting</strong> accepted as Tiny paper at <strong>ICLR 2023</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'21</span>
+        <div class="news-content">Our paper <strong>Resource-efficient Hybrid X-formers for Vision</strong> has been accepted at <strong>WACV 2022</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JUL'21</span>
+        <div class="news-content">Our paper <strong>“So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy</strong> has been accepted at <strong>EMNLP 2021</strong>.</div>
         </li>
         <!-- Duplicate the news items to create a seamless loop -->
         <li class="news-item">
