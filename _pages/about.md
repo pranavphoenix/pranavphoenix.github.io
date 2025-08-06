@@ -96,7 +96,7 @@ redirect_from:
       }
       .container {
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0;
       }
       .row {
         display: flex;
@@ -152,7 +152,7 @@ redirect_from:
         width: 50px;
         font-weight: bold;
         color: #555;
-        margin-right: 20px;
+        margin-right: 10px;
         flex-shrink: 0;
         text-align: right;
         font-size: 14px;
