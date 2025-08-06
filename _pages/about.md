@@ -573,7 +573,7 @@ redirect_from:
     </ul>
     </div>
 </div>
-    <!-- End News Section -->
+<!-- End News Section -->
 
 <h2 class="text-2xl font-bold mb-6" style="color: #111;">Recent Updates</h2>
 <div class="space-y-5">
