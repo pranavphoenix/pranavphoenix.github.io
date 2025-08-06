@@ -90,7 +90,7 @@ redirect_from:
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
         color: #333;
-        max-width: 900px;
+        max-width: 1800px;
         margin: 0 auto;
         padding: 20px;
       }
