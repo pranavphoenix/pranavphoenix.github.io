@@ -576,7 +576,7 @@ redirect_from:
 
 
  <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-            <h2 class="text-2xl font-bold mb-6 gradient-text" style="color: #111;">Expertise</h2>
+            <h2 class="text-2xl font-bold mb-6" style="color: #111;">Expertise</h2>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="bg-blue-50 p-4 rounded-lg text-center">
                     <i class="fas fa-brain text-2xl text-blue-600 mb-2"></i>
