@@ -15,33 +15,27 @@ redirect_from:
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
         body {
             font-family: 'Inter', sans-serif;
         }
-        
         .gradient-text {
             background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
         .card-hover {
             transition: all 0.3s ease;
         }
-        
         .card-hover:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
-        
         .timeline-item {
             position: relative;
             padding-left: 2rem;
             margin-bottom: 1.5rem;
         }
-        
         .timeline-item:before {
             content: '';
             position: absolute;
@@ -52,7 +46,6 @@ redirect_from:
             border-radius: 50%;
             background: #667eea;
         }
-        
         .timeline-item:after {
             content: '';
             position: absolute;
@@ -62,42 +55,233 @@ redirect_from:
             width: 2px;
             background: #e2e8f0;
         }
-        
         .timeline-item:last-child:after {
             display: none;
         }
-        
         .publication-item {
             opacity: 0;
             transform: translateY(20px);
         }
-        
         .animated-gradient {
             background-size: 200% 200%;
             animation: gradient 3s ease infinite;
         }
-        
         @keyframes gradient {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-        
         .typing-effect {
             border-right: 2px solid #667eea;
             animation: typing 3.5s steps(40) 1s 1 normal both,
                        blink 0.7s infinite;
         }
-        
         @keyframes typing {
             from { width: 0; }
             to { width: 100%; }
         }
-        
         @keyframes blink {
             0%, 100% { border-color: transparent; }
             50% { border-color: #667eea; }
         }
+    </style>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .container {
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .row {
+        display: flex;
+        align-items: flex-start;
+        margin: 20px 0;
+      }
+      #dhead {
+        margin-bottom: 30px;
+      }
+      #dpic {
+        margin-right: 20px;
+        flex-shrink: 0;
+      }
+      .ppic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      h1 {
+        margin: 0 0 5px 0;
+        font-size: 32px;
+      }
+      h2 {
+        margin: 0 0 15px 0;
+        font-size: 18px;
+        font-weight: normal;
+        color: #555;
+      }
+      #dico {
+        margin: 10px 0;
+      }
+      .iico {
+        width: 24px;
+        height: 24px;
+        margin-right: 15px;
+        opacity: 0.7;
+        transition: opacity 0.2s;
+      }
+      .iico:hover {
+        opacity: 1;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #eee;
+        margin: 30px 0;
+      }
+      .entry {
+        display: flex;
+        margin-bottom: 30px;
+      }
+      .timespan {
+        width: 100px;
+        font-weight: bold;
+        color: #555;
+        margin-right: 20px;
+        flex-shrink: 0;
+        text-align: right;
+      }
+      .ico {
+        position: relative;
+        width: 40px;
+        flex-shrink: 0;
+      }
+      .entry-dot {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        width: 12px;
+        height: 12px;
+        background-color: #ddd;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      .ico img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+      }
+      .desc {
+        flex: 1;
+        padding-left: 10px;
+      }
+      .htxt {
+        margin-bottom: 15px;
+      }
+      .hassets {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .hasset {
+        position: relative;
+      }
+      .video {
+        border-radius: 8px;
+      }
+      .ctitle {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 40px 0 20px 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+      }
+      .card {
+        width: calc(33.333% - 10px);
+        margin: 0 5px 20px 5px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      @media (max-width: 768px) {
+        .card {
+          width: calc(50% - 10px);
+        }
+      }
+      @media (max-width: 480px) {
+        .card {
+          width: 100%;
+        }
+      }
+      .ccimg img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .cdesc {
+        margin-top: 8px;
+        font-size: 14px;
+      }
+      .project {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: flex-start;
+      }
+      .pico {
+        width: 60px;
+        margin-right: 15px;
+        flex-shrink: 0;
+      }
+      .pico img {
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+      }
+      .pdesc {
+        flex: 1;
+      }
+      .pend {
+        width: 60px;
+        flex-shrink: 0;
+      }
+      .pub {
+        margin-bottom: 15px;
+      }
+      .pub-title {
+        font-weight: bold;
+      }
+      .pub-venue {
+        font-size: 14px;
+        color: #555;
+        margin: 3px 0;
+      }
+      .pub-authors {
+        font-size: 14px;
+        color: #666;
+      }
+      .tul {
+        list-style: none;
+        padding-left: 0;
+      }
+      .til {
+        margin: 5px 0;
+      }
+      .tilb {
+        font-weight: bold;
+      }
+      .nodot {
+        list-style: none;
+        padding-left: 0;
+      }
+      .nodot li {
+        margin: 8px 0;
+      }
     </style>
 </head>
 
