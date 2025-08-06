@@ -470,6 +470,7 @@ redirect_from:
       <div class="relative flex flex-col items-center w-10">
         <div class="h-full w-1 bg-blue-200 absolute left-2 top-0" style="z-index:0;"></div>
         <span class="w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
+        <div class="absolute left-2 top-8 bottom-0 w-1 bg-blue-200" style="z-index:0;"></div>
       </div>
       <!-- Content on the right -->
       <div class="w-5/6 pl-4">
@@ -486,14 +487,14 @@ redirect_from:
     </div>
     <!-- Timeline Entry: Sync -->
     <div class="flex items-start mb-10">
-      <div class="w-1/4 flex justify-end pr-4">
+      <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2024 – Present</span>
       </div>
       <div class="relative flex flex-col items-center w-10">
         <div class="h-full w-1 bg-purple-200 absolute left-2 top-0" style="z-index:0;"></div>
         <span class="w-4 h-4 bg-purple-500 rounded-full border-4 border-white z-10 mt-2" style="position: relative; left: -6px;"></span>
       </div>
-      <div class="w-3/4 pl-4">
+      <div class="w-5/6 pl-4">
         <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-6 card-hover">
           <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-16 h-16 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
