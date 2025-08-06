@@ -526,6 +526,30 @@ redirect_from:
         </div>
       </div>
     </div>
+    <!-- Timeline Entry: Samsung Internship -->
+    <div class="flex items-start mb-10">
+      <!-- Date on the left -->
+      <div class="w-1/6 flex justify-end pr-4">
+        <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
+      </div>
+      <!-- Center line and dot (centered and full height) -->
+      <div class="relative flex flex-col items-center w-0">
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-blue-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+      </div>
+      <!-- Content on the right -->
+      <div class="w-5/6 pl-8">
+        <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
+          <div>
+            <div class="font-semibold text-blue-700">AI Camera Team, Samsung R&D Institute India, Bangalore (SRI-B)</div>
+            <div class="text-gray-700">
+              Developed and optimized deep learning models for image classification, object detection, and generative tasks. Integrated models into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none;">Galaxy S24 series</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Timeline Entry: Masters IIT Kanpur -->
     <div class="flex items-start mb-10">
       <div class="w-1/6 flex justify-end pr-4">
