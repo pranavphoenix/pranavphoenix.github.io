@@ -462,14 +462,14 @@ redirect_from:
   <div class="relative flex flex-col">
     <!-- Timeline Entry: Sync -->
     <div class="flex items-start mb-10">
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2025 –</span>
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-purple-200" style="transform: translateX(-50%); z-index:0;"></div>
         <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-purple-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="https://sync.so/favicon.ico" alt="sync Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
@@ -483,14 +483,14 @@ redirect_from:
     </div>
     <!-- Timeline Entry: PhD IIT Bombay -->
     <div class="flex items-start mb-10">
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2020 – 2025</span>
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-green-200" style="transform: translateX(-50%); z-index:0;"></div>
         <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-green-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/IITB.png" alt="IIT Bombay Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
@@ -505,7 +505,7 @@ redirect_from:
     <!-- Timeline Entry: Samsung Internship -->
     <div class="flex items-start mb-10">
       <!-- Date on the left -->
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
       <!-- Center line and dot (centered and full height, dark grey) -->
@@ -514,7 +514,7 @@ redirect_from:
         <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <!-- Content on the right -->
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-blue-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
@@ -528,7 +528,7 @@ redirect_from:
     </div>
     <!-- Timeline Entry: IIT Madras -->
     <div class="flex items-start">
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2017 – 2019</span>
       </div>
       <div class="relative flex flex-col items-center w-0">
@@ -536,7 +536,7 @@ redirect_from:
         <div class="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-600" style="transform: translateX(-50%); z-index:0;"></div>
         <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-gray-100 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/IITM.png" alt="IIT Madras Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
@@ -552,14 +552,14 @@ redirect_from:
     </div>
     <!-- Timeline Entry: Tata Motors -->
     <div class="flex items-start mb-10">
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2015 – 2016</span>
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-red-200" style="transform: translateX(-50%); z-index:0;"></div>
        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-red-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/tata.png" alt="Tata Motors Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
@@ -573,14 +573,14 @@ redirect_from:
     </div>
     <!-- Timeline Entry: Masters IIT Kanpur -->
     <div class="flex items-start mb-10">
-      <div class="w-1/6 flex justify-end pr-4">
+      <div class="w-1/8 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2013 – 2015</span>
       </div>
       <div class="relative flex flex-col items-center w-0">
         <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-yellow-200" style="transform: translateX(-50%); z-index:0;"></div>
        <span class="absolute left-1/2 top-8 w-3 h-3 bg-gray-500 rounded-full border-2 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
-      <div class="w-5/6 pl-8">
+      <div class="w-7/8 pl-8">
         <div class="transition-all duration-300 bg-white group-hover:bg-yellow-50 group-hover:shadow-lg rounded-lg px-4 py-2 flex items-start gap-8 card-hover">
           <img src="/images/IITK.png" alt="IIT Kanpur Logo" class="w-24 h-24 object-contain rounded-md shadow-sm bg-white border border-gray-100 flex-shrink-0" />
           <div>
