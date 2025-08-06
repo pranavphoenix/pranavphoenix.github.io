@@ -20,11 +20,6 @@ redirect_from:
             50% { background-position: 100% 50%; }
             100% { background-position: 0% 50%; }
         }
-        .typing-effect {
-            border-right: 2px solid #667eea;
-            animation: typing 3.5s steps(40) 1s 1 normal both,
-                       blink 0.7s infinite;
-        }
         @keyframes typing {
             from { width: 0; }
             to { width: 100%; }
