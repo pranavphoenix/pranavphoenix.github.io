@@ -30,28 +30,6 @@ redirect_from:
     </style>
 </head>
 <body class="min-h-screen bg-white">
-    <!-- Header -->
-    <header class="bg-white shadow-sm border-b">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center space-x-8">
-                    <h1 class="text-2xl font-bold text-gray-900">Publications</h1>
-                </div>
-                <nav class="hidden md:flex space-x-8">
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Home</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Research</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Team</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Open Source Software</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Open Weight Models</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Invited Talks</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Media Coverage</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Lab Fun</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Join Us</a>
-                    <a href="#" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
-                </nav>
-            </div>
-        </div>
-    </header>
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <!-- Paper Carousel -->
         <div class="mb-8">
