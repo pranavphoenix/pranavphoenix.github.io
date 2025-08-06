@@ -149,7 +149,7 @@ redirect_from:
         margin-bottom: 30px;
       }
       .timespan {
-        width: 200px;
+        width: 50px;
         font-weight: bold;
         color: #555;
         margin-right: 20px;
