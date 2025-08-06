@@ -159,7 +159,7 @@ redirect_from:
       }
       .ico {
         position: relative;
-        width: 40px;
+        width: 50px;
         flex-shrink: 0;
       }
       .entry-dot {
