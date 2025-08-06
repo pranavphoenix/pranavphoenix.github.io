@@ -466,10 +466,10 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
-      <!-- Center line and dot (centered and full height) -->
+      <!-- Center line and dot (centered and full height, dark grey) -->
       <div class="relative flex flex-col items-center w-0">
-        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-blue-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-800" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-gray-600 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <!-- Content on the right -->
       <div class="w-5/6 pl-8">
@@ -532,10 +532,10 @@ redirect_from:
       <div class="w-1/6 flex justify-end pr-4">
         <span class="text-xs text-gray-500 font-semibold whitespace-nowrap mt-2">2023 – 2024</span>
       </div>
-      <!-- Center line and dot (centered and full height) -->
+      <!-- Center line and dot (centered and full height, dark grey) -->
       <div class="relative flex flex-col items-center w-0">
-        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200" style="transform: translateX(-50%); z-index:0;"></div>
-        <span class="absolute left-1/2 top-8 w-6 h-6 bg-blue-500 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
+        <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-800" style="transform: translateX(-50%); z-index:0;"></div>
+        <span class="absolute left-1/2 top-8 w-6 h-6 bg-gray-600 rounded-full border-4 border-white z-10" style="transform: translateX(-50%);"></span>
       </div>
       <!-- Content on the right -->
       <div class="w-5/6 pl-8">
