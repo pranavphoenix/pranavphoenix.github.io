@@ -475,19 +475,19 @@ redirect_from:
         <!-- First set of news items -->
         <li class="news-item">
         <span class="news-date">JUL'25</span>
-        <div class="news-content">Our paper "<strong>FLD+</strong>: a data-efficient evaluation metric for generative models" has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        <div class="news-content">Our paper <strong>FLD+: a data-efficient evaluation metric for generative models</strong> has been accepted for publication at <strong>ICCV 2025</strong>.</div>
         </li>
         <li class="news-item">
         <span class="news-date">JUL'25</span>
-        <div class="news-content">Our paper "<strong>WavePaint</strong>: a resource-efficient token-mixer for self-supervised inpainting" has been accepted for publication at <strong>ICCV 2025</strong>.</div>
+        <div class="news-content">Our paper <strong>WavePaint: a resource-efficient token-mixer for self-supervised inpainting</strong> has been accepted for publication at <strong>ICCV 2025</strong>.</div>
         </li>
         <li class="news-item">
-        <span class="news-date">DEC'24</span>
-        <div class="news-content">Our Paper "<strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency" accepted at <strong>AAAI 2025</strong>.</div>
+        <span class="news-date">NOV'24</span>
+        <div class="news-content">Our paper "<strong>Evaluation Metric for Quality Control and Generative Models in Histopathology Images</strong> has been accepted at <strong>ISBI 2025</strong>.</div>
         </li>
         <li class="news-item">
-        <span class="news-date">JAN'24</span>
-        <div class="news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&D Institute, Bangalore.</div>
+        <span class="news-date">OCT'24</span>
+        <div class="news-content">Our paper "<strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency" has been accepted at <strong>AAAI 2025</strong>.</div>
         </li>
         <!-- <li class="news-item">
         <span class="news-date">OCT'24</span>
@@ -495,19 +495,23 @@ redirect_from:
         </li> -->
         <li class="news-item">
         <span class="news-date">MAY'24</span>
-        <div class="news-content">Paper on <strong>FLeNS</strong>, Federated Learning with Enhanced Nesterov-Newton Sketch, has been accepted at <strong>IEEE BigData 2024</strong>.</div>
+        <div class="news-content">Our paper <strong>FLeNS</strong>, Federated Learning with Enhanced Nesterov-Newton Sketch, has been accepted at <strong>IEEE BigData 2024</strong>.</div>
         </li>
         <li class="news-item">
         <span class="news-date">APR'24</span>
-        <div class="news-content">Paper on <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> accepted at <strong>ICPR 2024</strong>.</div>
+        <div class="news-content">Our paper <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> accepted at <strong>ICPR 2024</strong>.</div>
         </li>
         <li class="news-item">
         <span class="news-date">MAR'24</span>
-        <div class="news-content">Paper on <strong>PawFACS</strong> for pet facial action recognition accepted at <strong>BMVC 2024</strong>.</div>
+        <div class="news-content">Our paper <strong>PawFACS</strong> for pet facial action recognition accepted at <strong>BMVC 2024</strong>.</div>
         </li>
         <li class="news-item">
         <span class="news-date">FEB'24</span>
-        <div class="news-content">Our work on Magnification Invariant Medical Image Analysis received the <strong>Best Student Paper Award</strong> at Bioimaging 2024.</div>
+        <div class="news-content">Our paper <strong>Magnification Invariant Medical Image Analysis</strong> received the <strong>Best Student Paper Award</strong> at <strong>Bioimaging 2024</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">JAN'24</span>
+        <div class="news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&D Institute, Bangalore.</div>
         </li>
         <!-- <li class="news-item">
         <span class="news-date">JAN'24</span>
@@ -515,11 +519,11 @@ redirect_from:
         </li> -->
         <li class="news-item">
         <span class="news-date">OCT'23</span>
-        <div class="news-content">Our paper on <strong>WaveMixSR</strong>, a resource-efficient neural network for image super-resolution, accepted at <strong>WACV 2024</strong>.</div>
+        <div class="news-content">Our paper <strong>WaveMixSR: a resource-efficient neural network for image super-resolution</strong> has been accepted at <strong>WACV 2024</strong>.</div>
         </li>
         <li class="news-item">
         <span class="news-date">NOV'23</span>
-        <div class="news-content">Paper on Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis accepted at <strong>MICCAI 2023</strong>.</div>
+        <div class="news-content">Our paper <strong>Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis</strong> accepted at <strong>MICCAI 2023</strong>.</div>
         </li>
         <!-- Duplicate the news items to create a seamless loop -->
         <li class="news-item">
