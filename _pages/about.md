@@ -10,7 +10,7 @@ redirect_from:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranav Jeevan P - Research Scientist</title>
+    <title>Dr. Pranav Jeevan P - Research Scientist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -417,6 +417,10 @@ redirect_from:
     <div class="news-container">
     <ul class="news-list">
         <!-- First set of news items -->
+        <li class="news-item">
+        <span class="news-date">OCT'25</span>
+        <div class="news-content">I defended my PhD thesis: <strong>Resource-efficient Architectures for Computer Vision</strong>.</div>
+        </li>
         <li class="news-item">
         <span class="news-date">JUL'25</span>
         <div class="news-content">Our paper <strong>FLD+: a data-efficient evaluation metric for generative models</strong> has been accepted for publication at <strong>ICCV 2025</strong>.</div>
