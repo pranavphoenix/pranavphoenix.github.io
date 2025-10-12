@@ -344,7 +344,7 @@ redirect_from:
           2023 - 2024
         </div>
         <div class="ico">
-          <img src="https://www.elitmus.com/jobs/32169-samsung-research-software-engineer-16-17-bangalore" />
+          <img src="https://pranavphoenix.github.io/_research/image.png" />
         </div>
         <div class="desc">
            I also completed a six-month <strong>internship</strong> (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none; color: #2563eb;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
