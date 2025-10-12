@@ -322,7 +322,7 @@ redirect_from:
           2025 -
         </div>
         <div class="ico">
-          <img src="https://sync.so/favicon.ico" />
+          <img src="D:\Github\pranavphoenix.github.io\images\image.png" />
         </div>
         <div class="desc">
            I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
