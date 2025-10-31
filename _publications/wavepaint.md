@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/wavepaint
 excerpt: 'WavePaint is a new resource-efficient neural architecture for image inpainting that achieves comparable or better performance than the current state-of-the-art models without using adversarial training or diffusion.'
 date: 2025-10-19
-venue: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025'
+venue: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025, Honolulu, Hawaii, US'
 image: 'wavepaint.jpg'
 width: '800'
 ---

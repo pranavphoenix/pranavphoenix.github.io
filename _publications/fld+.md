@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/fld
 excerpt: 'FLD+ is a new, more efficient and reliable image quality metric using normalizing flows that outperforms FID, especially with fewer images and on specialized domains.**'
 date: 2025-10-19
-venue: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025'
+venue: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025, Honolulu, Hawaii, US'
 image: 'wavepaint.jpg'
 width: '800'
 ---
