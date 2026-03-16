@@ -286,8 +286,20 @@ author_profile: true
             </a>
             <!-- Paper 5 - Backbones -->
             <a href="/publication/backbones" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-48 bg-gradient-to-br from-blue-400 to-cyan-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>Backbones</strong><br/>Model Selection</span>
+              <div class="w-full h-48 relative overflow-hidden">
+                <img 
+                  src="/images/backbones_cover.jpg" 
+                  alt="FLD+ metric visualization"
+                  class="w-full h-full object-cover object-center"
+                />
+                <!-- Optional overlay for text readability -->
+                <div class="absolute inset-0 bg-black/30"></div>
+                <!-- Text Overlay -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
+                    <strong>FLD+</strong><br/>Image Quality Metric
+                  </span>
+                </div>
               </div>
               <div class="p-4">
                 <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision</h5>
