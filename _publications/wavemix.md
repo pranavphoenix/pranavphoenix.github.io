@@ -3,8 +3,8 @@ title: "WaveMix: A Resource-efficient Neural Network for Image Analysis"
 collection: publications
 permalink: /publication/wavemix
 excerpt: 'WaveMix is a new resource-efficient and scalable neural architecture for computer vision that achieves comparable or better accuracy than the state-of-the-art in multiple-computer vision tasks.'
-date: 2022-05-28
-venue: 'Arxiv'
+date: 2026-07-10
+venue: 'GlobalSouthML Workshop at International Conference on Machine Learning (ICML) 2026, Seoul, South Korea'
 image: 'wavemix.jpg'
 width: '800'
 ---

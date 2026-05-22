@@ -419,6 +419,18 @@ redirect_from:
         <!-- First set of news items -->
         <li class="news-item">
         <span class="news-date">OCT'25</span>
+        <div class="news-content">Our paper <strong>WaveMix: A Resource-efficient Neural Network for Image Analysis</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'25</span>
+        <div class="news-content">Our paper <strong>Normalizing Flow-Based Metric for Image Generation</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'25</span>
+        <div class="news-content">Our paper <strong>Convolutional Xformers for Vision</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+        </li>
+        <li class="news-item">
+        <span class="news-date">OCT'25</span>
         <div class="news-content">I defended my PhD thesis: <strong>Resource-efficient Architectures for Computer Vision</strong>.</div>
         </li>
         <li class="news-item">

@@ -3,8 +3,8 @@ title: "Convolutional Xformers for Vision"
 collection: publications
 permalink: /publication/cxv
 excerpt: 'CXV is a new convolutional transformer hybrid architecture that outperforms other architectures in image classification, especially in scenarios with limited data and GPU resources.'
-date: 2022-01-25
-venue: 'Arxiv'
+date: 2026-07-10
+venue: 'GlobalSouthML Workshop at International Conference on Machine Learning (ICML) 2026, Seoul, South Korea'
 image: 'cxv.jpg'
 width: '800'
 ---

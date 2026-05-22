@@ -3,8 +3,8 @@ title: "Normalizing Flow Based Metric for Image Generation"
 collection: publications
 permalink: /publication/fld
 excerpt: 'We propose two efficient flow-based metrics, FLD and D-FLD, that provide accurate realness assessment of generated images with significantly fewer parameters and samples than FID, making them ideal for evaluating small image sets in diverse domains.'
-date: 2024-10-02
-venue: 'Arxiv'
+date: 2026-07-11
+venue: 'GlobalSouthML Workshop at International Conference on Machine Learning (ICML) 2026, Seoul, South Korea'
 image: 'wavepaint.jpg'
 width: '800'
 ---
