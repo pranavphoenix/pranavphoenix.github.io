@@ -116,6 +116,58 @@ author_profile: true
       opacity: 1;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     }
+    .video-hover {
+      position: relative;
+      width: 560px;
+      max-width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 8px;
+      background: #000;
+      cursor: pointer;
+    }
+    .video-hover iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+    .video-placeholder {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .video-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .video-play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 68px;
+      height: 68px;
+      border-radius: 9999px;
+      background: rgba(102, 126, 234, 0.92);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+      transition: transform 0.2s ease;
+    }
+    .video-play-btn::after {
+      content: '';
+      margin-left: 4px;
+      border-left: 20px solid #fff;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+    }
+    .video-hover:hover .video-play-btn {
+      transform: translate(-50%, -50%) scale(1.12);
+    }
   </style>
 </head>
 <body class="font-sans bg-gray-50 text-gray-800">
@@ -136,7 +188,7 @@ author_profile: true
               <p class="text-gray-600 mb-4">As a Research Scientist at Sync Labs, I focus on building robust, efficient and state-of-the-art models for zero-shot video editing, lip-sync generation, and speech-driven facial animation. I work with flow-matching architectures, with a specific focus on optimizing inference efficiency, improving visual quality, and developing rigorous evaluation metrics for generative video. I also work on video super-resolution, TTS models, speech editing and language modeling.</p>
             </div>
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/YPeccZfLZ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="video-hover" data-video-id="YPeccZfLZ1Y" data-title="Sync Labs video"></div>
             </div>
           </div>
         </div>
@@ -148,7 +200,7 @@ author_profile: true
               <p class="text-gray-600 mb-4">I worked with the AI Camera Team of Visual Intelligence Division at Samsung R&D Institute India, Bangalore (SRI-B), where I developed and optimized deep learning models for action recognition on edge devices. These models have been integrated into Samsung's flagship Galaxy S24 series in its Single Take feature.</p>
             </div>
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/ldGhgXMrXU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="video-hover" data-video-id="ldGhgXMrXU4" data-title="Samsung Research video"></div>
             </div>
           </div>
         </div>
@@ -160,7 +212,7 @@ author_profile: true
               <p class="text-gray-600 mb-4">I worked at the Application Engineering and also at Brake Department at the Engineering Research Center (ERC) of Tata Motors. I developed a comprehensive toolkit to analyse vehicle stability when subjected to various driving conditions and application components. I also developed an automated brake thermal analysis software for identifying potential brake issues during extreme driving scenarios.</p>
             </div>
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/CLWuCnHESxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="video-hover" data-video-id="CLWuCnHESxc" data-title="Tata Motors video"></div>
             </div>
           </div>
         </div>
@@ -170,7 +222,7 @@ author_profile: true
         <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/ajZhpF6dteA?si=jj4GEDmTV4Umrq2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="video-hover" data-video-id="ajZhpF6dteA" data-title="PhD Thesis video"></div>
             </div>
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">PhD Thesis</h4>
@@ -196,7 +248,7 @@ author_profile: true
         <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/d8wCTes-2zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="video-hover" data-video-id="d8wCTes-2zg" data-title="M.Tech Thesis video"></div>
             </div>
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">M.Tech Thesis</h4>
@@ -268,7 +320,36 @@ author_profile: true
           carousel.style.animationPlayState = 'running';
         });
       }
-      
+
+      // Hover-to-play YouTube videos
+      const videoPlaceholder = (id, title) => `
+        <div class="video-placeholder">
+          <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="${title}" loading="lazy" />
+          <div class="video-play-btn" aria-hidden="true"></div>
+        </div>`;
+      const videoIframe = (id, title) => `
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}?autoplay=1&mute=1" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      document.querySelectorAll('.video-hover').forEach((el) => {
+        const id = el.dataset.videoId;
+        const title = el.dataset.title || 'YouTube video player';
+        el.innerHTML = videoPlaceholder(id, title);
+        el.addEventListener('mouseenter', () => {
+          if (!el.querySelector('iframe')) {
+            el.innerHTML = videoIframe(id, title);
+          }
+        });
+        el.addEventListener('mouseleave', () => {
+          if (el.querySelector('iframe')) {
+            el.innerHTML = videoPlaceholder(id, title);
+          }
+        });
+        el.addEventListener('click', () => {
+          if (!el.querySelector('iframe')) {
+            el.innerHTML = videoIframe(id, title);
+          }
+        });
+      });
+
       // Add fade-in animation to research points on scroll
       const researchPoints = document.querySelectorAll('.research-point');
       const observer = new IntersectionObserver((entries) => {
