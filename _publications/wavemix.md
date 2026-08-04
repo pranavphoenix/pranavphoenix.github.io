@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "WaveMix"
   tagline: "Token Mixer"
-  image: "wavemix_cover.jpg"
+  image: "papers/wavemix.jpg"
   tags:
     - "Token Mixer"
     - "Efficiency"

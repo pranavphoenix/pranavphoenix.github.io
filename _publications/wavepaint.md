@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "WavePaint"
   tagline: "Image Inpainting"
-  gradient: "from-amber-400 to-orange-600"
+  image: "papers/wavepaint.jpg"
   tags:
     - "Inpainting"
     - "Self-Supervised"

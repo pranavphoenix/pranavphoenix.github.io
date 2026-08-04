@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "PawFACS"
   tagline: "Facial Recognition"
-  gradient: "from-pink-400 to-purple-600"
+  image: "papers/samsung.jpg"
   tags:
     - "Action Recognition"
     - "Semi-Supervised"

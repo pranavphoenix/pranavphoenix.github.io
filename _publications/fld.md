@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "FLD"
   tagline: "Normalizing Flow Metric"
-  gradient: "from-rose-400 to-pink-600"
+  image: "papers/fld.jpg"
   tags:
     - "Quality Metrics"
     - "Generative AI"

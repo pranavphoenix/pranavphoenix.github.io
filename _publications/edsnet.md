@@ -8,7 +8,7 @@ venue: 'arxiv'
 carousel:
   acronym: "EDSNet"
   tagline: "Video Summarization"
-  image: "edsnet_cover.jpg"
+  image: "papers/edsnet.jpg"
   tags:
     - "Video Summarization"
     - "Efficiency"

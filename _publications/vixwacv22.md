@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "ViX"
   tagline: "Hybrid Transformers"
-  image: "vixwacv22_cover.jpg"
+  image: "papers/vixwacv22.jpg"
   tags:
     - "Vision Transformers"
     - "Efficiency"

@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "CXV"
   tagline: "CNN-Transformer Hybrid"
-  image: "cxv_cover.jpg"
+  image: "papers/cxv.jpg"
   tags:
     - "Hybrid Architecture"
     - "Vision"

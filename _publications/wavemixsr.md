@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "WaveMixSR"
   tagline: "Super Resolution"
-  gradient: "from-lime-400 to-green-600"
+  image: "papers/wavemixsr.jpg"
   tags:
     - "Super Resolution"
     - "Efficiency"

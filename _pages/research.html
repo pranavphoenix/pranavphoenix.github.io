@@ -233,14 +233,8 @@ author_profile: true
               {% for post in pubs %}
             <a href="{{ post.url }}" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
                 {% if post.carousel.image %}
-              <div class="w-full h-56 relative overflow-hidden">
-                <img src="/images/{{ post.carousel.image }}" alt="{{ post.carousel.acronym }} paper cover" class="w-full h-full object-cover object-center" />
-                <div class="absolute inset-0 bg-black/30"></div>
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>{{ post.carousel.acronym }}</strong><br/>{{ post.carousel.tagline }}
-                  </span>
-                </div>
+              <div class="w-full overflow-hidden" style="aspect-ratio: 8.5 / 11;">
+                <img src="/images/{{ post.carousel.image }}" alt="{{ post.title }}" class="w-full h-full object-cover object-top" loading="lazy" />
               </div>
                 {% else %}
               <div class="w-full h-56 bg-gradient-to-br {{ post.carousel.gradient }} flex items-center justify-center">

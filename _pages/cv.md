@@ -112,12 +112,8 @@ redirect_from:
     // Cover image or gradient placeholder
     function coverHTML(pub) {
         if (pub.image) {
-            return `<div class="relative w-full h-56 overflow-hidden">
-                        <img src="/images/${pub.image}" alt="${pub.acronym} paper cover" class="w-full h-full object-cover object-center">
-                        <div class="absolute inset-0 bg-black/30"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <span class="text-white text-center px-4 font-medium drop-shadow-lg"><strong>${pub.acronym}</strong><br/>${pub.tagline}</span>
-                        </div>
+            return `<div class="w-full overflow-hidden" style="aspect-ratio: 8.5 / 11;">
+                        <img src="/images/${pub.image}" alt="${pub.title}" class="w-full h-full object-cover object-top" loading="lazy">
                     </div>`;
         }
         return `<div class="w-full h-56 bg-gradient-to-br ${pub.gradient} flex items-center justify-center">

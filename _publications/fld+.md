@@ -10,7 +10,7 @@ width: '800'
 carousel:
   acronym: "FLD+"
   tagline: "Image Quality Metric"
-  gradient: "from-purple-400 to-indigo-600"
+  image: "papers/fldplus.jpg"
   tags:
     - "Quality Metrics"
     - "Generative AI"

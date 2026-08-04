@@ -8,7 +8,7 @@ venue: 'Proceedings of the 2025 AAAI Conference on Artificial Intelligence (AAAI
 carousel:
   acronym: "WaveMixSR-V2"
   tagline: "Super Resolution"
-  gradient: "from-green-400 to-emerald-600"
+  image: "papers/wavemixsrv2.jpg"
   tags:
     - "Super Resolution"
     - "Efficient AI"

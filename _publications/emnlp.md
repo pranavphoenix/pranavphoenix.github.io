@@ -8,7 +8,7 @@ venue: 'Proceedings of the 2021 Conference on Empirical Methods in Natural Langu
 carousel:
   acronym: "Open Mic"
   tagline: "Humor Detection"
-  gradient: "from-red-400 to-orange-600"
+  image: "papers/emnlp.jpg"
   tags:
     - "NLP"
     - "Humor Detection"
