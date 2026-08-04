@@ -78,7 +78,7 @@ author_profile: true
     }
     .paper-card {
       flex-shrink: 0;
-      width: 320px;
+      width: min(320px, 78vw);
       margin: 0 16px;
       transition: all 0.3s ease;
       opacity: 0.9;
@@ -181,7 +181,7 @@ author_profile: true
       <div class="mb-16">
         <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Professional Research</h3>
         
-        <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
+        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">Sync Labs</h4>
@@ -193,7 +193,7 @@ author_profile: true
           </div>
         </div>
 
-        <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
+        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">Samsung Research</h4>
@@ -205,7 +205,7 @@ author_profile: true
           </div>
         </div>
 
-        <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
+        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">Tata Motors</h4>
@@ -219,7 +219,7 @@ author_profile: true
 
         <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Academic Research</h3>
 
-        <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
               <div class="video-hover" data-video-id="ajZhpF6dteA" data-title="PhD Thesis video"></div>
@@ -245,7 +245,7 @@ author_profile: true
           </div>
         </div>
 
-        <div class="research-point bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
           <div class="flex flex-col md:flex-row gap-8 items-center">
             <div class="md:w-1/2">
               <div class="video-hover" data-video-id="d8wCTes-2zg" data-title="M.Tech Thesis video"></div>
@@ -319,9 +319,16 @@ author_profile: true
         carousel.addEventListener('mouseleave', () => {
           carousel.style.animationPlayState = 'running';
         });
+        carousel.addEventListener('touchstart', () => {
+          carousel.style.animationPlayState = 'paused';
+        });
+        carousel.addEventListener('touchend', () => {
+          carousel.style.animationPlayState = 'running';
+        });
       }
 
       /* Hover-to-play YouTube videos */
+      const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
       const videoPlaceholder = (id, title) => `
         <div class="video-placeholder">
           <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="${title}" loading="lazy" />
@@ -333,21 +340,23 @@ author_profile: true
         const id = el.dataset.videoId;
         const title = el.dataset.title || 'YouTube video player';
         el.innerHTML = videoPlaceholder(id, title);
-        el.addEventListener('mouseenter', () => {
-          if (!el.querySelector('iframe')) {
-            el.innerHTML = videoIframe(id, title);
-          }
-        });
-        el.addEventListener('mouseleave', () => {
-          if (el.querySelector('iframe')) {
-            el.innerHTML = videoPlaceholder(id, title);
-          }
-        });
         el.addEventListener('click', () => {
           if (!el.querySelector('iframe')) {
             el.innerHTML = videoIframe(id, title);
           }
         });
+        if (canHover) {
+          el.addEventListener('mouseenter', () => {
+            if (!el.querySelector('iframe')) {
+              el.innerHTML = videoIframe(id, title);
+            }
+          });
+          el.addEventListener('mouseleave', () => {
+            if (el.querySelector('iframe')) {
+              el.innerHTML = videoPlaceholder(id, title);
+            }
+          });
+        }
       });
 
       /* Add fade-in animation to research points on scroll */
