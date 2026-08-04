@@ -1,0 +1,51 @@
+/* ==========================================================================
+   THEME TOGGLE (dark mode switch)
+   ========================================================================== */
+
+.theme-toggle {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 9999;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #667eea;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid #a5b4fc;
+  outline-offset: 2px;
+}
+
+.theme-toggle svg {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  transition: opacity 0.2s ease;
+}
+
+.theme-toggle .icon-sun {
+  opacity: 0;
+}
+
+html[data-theme="dark"] .theme-toggle .icon-sun {
+  opacity: 1;
+}
+
+html[data-theme="dark"] .theme-toggle .icon-moon {
+  opacity: 0;
+}
