@@ -19,4 +19,4 @@ In contemporary computer vision applications, particularly image classification,
 
 [Paper Link](https://openreview.net/forum?id=XVSQnnf7QT)
 
-Recommended citation: Jeevan, P., & Sethi, A. (2025). Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision. TMLR
+Recommended citation: Jeevan, P., & Sethi, A. (2025). Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision. Transactions on Machine Learning Research.
