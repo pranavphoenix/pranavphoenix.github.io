@@ -5,7 +5,13 @@ permalink: /publication/chatty
 excerpt: 'The new technique, ATT, enhances unsupervised domain adaptation by introducing a novel transport loss that displaces classifier outputs to reduce class confusion and improve domain-invariant representations, leading to superior UDA results on benchmark datasets.'
 date: 2024-12-02
 venue: 'Proceedings of the 27th International Conference on Pattern Recognition, Kolkata, India'
-
+carousel:
+  acronym: "ATT"
+  tagline: "Domain Adaptation"
+  gradient: "from-teal-400 to-cyan-600"
+  tags:
+    - "Domain Adaptation"
+    - "Medical Imaging"
 ---
 We propose a new technique called ATT: Adversarial Transport Terms for Unsupervised Domain Adaptation. Adversarial training is commonly used for learning domain-invariant representations by reversing the gradients from a domain discriminator head to train the feature extractor layers of a neural network. We propose significant modifications to the adversarial head, its training objective, and the classifier head. With the aim of reducing class confusion, we introduce a sub-network which displaces the classifier outputs of the source and target domain samples in a learnable manner. We control this movement using a novel transport loss that spreads class clusters away from each other and makes it easier for the classifier to find the decision boundaries for both the source and target domains. The results of adding this new loss to a careful selection of previously proposed losses leads to improvement in UDA results compared to the previous state-of-the-art methods on benchmark datasets. We show the importance of the proposed loss term using ablation studies and visualization of the movement of target domain sample in representation space.
 

@@ -7,6 +7,13 @@ date: 2024-04-01
 venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), Waikaloa, HI, USA'
 image: 'wavemixsr.jpg'
 width: '800'
+carousel:
+  acronym: "WaveMixSR"
+  tagline: "Super Resolution"
+  gradient: "from-lime-400 to-green-600"
+  tags:
+    - "Super Resolution"
+    - "Efficiency"
 ---
 Image super-resolution research recently been dominated by transformer models which need higher computational resources than CNNs due to the quadratic complexity of self-attention. We propose a new neural network -- WaveMixSR -- for image super-resolution based on WaveMix architecture which uses a 2D-discrete wavelet transform for spatial token-mixing. Unlike transformer-based models, WaveMixSR does not unroll the image as a sequence of pixels/patches. It uses the inductive bias of convolutions along with the lossless token-mixing property of wavelet transform to achieve higher performance while requiring fewer resources and training data. We compare the performance of our network with other state-of-the-art methods for image super-resolution. Our experiments show that WaveMixSR achieves competitive performance in all datasets and reaches state-of-the-art performance in the BSD100 dataset on multiple super-resolution tasks. Our model is able to achieve this performance using less training data and computational resources while maintaining high parameter efficiency compared to current state-of-the-art models.
 

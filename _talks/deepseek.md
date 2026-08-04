@@ -2,7 +2,7 @@
 title: "DeepSeek-R1: The ChatGPT Killer"
 collection: talks
 type: "MeDAL Group Meetings"
-permalink: /talks/group
+permalink: /talks/medal-group-deepseek
 venue: "IIT Bombay"
 date: 2025-02-05
 location: "Mumbai, India"

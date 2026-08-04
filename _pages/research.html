@@ -136,7 +136,7 @@ author_profile: true
               <p class="text-gray-600 mb-4">As a Research Scientist at Sync Labs, I focus on building robust, efficient and state-of-the-art models for zero-shot video editing, lip-sync generation, and speech-driven facial animation. I work with flow-matching architectures, with a specific focus on optimizing inference efficiency, improving visual quality, and developing rigorous evaluation metrics for generative video. I also work on video super-resolution, TTS models, speech editing and language modeling.</p>
             </div>
             <div class="md:w-1/2">
-              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YPeccZfLZ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YPeccZfLZ1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -220,7 +220,7 @@ author_profile: true
         </div>
       </div>
 
-      <!-- Publications Carousel -->
+      <!-- Publications Carousel (rendered from _publications collection) -->
       <div class="mb-16">
         <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Recent Publications</h3>
         <p class="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
@@ -228,338 +228,41 @@ author_profile: true
         </p>
         <div class="overflow-hidden relative py-8">
           <div class="paper-carousel w-max">
-            <!-- Paper 1 - FLD+ -->
-            <a href="/publication/fld" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-purple-400 to-indigo-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>FLD+</strong><br/>Image Quality Metric</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">FLD+: Data-efficient Evaluation Metric for Generative Models</h5>
-                <p class="text-xs text-gray-500 mb-3">ICCV 2025</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-purple-100 text-purple-800">Quality Metrics</span>
-                  <span class="tag bg-indigo-100 text-indigo-800">Generative AI</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 2 - RL2 -->
-            <a href="/publication/rl2" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-pink-400 to-rose-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>RL2</strong><br/>Histopathology Metric</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Evaluation Metric for Quality Control and Generative Models in Histopathology Images</h5>
-                <p class="text-xs text-gray-500 mb-3">ISBI 2025</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-pink-100 text-pink-800">Medical Imaging</span>
-                  <span class="tag bg-rose-100 text-rose-800">Histopathology</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 3 - WaveMixSR-V2 -->
-            <a href="/publication/wavemixsrv2" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>WaveMixSR-V2</strong><br/>Super Resolution</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">WaveMixSR-V2: Enhancing Super-Resolution with Higher Efficiency</h5>
-                <p class="text-xs text-gray-500 mb-3">AAAI 2025</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-green-100 text-green-800">Super Resolution</span>
-                  <span class="tag bg-emerald-100 text-emerald-800">Efficient AI</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 4 - WavePaint -->
-            <a href="/publication/wavepaint" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-amber-400 to-orange-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>WavePaint</strong><br/>Image Inpainting</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">WavePaint: A Resource-Efficient Token-Mixer for Self-Supervised Inpainting</h5>
-                <p class="text-xs text-gray-500 mb-3">ICCV 2025</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-amber-100 text-amber-800">Inpainting</span>
-                  <span class="tag bg-orange-100 text-orange-800">Self-Supervised</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 5 - Backbones -->
-            <a href="/publication/backbones" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
+            {% assign pubs = site.publications | sort: 'date' | reverse %}
+            {% for i in (0..1) %}
+              {% for post in pubs %}
+            <a href="{{ post.url }}" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
+                {% if post.carousel.image %}
               <div class="w-full h-56 relative overflow-hidden">
-                <img 
-                  src="/images/backbones_cover.jpg" 
-                  alt="FLD+ metric visualization"
-                  class="w-full h-full object-cover object-center"
-                />
-                <!-- Optional overlay for text readability -->
+                <img src="/images/{{ post.carousel.image }}" alt="{{ post.carousel.acronym }} paper cover" class="w-full h-full object-cover object-center" />
                 <div class="absolute inset-0 bg-black/30"></div>
-                <!-- Text Overlay -->
                 <div class="absolute inset-0 flex items-center justify-center">
                   <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>FLD+</strong><br/>Image Quality Metric
+                    <strong>{{ post.carousel.acronym }}</strong><br/>{{ post.carousel.tagline }}
                   </span>
                 </div>
               </div>
+                {% else %}
+              <div class="w-full h-56 bg-gradient-to-br {{ post.carousel.gradient }} flex items-center justify-center">
+                <span class="text-white text-center px-4"><strong>{{ post.carousel.acronym }}</strong><br/>{{ post.carousel.tagline }}</span>
+              </div>
+                {% endif %}
               <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision</h5>
-                <p class="text-xs text-gray-500 mb-3">TMLR 2025</p>
+                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">{{ post.title }}</h5>
+                <p class="text-xs text-gray-500 mb-3">{{ post.date | date: "%Y" }}</p>
                 <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-blue-100 text-blue-800">Battle of Backbones</span>
-                  <span class="tag bg-cyan-100 text-cyan-800">Efficiency</span>
+                  {% for tag in post.carousel.tags %}
+                  <span class="tag bg-purple-100 text-purple-800">{{ tag }}</span>
+                  {% endfor %}
                 </div>
               </div>
             </a>
-            <!-- Paper 6 - PawFACS -->
-            <a href="/publication/samsung" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-pink-400 to-purple-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>PawFACS</strong><br/>Facial Recognition</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">PawFACS: Leveraging Semi-Supervised Learning for Pet Facial Action Recognition</h5>
-                <p class="text-xs text-gray-500 mb-3">BMVC 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-pink-100 text-pink-800">Action Recognition</span>
-                  <span class="tag bg-purple-100 text-purple-800">Semi-Supervised</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 7 - BreakHis -->
-            <a href="/publication/breakhis" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-red-400 to-pink-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>BreakHis</strong><br/>Medical Imaging</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Magnification Invariant Medical Image Analysis: A Comparison of Convolutional Networks, Vision Transformers, and Token Mixers</h5>
-                <p class="text-xs text-gray-500 mb-3">BIOIMAGING 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-red-100 text-red-800">Medical Imaging</span>
-                  <span class="tag bg-pink-100 text-pink-800">Histopathology</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 8 - Chatty -->
-            <a href="/publication/chatty" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-teal-400 to-cyan-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>ATT</strong><br/>Domain Adaptation</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Adversarial Transport Terms for Unsupervised Domain Adaptation</h5>
-                <p class="text-xs text-gray-500 mb-3">ICPR 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-teal-100 text-teal-800">Domain Adaptation</span>
-                  <span class="tag bg-cyan-100 text-cyan-800">Medical Imaging</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 9 - FLeNS -->
-            <a href="/publication/federated" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-violet-400 to-purple-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>FLeNS</strong><br/>Federated Learning</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch</h5>
-                <p class="text-xs text-gray-500 mb-3">IEEE BigData 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-violet-100 text-violet-800">Federated Learning</span>
-                  <span class="tag bg-purple-100 text-purple-800">Optimization</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 10 - EDSNet -->
-            <a href="/publication/edsnet" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 relative overflow-hidden">
-                <img 
-                  src="/images/edsnet_cover.jpg" 
-                  alt="FLD+ metric visualization"
-                  class="w-full h-full object-cover object-center"
-                />
-                <!-- Optional overlay for text readability -->
-                <div class="absolute inset-0 bg-black/30"></div>
-                <!-- Text Overlay -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>FLD+</strong><br/>Image Quality Metric
-                  </span>
-                </div>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">EDSNet: Efficient-DSNet for Video Summarization</h5>
-                <p class="text-xs text-gray-500 mb-3">arxiv 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-indigo-100 text-indigo-800">Video Summarization</span>
-                  <span class="tag bg-blue-100 text-blue-800">Efficiency</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 11 - Graphs -->
-            <a href="/publication/graphs" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-orange-400 to-red-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>Graphs</strong><br/>GNN Architecture</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Heterogeneous Graphs Model Spatial Relationships Between Biological Entities for Breast Cancer Diagnosis</h5>
-                <p class="text-xs text-gray-500 mb-3">MICCAI 2023</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-orange-100 text-orange-800">GNN</span>
-                  <span class="tag bg-red-100 text-red-800">Medical Imaging</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 12 - WaveMixSR -->
-            <a href="/publication/wavemixsr" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-lime-400 to-green-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>WaveMixSR</strong><br/>Super Resolution</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">WaveMixSR: A Resource-efficient Neural Network for Image Super-resolution</h5>
-                <p class="text-xs text-gray-500 mb-3">WACV 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-lime-100 text-lime-800">Super Resolution</span>
-                  <span class="tag bg-green-100 text-green-800">Efficiency</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 13 - FLD -->
-            <a href="/publication/fld" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-rose-400 to-pink-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>FLD</strong><br/>Normalizing Flow Metric</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Normalizing Flow Based Metric for Image Generation</h5>
-                <p class="text-xs text-gray-500 mb-3">arxiv 2024</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-rose-100 text-rose-800">Quality Metrics</span>
-                  <span class="tag bg-pink-100 text-pink-800">Generative AI</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 14 - Inpainting -->
-            <a href="/publication/inpainting" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-fuchsia-400 to-purple-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>Inpainting</strong><br/>WaveMix-based</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Resource-efficient Image Inpainting</h5>
-                <p class="text-xs text-gray-500 mb-3">ICLR 2023</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-fuchsia-100 text-fuchsia-800">Inpainting</span>
-                  <span class="tag bg-purple-100 text-purple-800">Efficiency</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 15 - ViX WACV -->
-            <a href="/publication/vixwacv22" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 relative overflow-hidden">
-                <img 
-                  src="/images/vixwacv22_cover.jpg" 
-                  alt="FLD+ metric visualization"
-                  class="w-full h-full object-cover object-center"
-                />
-                <!-- Optional overlay for text readability -->
-                <div class="absolute inset-0 bg-black/30"></div>
-                <!-- Text Overlay -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>FLD+</strong><br/>Image Quality Metric
-                  </span>
-                </div>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Resource-Efficient Hybrid X-Formers for Vision</h5>
-                <p class="text-xs text-gray-500 mb-3">WACV 2022</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-sky-100 text-sky-800">Vision Transformers</span>
-                  <span class="tag bg-blue-100 text-blue-800">Efficiency</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 16 - WaveMix -->
-            <a href="/publication/wavemix" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 relative overflow-hidden">
-                <img 
-                  src="/images/wavemix_cover.jpg" 
-                  alt="FLD+ metric visualization"
-                  class="w-full h-full object-cover object-center"
-                />
-                <!-- Optional overlay for text readability -->
-                <div class="absolute inset-0 bg-black/30"></div>
-                <!-- Text Overlay -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>FLD+</strong><br/>Image Quality Metric
-                  </span>
-                </div>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">WaveMix: A Resource-efficient Neural Network for Image Analysis</h5>
-                <p class="text-xs text-gray-500 mb-3">arxiv 2022</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-cyan-100 text-cyan-800">Token Mixer</span>
-                  <span class="tag bg-teal-100 text-teal-800">Efficiency</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 17 - CXV -->
-            <a href="/publication/cxv" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 relative overflow-hidden">
-                <img 
-                  src="/images/cxv_cover.jpg" 
-                  alt="FLD+ metric visualization"
-                  class="w-full h-full object-cover object-center"
-                />
-                <!-- Optional overlay for text readability -->
-                <div class="absolute inset-0 bg-black/30"></div>
-                <!-- Text Overlay -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-white text-center px-4 font-medium drop-shadow-lg">
-                    <strong>FLD+</strong><br/>Image Quality Metric
-                  </span>
-                </div>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">Convolutional Xformers for Vision</h5>
-                <p class="text-xs text-gray-500 mb-3">arxiv 2022</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-yellow-100 text-yellow-800">Hybrid Architecture</span>
-                  <span class="tag bg-amber-100 text-amber-800">Vision</span>
-                </div>
-              </div>
-            </a>
-            <!-- Paper 18 - EMNLP -->
-            <a href="/publication/emnlp" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-red-400 to-orange-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>Open Mic</strong><br/>Humor Detection</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">"So You Think You're Funny?": Rating the Humour Quotient in Standup Comedy</h5>
-                <p class="text-xs text-gray-500 mb-3">EMNLP 2021</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-red-100 text-red-800">NLP</span>
-                  <span class="tag bg-orange-100 text-orange-800">Humor Detection</span>
-                </div>
-              </div>
-            </a>
-            <!-- Duplicate for seamless scroll - start -->
-            <a href="/publication/fld" class="paper-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all no-underline">
-              <div class="w-full h-56 bg-gradient-to-br from-purple-400 to-indigo-600 flex items-center justify-center">
-                <span class="text-white text-center px-4"><strong>FLD+</strong><br/>Image Quality Metric</span>
-              </div>
-              <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">FLD+: Data-efficient Evaluation Metric for Generative Models</h5>
-                <p class="text-xs text-gray-500 mb-3">ICCV 2025</p>
-                <div class="flex flex-wrap gap-1">
-                  <span class="tag bg-purple-100 text-purple-800">Quality Metrics</span>
-                  <span class="tag bg-indigo-100 text-indigo-800">Generative AI</span>
-                </div>
-              </div>
-            </a>
+              {% endfor %}
+            {% endfor %}
           </div>
         </div>
       </div>
 
-
-      
     </div>
   </section>
 
