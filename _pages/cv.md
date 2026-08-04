@@ -123,7 +123,8 @@ redirect_from:
 
     // Create carousel items
     function createCarouselItems() {
-        const doubledPublications = [...publications, ...publications];
+        const carouselPublications = publications.filter(pub => pub.image);
+        const doubledPublications = [...carouselPublications, ...carouselPublications];
         carouselInner.innerHTML = '';
         doubledPublications.forEach(pub => {
             const item = document.createElement('div');
