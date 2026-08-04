@@ -309,7 +309,7 @@ author_profile: true
   </section>
 
   <script>
-    // Pause carousel on hover
+    /* Pause carousel on hover */
     document.addEventListener('DOMContentLoaded', () => {
       const carousel = document.querySelector('.paper-carousel');
       if (carousel) {
@@ -321,7 +321,7 @@ author_profile: true
         });
       }
 
-      // Hover-to-play YouTube videos
+      /* Hover-to-play YouTube videos */
       const videoPlaceholder = (id, title) => `
         <div class="video-placeholder">
           <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="${title}" loading="lazy" />
@@ -350,7 +350,7 @@ author_profile: true
         });
       });
 
-      // Add fade-in animation to research points on scroll
+      /* Add fade-in animation to research points on scroll */
       const researchPoints = document.querySelectorAll('.research-point');
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
