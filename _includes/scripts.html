@@ -30,3 +30,47 @@
     });
   })();
 </script>
+
+<script>
+  /* Hover-to-play for YouTube embeds (talks etc.) */
+  (function () {
+    var canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    var placeholder = function (id, title) {
+      return '<div class="video-placeholder"><img src="https://img.youtube.com/vi/' + id + '/hqdefault.jpg" alt="' + title + '" loading="lazy" /><div class="video-play-btn" aria-hidden="true"></div></div>';
+    };
+    var player = function (id, title) {
+      return '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + id + '?autoplay=1&mute=1" title="' + title + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+    };
+    var frames = document.querySelectorAll('iframe[src*="youtube.com/embed"]');
+    frames.forEach(function (frame) {
+      var m = frame.getAttribute('src').match(/embed\/([^?&]+)/);
+      if (!m) {
+        return;
+      }
+      var id = m[1];
+      var title = frame.getAttribute('title') || 'YouTube video player';
+      var wrap = document.createElement('div');
+      wrap.className = 'video-hover';
+      wrap.innerHTML = placeholder(id, title);
+      frame.parentNode.insertBefore(wrap, frame);
+      frame.parentNode.removeChild(frame);
+      wrap.addEventListener('click', function () {
+        if (!wrap.querySelector('iframe')) {
+          wrap.innerHTML = player(id, title);
+        }
+      });
+      if (canHover) {
+        wrap.addEventListener('mouseenter', function () {
+          if (!wrap.querySelector('iframe')) {
+            wrap.innerHTML = player(id, title);
+          }
+        });
+        wrap.addEventListener('mouseleave', function () {
+          if (wrap.querySelector('iframe')) {
+            wrap.innerHTML = placeholder(id, title);
+          }
+        });
+      }
+    });
+  })();
+</script>
