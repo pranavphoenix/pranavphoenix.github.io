@@ -3,7 +3,7 @@ title: "Workshop Presentation: GlobalSouthML Workshop at ICML 2026 - 1"
 collection: talks
 type: "Workshop Presentation"
 permalink: /talks/icml26-wavemix
-venue: "GlobalSouthML Workshop at ICML 2026"
+venue: "COEX Convention & Exhibition Center, Seoul, South Korea"
 date: 2026-07-09
 location: "Seoul, South Korea"
 ---
