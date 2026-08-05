@@ -4,7 +4,7 @@ collection: talks
 type: "Workshop Presentation"
 permalink: /talks/iccvw25-fldplus
 date: 2025-10-19
-Venue: "Hawai'i Convention Center, Honolulu, HI, USA"
+venue: "Hawai'i Convention Center, Honolulu, HI, USA"
 ---
 Workshop presentation on our paper: "FLD+: Data-efficient Evaluation Metric for Generative Models"
 
