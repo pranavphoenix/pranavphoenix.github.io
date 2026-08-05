@@ -60,7 +60,7 @@
           return r.text();
         })
         .then(function (svg) {
-          var m = svg.match(/aria-label="[^"]*([0-9,]+)/);
+          var m = svg.match(/aria-label="[^"]*?([0-9,]+)/);
           if (m) {
             cites.textContent = m[1];
           }
