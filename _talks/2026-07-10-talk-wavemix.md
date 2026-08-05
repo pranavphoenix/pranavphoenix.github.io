@@ -1,10 +1,10 @@
 ---
-title: "Workshop Presentation: WaveMix - A Resource-efficient Neural Network for Image Analysis"
+title: "Workshop Presentation: GlobalSouthML Workshop at ICML 2026 - 1"
 collection: talks
 type: "Workshop Presentation"
 permalink: /talks/icml26-wavemix
 venue: "GlobalSouthML Workshop at ICML 2026"
-date: 2026-07-10
+date: 2026-07-09
 location: "Seoul, South Korea"
 ---
 Workshop presentation on our paper: "WaveMix: A Resource-efficient Neural Network for Image Analysis"
