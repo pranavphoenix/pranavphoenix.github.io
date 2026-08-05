@@ -89,6 +89,8 @@ author_profile: true
   .paper-card-venue {
     color: #dc2626;
     font-weight: 600;
+    font-size: 0.75rem;
+    margin: 0.75rem 0 0 0;
   }
   .paper-card-year {
     font-size: 0.75rem;
@@ -155,13 +157,14 @@ author_profile: true
               <img src="/images/{{ post.carousel.image }}" alt="{{ post.title }}" loading="lazy" />
             </div>
             <div class="paper-card-body">
-              <h5 class="paper-card-title">{{ post.title }} <span class="paper-card-venue">{{ post.carousel.venue }}</span></h5>
+              <h5 class="paper-card-title">{{ post.title }}</h5>
               <p class="paper-card-year">{{ post.date | date: "%Y" }}</p>
               <div class="paper-card-tags">
                 {% for tag in post.carousel.tags %}
                 <span class="tag">{{ tag }}</span>
                 {% endfor %}
               </div>
+              {% if post.carousel.venue %}<p class="paper-card-venue">{{ post.carousel.venue }}</p>{% endif %}
             </div>
           </a>
           {% endif %}

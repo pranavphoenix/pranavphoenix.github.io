@@ -335,13 +335,14 @@ author_profile: true
                 <img src="/images/{{ post.carousel.image }}" alt="{{ post.title }}" class="w-full h-full object-cover object-top" loading="lazy" />
               </div>
               <div class="p-4">
-                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">{{ post.title }} <span class="text-red-600">{{ post.carousel.venue }}</span></h5>
+                <h5 class="font-bold text-gray-900 text-sm mb-2 line-clamp-2">{{ post.title }}</h5>
                 <p class="text-xs text-gray-500 mb-3">{{ post.date | date: "%Y" }}</p>
                 <div class="flex flex-wrap gap-1">
                   {% for tag in post.carousel.tags %}
                   <span class="tag bg-purple-100 text-purple-800">{{ tag }}</span>
                   {% endfor %}
                 </div>
+                {% if post.carousel.venue %}<p class="text-red-600 text-xs font-semibold mt-3">{{ post.carousel.venue }}</p>{% endif %}
               </div>
             </a>
                 {% endif %}

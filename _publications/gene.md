@@ -9,7 +9,6 @@ carousel:
   acronym: "Gene Selection"
   tagline: "Genomics"
   image: "papers/gene.jpg"
-  venue: "arXiv 2024"
   tags:
     - "Genomics"
     - "Cancer"
