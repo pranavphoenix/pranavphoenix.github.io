@@ -4,7 +4,7 @@ collection: talks
 type: "Workshop Presentation"
 permalink: /talks/iccvw25-wavepaint
 date: 2025-10-19
-location: "Honolulu, HI, USA"
+venue: "Hawai'i Convention Center, Honolulu, HI, USA"
 ---
 Workshop presentation on our paper: "WavePaint: Resource-efficient Token-mixer for Self-supervised Inpainting"
 
