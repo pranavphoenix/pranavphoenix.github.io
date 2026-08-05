@@ -358,7 +358,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/image.png" />
         </div>
         <div class="desc">
-           I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">sync</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing and implementing generative architectures—spanning diffusion models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, motion, and expression in video sequences.
+           I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">Sync Labs</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing state-of-the-art generative architectures—spanning diffusion and flow matching models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, lips, motion, and expression in video sequences. My models are being used by OTT platforms, movie studios and online content creators.
         </div>
       </div>
       <div class="entry row">
@@ -391,7 +391,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITM.png" />
         </div>
         <div class="desc">
-          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, Indian Institute of Technology Madras, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
+          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>,<a href="https://www.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Madras</a>, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
         </div>
       </div>
       <div class="entry row">
