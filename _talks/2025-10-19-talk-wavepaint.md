@@ -1,9 +1,9 @@
 ---
-title: "Workshop Presentation: WavePaint - Resource-efficient Token-mixer for Self-supervised Inpainting"
+title: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025"
 collection: talks
 type: "Workshop Presentation"
 permalink: /talks/iccvw25-wavepaint
-venue: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025"
+venue: Honolulu, HI, USA
 date: 2025-10-19
 location: "Honolulu, HI, USA"
 ---
