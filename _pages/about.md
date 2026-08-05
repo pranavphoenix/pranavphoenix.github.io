@@ -391,7 +391,7 @@ redirect_from:
           <img src="https://pranavphoenix.github.io/images/IITM.png" />
         </div>
         <div class="desc">
-          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>,<a href="https://www.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Madras</a>, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
+          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, <a href="https://www.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Madras</a>, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
         </div>
       </div>
       <div class="entry row">
