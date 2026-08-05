@@ -311,6 +311,39 @@ redirect_from:
         z-index: 1;
       }
     </style>
+    <style>
+        html[data-theme="dark"] body { color: #e2e8f0; }
+        html[data-theme="dark"] [style*="color: #111"] { color: #f1f5f9 !important; }
+        html[data-theme="dark"] a[style*="color: #2563eb"] { color: #a5b4fc !important; }
+        html[data-theme="dark"] .news-section { background-color: #1e293b; }
+        html[data-theme="dark"] .news-title { color: #f1f5f9; }
+        html[data-theme="dark"] .news-content { color: #e2e8f0; }
+        html[data-theme="dark"] .news-content a { color: #a5b4fc; }
+        html[data-theme="dark"] .news-date { background-color: rgba(139, 92, 246, 0.2); color: #c4b5fd; }
+        html[data-theme="dark"] .timespan { color: #94a3b8; }
+        html[data-theme="dark"] .pub-venue { color: #94a3b8; }
+        html[data-theme="dark"] .pub-authors { color: #94a3b8; }
+        html[data-theme="dark"] hr { border-top-color: #334155; }
+        html[data-theme="dark"] .ctitle { border-bottom-color: #334155; }
+        html[data-theme="dark"] .entry-dot { background-color: #334155; }
+        html[data-theme="dark"] .bg-white { background-color: #1e293b; }
+        html[data-theme="dark"] .text-gray-900 { color: #f1f5f9; }
+        html[data-theme="dark"] .text-gray-800 { color: #e2e8f0; }
+        html[data-theme="dark"] .text-gray-700 { color: #cbd5e1; }
+        html[data-theme="dark"] .text-gray-600 { color: #94a3b8; }
+        html[data-theme="dark"] .text-gray-500 { color: #94a3b8; }
+        html[data-theme="dark"] .border-gray-200 { border-color: #334155; }
+        html[data-theme="dark"] .bg-gray-100 { background-color: #334155; }
+        html[data-theme="dark"] .bg-blue-50 { background-color: rgba(59, 130, 246, 0.12); }
+        html[data-theme="dark"] .bg-purple-50 { background-color: rgba(139, 92, 246, 0.12); }
+        html[data-theme="dark"] .bg-green-50 { background-color: rgba(16, 185, 129, 0.12); }
+        html[data-theme="dark"] .bg-yellow-50 { background-color: rgba(245, 158, 11, 0.12); }
+        html[data-theme="dark"] .bg-red-50 { background-color: rgba(239, 68, 68, 0.12); }
+        html[data-theme="dark"] .bg-indigo-50 { background-color: rgba(99, 102, 241, 0.12); }
+        html[data-theme="dark"] .bg-pink-50 { background-color: rgba(236, 72, 153, 0.12); }
+        html[data-theme="dark"] .bg-teal-50 { background-color: rgba(20, 184, 166, 0.12); }
+        html[data-theme="dark"] .bg-orange-50 { background-color: rgba(249, 115, 22, 0.12); }
+    </style>
 </head>
 
 

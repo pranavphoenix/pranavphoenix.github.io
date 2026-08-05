@@ -249,4 +249,35 @@ html[data-theme="dark"] {
   .taxonomy__index a:hover {
     color: #a5b4fc;
   }
+
+  /* social icons (sidebar + footer): neutral tone on dark background */
+  .social-icons i {
+    color: #94a3b8;
+  }
+
+  /* figure captions */
+  figcaption a:hover {
+    color: #f1f5f9;
+  }
+
+  /* notices */
+  .notice {
+    background-color: #1e293b;
+    color: #e2e8f0;
+  }
+
+  .notice a {
+    color: #a5b4fc;
+  }
+
+  .notice code {
+    background-color: #334155;
+  }
+
+  /* google search input */
+  #goog-wm-qt {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border-color: #475569;
+  }
 }
