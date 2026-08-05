@@ -1,9 +1,8 @@
 ---
-title: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025"
+title: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025 - 1"
 collection: talks
 type: "Workshop Presentation"
 permalink: /talks/iccvw25-wavepaint
-venue: Honolulu, HI, USA
 date: 2025-10-19
 location: "Honolulu, HI, USA"
 ---

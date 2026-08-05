@@ -1,9 +1,8 @@
 ---
-title: "Workshop Presentation: FLD+ - Data-efficient Evaluation Metric for Generative Models"
+title: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025 - 2"
 collection: talks
 type: "Workshop Presentation"
 permalink: /talks/iccvw25-fldplus
-venue: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops 2025"
 date: 2025-10-19
 location: "Honolulu, HI, USA"
 ---
