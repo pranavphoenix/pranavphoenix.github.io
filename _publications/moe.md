@@ -9,6 +9,7 @@ carousel:
   acronym: "Spatially-Aware MoE"
   tagline: "Survival Analysis"
   image: "papers/moe.jpg"
+  venue: "ISBI 2026"
   tags:
     - "Histopathology"
     - "Survival Analysis"

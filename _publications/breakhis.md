@@ -9,6 +9,7 @@ carousel:
   acronym: "BreakHis"
   tagline: "Medical Imaging"
   image: "papers/breakhis.jpg"
+  venue: "BIOSTEC 2024"
   tags:
     - "Medical Imaging"
     - "Histopathology"

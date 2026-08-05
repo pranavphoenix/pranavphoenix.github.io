@@ -11,6 +11,7 @@ carousel:
   acronym: "WavePaint"
   tagline: "Image Inpainting"
   image: "papers/wavepaint.jpg"
+  venue: "ICCV 2025"
   tags:
     - "Inpainting"
     - "Self-Supervised"

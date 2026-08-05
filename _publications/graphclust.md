@@ -9,6 +9,7 @@ carousel:
   acronym: "GraphClust"
   tagline: "Survival Analysis"
   image: "papers/graphclust.jpg"
+  venue: "ISBI 2026"
   tags:
     - "Histopathology"
     - "Survival Analysis"

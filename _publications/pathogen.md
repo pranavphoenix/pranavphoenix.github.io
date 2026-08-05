@@ -9,6 +9,7 @@ carousel:
   acronym: "PathoGen-X"
   tagline: "Survival Prediction"
   image: "papers/pathogen.jpg"
+  venue: "ISBI 2025"
   tags:
     - "Histopathology"
     - "Genomics"

@@ -11,6 +11,7 @@ carousel:
   acronym: "RL2"
   tagline: "Histopathology Metric"
   image: "papers/rl2.jpg"
+  venue: "ISBI 2025"
   tags:
     - "Medical Imaging"
     - "Histopathology"

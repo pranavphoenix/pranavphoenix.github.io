@@ -9,6 +9,7 @@ carousel:
   acronym: "Open Mic"
   tagline: "Humor Detection"
   image: "papers/emnlp.jpg"
+  venue: "EMNLP 2021"
   tags:
     - "NLP"
     - "Humor Detection"

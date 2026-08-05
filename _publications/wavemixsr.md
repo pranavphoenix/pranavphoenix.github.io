@@ -11,6 +11,7 @@ carousel:
   acronym: "WaveMixSR"
   tagline: "Super Resolution"
   image: "papers/wavemixsr.jpg"
+  venue: "WACV 2024"
   tags:
     - "Super Resolution"
     - "Efficiency"

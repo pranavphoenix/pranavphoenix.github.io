@@ -9,6 +9,7 @@ carousel:
   acronym: "EDSNet"
   tagline: "Video Summarization"
   image: "papers/edsnet.jpg"
+  venue: "arXiv 2024"
   tags:
     - "Video Summarization"
     - "Efficiency"

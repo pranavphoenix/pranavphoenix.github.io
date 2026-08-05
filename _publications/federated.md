@@ -11,6 +11,7 @@ carousel:
   acronym: "FLeNS"
   tagline: "Federated Learning"
   image: "papers/federated.jpg"
+  venue: "IEEE BigData 2024"
   tags:
     - "Federated Learning"
     - "Optimization"

@@ -9,6 +9,7 @@ carousel:
   acronym: "WaveMixSR-V2"
   tagline: "Super Resolution"
   image: "papers/wavemixsrv2.jpg"
+  venue: "AAAI 2025"
   tags:
     - "Super Resolution"
     - "Efficient AI"

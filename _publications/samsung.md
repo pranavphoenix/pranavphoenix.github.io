@@ -11,6 +11,7 @@ carousel:
   acronym: "PawFACS"
   tagline: "Facial Recognition"
   image: "papers/samsung.jpg"
+  venue: "BMVC 2024"
   tags:
     - "Action Recognition"
     - "Semi-Supervised"

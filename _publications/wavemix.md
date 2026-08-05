@@ -11,6 +11,7 @@ carousel:
   acronym: "WaveMix"
   tagline: "Token Mixer"
   image: "papers/wavemix.jpg"
+  venue: "ICML 2026"
   tags:
     - "Token Mixer"
     - "Efficiency"

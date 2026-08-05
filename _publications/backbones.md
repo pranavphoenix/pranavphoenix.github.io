@@ -10,6 +10,7 @@ carousel:
   acronym: "Backbones"
   tagline: "Model Selection"
   image: "papers/backbones.jpg"
+  venue: "TMLR"
   tags:
     - "Battle of Backbones"
     - "Efficiency"

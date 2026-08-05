@@ -11,6 +11,7 @@ carousel:
   acronym: "ViX"
   tagline: "Hybrid Transformers"
   image: "papers/vixwacv22.jpg"
+  venue: "WACV 2022"
   tags:
     - "Vision Transformers"
     - "Efficiency"

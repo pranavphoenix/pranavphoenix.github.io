@@ -11,6 +11,7 @@ carousel:
   acronym: "FLD"
   tagline: "Normalizing Flow Metric"
   image: "papers/fld.jpg"
+  venue: "ICML 2026"
   tags:
     - "Quality Metrics"
     - "Generative AI"

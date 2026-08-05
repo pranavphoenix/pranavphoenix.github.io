@@ -11,6 +11,7 @@ carousel:
   acronym: "FLD+"
   tagline: "Image Quality Metric"
   image: "papers/fldplus.jpg"
+  venue: "ICCV 2025"
   tags:
     - "Quality Metrics"
     - "Generative AI"

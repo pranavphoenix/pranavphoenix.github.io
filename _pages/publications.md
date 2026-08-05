@@ -86,6 +86,10 @@ author_profile: true
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  .paper-card-venue {
+    color: #dc2626;
+    font-weight: 600;
+  }
   .paper-card-year {
     font-size: 0.75rem;
     color: #6b7280;
@@ -125,6 +129,9 @@ author_profile: true
   html[data-theme="dark"] .paper-card-title {
     color: #f1f5f9;
   }
+  html[data-theme="dark"] .paper-card-venue {
+    color: #f87171;
+  }
   html[data-theme="dark"] .paper-card-year {
     color: #94a3b8;
   }
@@ -148,7 +155,7 @@ author_profile: true
               <img src="/images/{{ post.carousel.image }}" alt="{{ post.title }}" loading="lazy" />
             </div>
             <div class="paper-card-body">
-              <h5 class="paper-card-title">{{ post.title }}</h5>
+              <h5 class="paper-card-title">{{ post.title }} <span class="paper-card-venue">{{ post.carousel.venue }}</span></h5>
               <p class="paper-card-year">{{ post.date | date: "%Y" }}</p>
               <div class="paper-card-tags">
                 {% for tag in post.carousel.tags %}

@@ -11,6 +11,7 @@ carousel:
   acronym: "CXV"
   tagline: "CNN-Transformer Hybrid"
   image: "papers/cxv.jpg"
+  venue: "ICML 2026"
   tags:
     - "Hybrid Architecture"
     - "Vision"
