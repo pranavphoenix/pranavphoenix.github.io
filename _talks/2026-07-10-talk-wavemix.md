@@ -5,7 +5,6 @@ type: "Workshop Presentation"
 permalink: /talks/icml26-wavemix
 venue: "COEX Convention & Exhibition Center, Seoul, South Korea"
 date: 2026-07-09
-location: "Seoul, South Korea"
 ---
 Workshop presentation on our paper: "WaveMix: A Resource-efficient Neural Network for Image Analysis"
 
