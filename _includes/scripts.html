@@ -32,6 +32,45 @@
 </script>
 
 <script>
+  /* Live GitHub stars (total across all public repos) and Google Scholar citations */
+  (function () {
+    var stars = document.getElementById('github-stars');
+    if (stars) {
+      fetch('https://api.github.com/users/pranavphoenix/repos?per_page=100&type=public')
+        .then(function (r) {
+          return r.json();
+        })
+        .then(function (repos) {
+          if (!repos || !Array.isArray(repos)) {
+            return;
+          }
+          var total = 0;
+          repos.forEach(function (repo) {
+            total += (repo.stargazers_count || 0);
+          });
+          stars.textContent = total.toLocaleString();
+        })
+        .catch(function () {});
+    }
+    var cites = document.getElementById('scholar-citations');
+    if (cites) {
+      var badge = 'https://img.shields.io/endpoint?url=' + encodeURIComponent('https://google-scholar-badge.vercel.app/citations?user=3GlJQ24AAAAJ');
+      fetch(badge)
+        .then(function (r) {
+          return r.text();
+        })
+        .then(function (svg) {
+          var m = svg.match(/aria-label="[^"]*([0-9,]+)/);
+          if (m) {
+            cites.textContent = m[1];
+          }
+        })
+        .catch(function () {});
+    }
+  })();
+</script>
+
+<script>
   /* Hover-to-play for YouTube embeds (talks etc.) */
   (function () {
     var canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
