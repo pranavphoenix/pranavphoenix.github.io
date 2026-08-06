@@ -200,6 +200,20 @@ author_profile: true
       transform: scale(1.06);
       box-shadow: 0 12px 34px rgba(0, 0, 0, 0.32);
     }
+    .mtech-details {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition: grid-template-rows 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.35s ease;
+    }
+    .mtech-details > .mtech-details-inner {
+      overflow: hidden;
+      min-height: 0;
+    }
+    .mtech-card:hover .mtech-details {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
     @media (max-width: 767px) {
       .mtech-grid,
       .mtech-card:hover .mtech-grid {
@@ -338,23 +352,27 @@ author_profile: true
               <h4 class="text-xl font-bold text-purple-700 mb-3">M.Tech Thesis</h4>
               <p class="text-gray-600 mb-4">Design and control of a lower extremity exoskeleton for rehabilitation.</p>
               <p class="text-gray-600 mb-4">Developed a functional <strong>6-DOF active lower-extremity exoskeleton</strong> prototype and control pipeline designed to aid lower-body motor rehabilitation.</p>
-              <p class="font-semibold text-gray-800 mb-3">Key Innovations &amp; Highlights</p>
-              <div class="space-y-4">
-                <div>
-                  <p class="font-semibold text-gray-800 text-sm mb-1">Biomechanical Mechanism Design</p>
-                  <p class="text-sm text-gray-600">Designed an optimized 4-bar linkage mechanism for the hip joint (via 3-point analytical synthesis and Genetic Algorithms) and an offset revolute joint for the knee. This design accurately accounts for the shifting instantaneous center of rotation in biological joints.</p>
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-800 text-sm mb-1">Passive Gravity Balancing</p>
-                  <p class="text-sm text-gray-600">Implemented zero-free-length spring balancing to make the exoskeleton's potential energy invariant across gait configurations, significantly reducing motor torque requirements during the swing phase.</p>
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-800 text-sm mb-1">Sensor Fusion &amp; Gait State Estimation</p>
-                  <p class="text-sm text-gray-600">Built a custom foot-pressure array using FlexiForce ground-reaction sensors. Trained an Artificial Neural Network (ANN) to map ground reaction forces directly to joint angular trajectories for adaptive, state-based motor control.</p>
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-800 text-sm mb-1">End-to-End Prototyping &amp; Validation</p>
-                  <p class="text-sm text-gray-600">Modeled and stress-tested (FEA) the structure in Autodesk Inventor, fabricated the custom aluminum frame via water-jet cutting, and experimentally validated real-time trajectory tracking on human subjects.</p>
+              <div class="mtech-details">
+                <div class="mtech-details-inner">
+                  <p class="font-semibold text-gray-800 mb-3">Key Innovations &amp; Highlights</p>
+                  <div class="space-y-4">
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">Biomechanical Mechanism Design</p>
+                      <p class="text-sm text-gray-600">Designed an optimized 4-bar linkage mechanism for the hip joint (via 3-point analytical synthesis and Genetic Algorithms) and an offset revolute joint for the knee. This design accurately accounts for the shifting instantaneous center of rotation in biological joints.</p>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">Passive Gravity Balancing</p>
+                      <p class="text-sm text-gray-600">Implemented zero-free-length spring balancing to make the exoskeleton's potential energy invariant across gait configurations, significantly reducing motor torque requirements during the swing phase.</p>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">Sensor Fusion &amp; Gait State Estimation</p>
+                      <p class="text-sm text-gray-600">Built a custom foot-pressure array using FlexiForce ground-reaction sensors. Trained an Artificial Neural Network (ANN) to map ground reaction forces directly to joint angular trajectories for adaptive, state-based motor control.</p>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">End-to-End Prototyping &amp; Validation</p>
+                      <p class="text-sm text-gray-600">Modeled and stress-tested (FEA) the structure in Autodesk Inventor, fabricated the custom aluminum frame via water-jet cutting, and experimentally validated real-time trajectory tracking on human subjects.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
