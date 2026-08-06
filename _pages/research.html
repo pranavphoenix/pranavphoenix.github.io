@@ -168,6 +168,44 @@ author_profile: true
     .video-hover:hover .video-play-btn {
       transform: translate(-50%, -50%) scale(1.12);
     }
+    .mtech-card {
+      position: relative;
+      z-index: 1;
+      transition: all 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .mtech-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 18px 45px rgba(102, 126, 234, 0.4);
+      z-index: 20;
+    }
+    .mtech-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      align-items: center;
+      gap: 2rem;
+      transition: grid-template-columns 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .mtech-grid > * {
+      width: 100% !important;
+      min-width: 0;
+    }
+    .mtech-card:hover .mtech-grid {
+      grid-template-columns: 1.3fr 1fr;
+    }
+    .mtech-video {
+      transition: transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.45s ease;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+    .mtech-card:hover .mtech-video {
+      transform: scale(1.06);
+      box-shadow: 0 12px 34px rgba(0, 0, 0, 0.32);
+    }
+    @media (max-width: 767px) {
+      .mtech-grid,
+      .mtech-card:hover .mtech-grid {
+        grid-template-columns: 1fr;
+      }
+    }
     html[data-theme="dark"] body.bg-white {
       background-color: #0f172a;
       color: #e2e8f0;
@@ -291,26 +329,32 @@ author_profile: true
           </div>
         </div>
 
-        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
-          <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="research-point mtech-card bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex flex-col md:flex-row gap-8 items-center mtech-grid">
             <div class="md:w-1/2">
-              <div class="video-hover" data-video-id="d8wCTes-2zg" data-title="M.Tech Thesis video"></div>
+              <div class="video-hover mtech-video" data-video-id="d8wCTes-2zg" data-title="M.Tech Thesis video" data-res="maxres"></div>
             </div>
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">M.Tech Thesis</h4>
               <p class="text-gray-600 mb-4">Design and control of a lower extremity exoskeleton for rehabilitation.</p>
-              <div class="space-y-2">
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">Robotics and automation</span>
+              <p class="text-gray-600 mb-4">Developed a functional <strong>6-DOF active lower-extremity exoskeleton</strong> prototype and control pipeline designed to aid lower-body motor rehabilitation.</p>
+              <p class="font-semibold text-gray-800 mb-3">Key Innovations &amp; Highlights</p>
+              <div class="space-y-4">
+                <div>
+                  <p class="font-semibold text-gray-800 text-sm mb-1">Biomechanical Mechanism Design</p>
+                  <p class="text-sm text-gray-600">Designed an optimized 4-bar linkage mechanism for the hip joint (via 3-point analytical synthesis and Genetic Algorithms) and an offset revolute joint for the knee. This design accurately accounts for the shifting instantaneous center of rotation in biological joints.</p>
                 </div>
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">Multisensor fusion</span>
+                <div>
+                  <p class="font-semibold text-gray-800 text-sm mb-1">Passive Gravity Balancing</p>
+                  <p class="text-sm text-gray-600">Implemented zero-free-length spring balancing to make the exoskeleton's potential energy invariant across gait configurations, significantly reducing motor torque requirements during the swing phase.</p>
                 </div>
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">Fabricated a working prototype</span>
+                <div>
+                  <p class="font-semibold text-gray-800 text-sm mb-1">Sensor Fusion &amp; Gait State Estimation</p>
+                  <p class="text-sm text-gray-600">Built a custom foot-pressure array using FlexiForce ground-reaction sensors. Trained an Artificial Neural Network (ANN) to map ground reaction forces directly to joint angular trajectories for adaptive, state-based motor control.</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-gray-800 text-sm mb-1">End-to-End Prototyping &amp; Validation</p>
+                  <p class="text-sm text-gray-600">Modeled and stress-tested (FEA) the structure in Autodesk Inventor, fabricated the custom aluminum frame via water-jet cutting, and experimentally validated real-time trajectory tracking on human subjects.</p>
                 </div>
               </div>
             </div>
@@ -376,17 +420,22 @@ author_profile: true
 
       /* Hover-to-play YouTube videos */
       const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-      const videoPlaceholder = (id, title) => `
+      const videoPlaceholder = (id, title, res) => {
+        const img = res === 'maxres'
+          ? `<img src="https://img.youtube.com/vi/${id}/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/${id}/hqdefault.jpg'" alt="${title}" loading="lazy" />`
+          : `<img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="${title}" loading="lazy" />`;
+        return `
         <div class="video-placeholder">
-          <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" alt="${title}" loading="lazy" />
+          ${img}
           <div class="video-play-btn" aria-hidden="true"></div>
         </div>`;
+      };
       const videoIframe = (id, title) => `
         <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}?autoplay=1&mute=1" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
       document.querySelectorAll('.video-hover').forEach((el) => {
         const id = el.dataset.videoId;
         const title = el.dataset.title || 'YouTube video player';
-        el.innerHTML = videoPlaceholder(id, title);
+        el.innerHTML = videoPlaceholder(id, title, el.dataset.res);
         el.addEventListener('click', () => {
           if (!el.querySelector('iframe')) {
             el.innerHTML = videoIframe(id, title);
@@ -400,7 +449,7 @@ author_profile: true
           });
           el.addEventListener('mouseleave', () => {
             if (el.querySelector('iframe')) {
-              el.innerHTML = videoPlaceholder(id, title);
+              el.innerHTML = videoPlaceholder(id, title, el.dataset.res);
             }
           });
         }
@@ -419,6 +468,12 @@ author_profile: true
       researchPoints.forEach(point => {
         point.style.opacity = '0';
         point.style.transform = 'translateY(30px)';
+        point.addEventListener('animationend', function cleanup() {
+          point.style.animation = 'none';
+          point.style.opacity = '1';
+          point.style.transform = '';
+          point.removeEventListener('animationend', cleanup);
+        });
         observer.observe(point);
       });
     });
