@@ -317,26 +317,31 @@ author_profile: true
 
         <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Academic Research</h3>
 
-        <div class="research-point bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
-          <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="research-point mtech-card bg-white p-5 sm:p-8 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex flex-col md:flex-row gap-8 items-center mtech-grid">
             <div class="md:w-1/2">
-              <div class="video-hover" data-video-id="ajZhpF6dteA" data-title="PhD Thesis video"></div>
+              <div class="video-hover mtech-video" data-video-id="ajZhpF6dteA" data-title="PhD Thesis video" data-res="maxres"></div>
             </div>
             <div class="md:w-1/2">
               <h4 class="text-xl font-bold text-purple-700 mb-3">PhD Thesis</h4>
               <p class="text-gray-600 mb-4">Development of Resource-efficient architectures for computer vision such as image classification, semantic segmentation, image super-resolution, image inpainting and developing efficient evaluation metrics for generative models.</p>
-              <div class="space-y-2">
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">State-of-the-art results</span>
-                </div>
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">Data and parameter efficient</span>
-                </div>
-                <div class="flex items-center">
-                  <span class="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
-                  <span class="text-gray-700">Faster inference and training</span>
+              <div class="mtech-details">
+                <div class="mtech-details-inner">
+                  <p class="font-semibold text-gray-800 mb-3">Key Innovations &amp; Highlights</p>
+                  <div class="space-y-4">
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">Wavelet-Based Architectures</p>
+                      <p class="text-sm text-gray-600">Conceptualized and created WaveMix, WavePaint, and WaveMixSR, leveraging 2D-discrete wavelet transforms for superior performance in image classification, semantic segmentation, image super-resolution and image inpainting. These architectures deliver high performance with reduced computational requirements, outperforming state-of-the-art models.</p>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">Generative Evaluation Metrics</p>
+                      <p class="text-sm text-gray-600">Designed normalizing flow-based evaluation metrics, FLD, FLD+, and RL2, which ensure monotonic behavior and deliver reliable estimates using significantly fewer real and synthetic images.</p>
+                    </div>
+                    <div>
+                      <p class="font-semibold text-gray-800 text-sm mb-1">X-Former Architectures</p>
+                      <p class="text-sm text-gray-600">Developed Hybrid X-Formers and Convolutional X-Formers, which integrate image-specific inductive biases, significantly improving performance with limited data and GPU resources.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
