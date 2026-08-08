@@ -261,6 +261,38 @@
     }
   }
 
+  /* stack the author card: avatar + name + bio on top, links below */
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
+  }
+
+  .author__avatar {
+    width: 96px;
+    margin: 0 auto 0.75rem;
+
+    img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+    }
+  }
+
+  .author__content {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .author__bio {
+    margin-bottom: 0.75rem;
+  }
+
+  .author__urls-wrapper {
+    text-align: center;
+  }
+
   .author__urls li {
     white-space: normal;
   }
