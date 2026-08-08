@@ -100,7 +100,6 @@ html[data-theme="dark"] {
   padding-bottom: 1.6rem;
 
   .abt-time {
-    position: relative;
     font-family: $mono;
     font-size: 0.6875rem;
     font-weight: 500;
@@ -109,21 +108,6 @@ html[data-theme="dark"] {
     padding-top: 0.5rem;
     text-align: right;
     line-height: 1.4;
-
-    /* connector stub: sits in the gap below the label, aligned under the year dash */
-    &::before {
-      content: "";
-      position: absolute;
-      top: 100%;
-      height: 1.6rem;
-      right: calc(3em - 0.5px);
-      width: 1px;
-      background: linear-gradient(to bottom, var(--ab-border-strong), var(--ab-border));
-    }
-  }
-
-  &:last-child .abt-time::before {
-    display: none;
   }
 
   .abt-logo {
