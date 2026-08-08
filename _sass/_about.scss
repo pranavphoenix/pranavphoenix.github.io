@@ -99,22 +99,8 @@ html[data-theme="dark"] {
   column-gap: 1rem;
   padding-bottom: 1.6rem;
 
-  &::before {
-    /* rail */
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: -1.6rem;
-    left: 93px;
-    width: 1px;
-    background: linear-gradient(to bottom, var(--ab-border-strong), var(--ab-border));
-  }
-
-  &:last-child::before {
-    bottom: 24px;
-  }
-
   .abt-time {
+    position: relative;
     font-family: $mono;
     font-size: 0.6875rem;
     font-weight: 500;
@@ -123,25 +109,24 @@ html[data-theme="dark"] {
     padding-top: 0.5rem;
     text-align: right;
     line-height: 1.4;
-  }
 
-  .abt-logo {
-    position: relative;
-    z-index: 1;
-
-    /* the rail dot */
+    /* connector stub: sits in the gap below the label, aligned under the year dash */
     &::before {
       content: "";
       position: absolute;
-      top: 19px;
-      left: -18px;
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--ab-accent);
-      box-shadow: 0 0 0 3px var(--ab-fade), 0 0 0 4px var(--ab-border-strong);
+      top: 100%;
+      height: 1.6rem;
+      right: calc(3em - 0.5px);
+      width: 1px;
+      background: linear-gradient(to bottom, var(--ab-border-strong), var(--ab-border));
     }
+  }
 
+  &:last-child .abt-time::before {
+    display: none;
+  }
+
+  .abt-logo {
     img {
       width: 44px;
       height: 44px;
@@ -458,14 +443,6 @@ html[data-theme="dark"] .abt-exi-icon {
   .abt-entry {
     grid-template-columns: 66px 44px 1fr;
     column-gap: 0.6rem;
-
-    &::before {
-      left: 65px;
-    }
-
-    .abt-logo::before {
-      left: -14px;
-    }
 
     .abt-text {
       text-align: left;
