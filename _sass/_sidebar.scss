@@ -237,3 +237,31 @@
     }
   }
 }
+
+/* on small screens show author links inline instead of hiding them behind the button */
+@include breakpoint(max-width $medium) {
+  .author__urls-wrapper button {
+    display: none;
+  }
+
+  .author__urls {
+    display: block;
+    position: relative;
+    right: auto;
+    margin-top: 0.5rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .author__urls li {
+    white-space: normal;
+  }
+}
