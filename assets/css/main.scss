@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -41,4 +41,5 @@
 @import "print";
 @import "theme-toggle";
 @import "video-hover";
+@import "about";
 @import "dark";

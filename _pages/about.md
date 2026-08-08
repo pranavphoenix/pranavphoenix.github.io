@@ -7,609 +7,230 @@ redirect_from:
   - /about.html
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Pranav Jeevan P - Research Scientist</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-        @keyframes blink {
-            0%, 100% { border-color: transparent; }
-            50% { border-color: #667eea; }
-        }
-    /* <!-- </style>
-    <style> --> */
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        max-width: 1800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      .container {
-        margin: 0 auto;
-        padding: 0;
-      }
-      .row {
-        display: flex;
-        align-items: flex-start;
-        margin: 20px 0;
-      }
-      #dhead {
-        margin-bottom: 30px;
-      }
-      #dpic {
-        margin-right: 20px;
-        flex-shrink: 0;
-      }
-      .ppic {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-      h1 {
-        margin: 0 0 5px 0;
-        font-size: 32px;
-      }
-      h2 {
-        margin: 0 0 15px 0;
-        font-size: 18px;
-        font-weight: normal;
-        color: #555;
-      }
-      #dico {
-        margin: 10px 0;
-      }
-      .iico {
-        width: 24px;
-        height: 24px;
-        margin-right: 15px;
-        opacity: 0.7;
-        transition: opacity 0.2s;
-      }
-      .iico:hover {
-        opacity: 1;
-      }
-      hr {
-        border: none;
-        border-top: 1px solid #eee;
-        margin: 30px 0;
-      }
-      .entry {
-        display: flex;
-        margin-bottom: 30px;
-      }
-      .timespan {
-        width: 50px;
-        font-weight: bold;
-        color: #555;
-        margin-right: 10px;
-        flex-shrink: 0;
-        text-align: right;
-        font-size: 14px;
-      }
-      .ico {
-        position: relative;
-        width: 60px;
-        flex-shrink: 0;
-      }
-      .entry-dot {
-        position: absolute;
-        top: 10px;
-        left: 15px;
-        width: 12px;
-        height: 12px;
-        background-color: #ddd;
-        border-radius: 50%;
-        z-index: 1;
-      }
-      .ico img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 40px;
-        height: 40px;
-        border-radius: 5px;
-      }
-      .desc {
-        flex: 1;
-        padding-left: 0;
-        text-align: justify;
-      }
-      .htxt {
-        margin-bottom: 15px;
-      }
-      .hassets {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-      .hasset {
-        position: relative;
-      }
-      .video {
-        border-radius: 8px;
-      }
-      .ctitle {
-        font-size: 24px;
-        font-weight: bold;
-        margin: 40px 0 20px 0;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #eee;
-      }
-      .card {
-        width: calc(33.333% - 10px);
-        margin: 0 5px 20px 5px;
-        display: inline-block;
-        vertical-align: top;
-      }
-      @media (max-width: 768px) {
-        .card {
-          width: calc(50% - 10px);
-        }
-      }
-      @media (max-width: 480px) {
-        .card {
-          width: 100%;
-        }
-      }
-      .ccimg img {
-        width: 100%;
-        border-radius: 8px;
-      }
-      .cdesc {
-        margin-top: 8px;
-        font-size: 14px;
-      }
-      .project {
-        display: flex;
-        margin-bottom: 20px;
-        align-items: flex-start;
-      }
-      .pico {
-        width: 60px;
-        margin-right: 15px;
-        flex-shrink: 0;
-      }
-      .pico img {
-        width: 60px;
-        height: 60px;
-        border-radius: 8px;
-      }
-      .pdesc {
-        flex: 1;
-      }
-      .pend {
-        width: 60px;
-        flex-shrink: 0;
-      }
-      .pub {
-        margin-bottom: 15px;
-      }
-      .pub-title {
-        font-weight: bold;
-      }
-      .pub-venue {
-        font-size: 14px;
-        color: #555;
-        margin: 3px 0;
-      }
-      .pub-authors {
-        font-size: 14px;
-        color: #666;
-      }
-      .tul {
-        list-style: none;
-        padding-left: 0;
-      }
-      .til {
-        margin: 5px 0;
-      }
-      .tilb {
-        font-weight: bold;
-      }
-      .nodot {
-        list-style: none;
-        padding-left: 0;
-      }
-      .nodot li {
-        margin: 8px 0;
-      }
-      /* News Section Styles */
-      .news-section {
-        background-color: #f8f9fa;
-        padding: 20px;
-        border-radius: 8px;
-        margin: 30px 0;
-        overflow: hidden;
-      }
-      .news-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin: 0 0 15px 0;
-        color: #333;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 10px;
-      }
-      .news-container {
-        overflow: hidden;
-        position: relative;
-        height: 500px;
-      }
-      .news-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        width: 100%;
-        animation: scrollNews 40s linear infinite;
-      }
-      .news-item {
-        border-top: 1px solid #eee;
-        padding: 15px 0;
-        opacity: 0.7;
-        transition: opacity 0.3s;
-      }
-      .news-item:hover {
-        opacity: 1;
-      }
-      .news-item:first-child {
-        border-top: none;
-      }
-      .news-date {
-        display: inline-block;
-        background-color: #e3f2fd;
-        color: #1565c0;
-        font-weight: bold;
-        font-size: 12px;
-        padding: 4px 8px;
-        border-radius: 4px;
-        margin-right: 10px;
-      }
-      .news-content {
-        font-size: 16px;
-        color: #333;
-      }
-      .news-content a {
-        color: #1976d2;
-        text-decoration: none;
-      }
-      .news-content a:hover {
-        text-decoration: underline;
-      }
-      @keyframes scrollNews {
-        0% {
-          transform: translateY(0);
-        }
-        100% {
-          transform: translateY(-50%);
-        }
-      }
-      /* Add a gradient fade at the bottom to enhance the looping effect */
-      .news-section::after {
-        content: '';
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        right: 20px;
-        height: 20px;
-        background: linear-gradient(to bottom, rgba(248, 249, 250, 0), rgba(248, 249, 250, 1));
-        pointer-events: none;
-        z-index: 1;
-      }
-    </style>
-    <style>
-        html[data-theme="dark"] body { color: #e2e8f0; }
-        html[data-theme="dark"] [style*="color: #111"] { color: #f1f5f9 !important; }
-        html[data-theme="dark"] a[style*="color: #2563eb"] { color: #a5b4fc !important; }
-        html[data-theme="dark"] .news-section { background-color: #1e293b; }
-        html[data-theme="dark"] .news-title { color: #f1f5f9; }
-        html[data-theme="dark"] .news-content { color: #e2e8f0; }
-        html[data-theme="dark"] .news-content a { color: #a5b4fc; }
-        html[data-theme="dark"] .news-date { background-color: rgba(139, 92, 246, 0.2); color: #c4b5fd; }
-        html[data-theme="dark"] .timespan { color: #94a3b8; }
-        html[data-theme="dark"] .pub-venue { color: #94a3b8; }
-        html[data-theme="dark"] .pub-authors { color: #94a3b8; }
-        html[data-theme="dark"] hr { border-top-color: #334155; }
-        html[data-theme="dark"] .ctitle { border-bottom-color: #334155; }
-        html[data-theme="dark"] .entry-dot { background-color: #334155; }
-        html[data-theme="dark"] .bg-white { background-color: #1e293b; }
-        html[data-theme="dark"] .text-gray-900 { color: #f1f5f9; }
-        html[data-theme="dark"] .text-gray-800 { color: #e2e8f0; }
-        html[data-theme="dark"] .text-gray-700 { color: #cbd5e1; }
-        html[data-theme="dark"] .text-gray-600 { color: #94a3b8; }
-        html[data-theme="dark"] .text-gray-500 { color: #94a3b8; }
-        html[data-theme="dark"] .border-gray-200 { border-color: #334155; }
-        html[data-theme="dark"] .bg-gray-100 { background-color: #334155; }
-        html[data-theme="dark"] .bg-blue-50 { background-color: rgba(59, 130, 246, 0.12); }
-        html[data-theme="dark"] .bg-purple-50 { background-color: rgba(139, 92, 246, 0.12); }
-        html[data-theme="dark"] .bg-green-50 { background-color: rgba(16, 185, 129, 0.12); }
-        html[data-theme="dark"] .bg-yellow-50 { background-color: rgba(245, 158, 11, 0.12); }
-        html[data-theme="dark"] .bg-red-50 { background-color: rgba(239, 68, 68, 0.12); }
-        html[data-theme="dark"] .bg-indigo-50 { background-color: rgba(99, 102, 241, 0.12); }
-        html[data-theme="dark"] .bg-pink-50 { background-color: rgba(236, 72, 153, 0.12); }
-        html[data-theme="dark"] .bg-teal-50 { background-color: rgba(20, 184, 166, 0.12); }
-        html[data-theme="dark"] .bg-orange-50 { background-color: rgba(249, 115, 22, 0.12); }
-    </style>
-</head>
+<h2 class="abt-title">About Me<span class="abt-title-mark" aria-hidden="true"></span></h2>
 
+<div class="abt-timeline">
+  <div class="abt-entry">
+    <time class="abt-time">2025 —</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/image.png" alt="Sync Labs" loading="lazy" /></div>
+    <div class="abt-text">
+      I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/">Sync Labs</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing state-of-the-art generative architectures — spanning diffusion and flow matching models, GANs, and transformer-based networks — to enable precise, controllable modification of human appearance, lips, motion, and expression in video sequences. My models are being used by OTT platforms, movie studios, and online content creators.
+    </div>
+  </div>
 
-<h2 class="text-2xl font-bold mb-6" style="color: #111;">About Me</h2>
+  <div class="abt-entry">
+    <time class="abt-time">2020–2025</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/IITB.png" alt="IIT Bombay" loading="lazy" /></div>
+    <div class="abt-text">
+      I earned my <strong>Ph.D. in Artificial Intelligence</strong> from the <a href="https://www.ee.iitb.ac.in">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for computer vision tasks such as classification, segmentation, inpainting, and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/">Prof. Amit Sethi</a>.
+    </div>
+  </div>
 
-<div id="history" class="container">
-      <div class="entry row">
-        <div class="timespan">
-          2025 -
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/image.png" />
-        </div>
-        <div class="desc">
-           I am working as a <strong>Research Scientist</strong> at <a href="https://sync.so/" style="text-decoration: none; color: #2563eb;">Sync Labs</a>, where I develop advanced AI-driven video editing tools. My work focuses on designing state-of-the-art generative architectures—spanning diffusion and flow matching models, GANs, and transformer-based networks—to enable precise, controllable modification of human appearance, lips, motion, and expression in video sequences. My models are being used by OTT platforms, movie studios and online content creators.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2020 - 2025
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITB.png" />
-        </div>
-        <div class="desc">
-          I earned my <strong>Ph.D. in Artificial Intelligence</strong> from the <a href="https://www.ee.iitb.ac.in" style="text-decoration: none; color: #2563eb;">Department of Electrical Engineering</a> at the <a href="https://www.iitb.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Bombay</a>, where I developed resource-efficient neural architectures for various computer vision tasks such as classification, segmentation, inpainitng and super-resolution. During my doctoral studies, I was associated with the <em>MeDAL (Medical Imaging, Deep Learning, and Artificial Intelligence Lab)</em> under the supervision of <a href="https://www.ee.iitb.ac.in/~asethi/" style="text-decoration: none; color: #2563eb;">Prof. Amit Sethi</a>.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2023 - 2024
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/samsung.png" />
-        </div>
-        <div class="desc">
-           I also completed a six-month <strong>internship</strong> (July 2023–January 2024) with the AI Camera Team of Visual Intelligence Division at <a href="https://research.samsung.com/sri-b" style="text-decoration: none; color: #2563eb;">Samsung R&D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung’s flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24" style="text-decoration: none; color: #2563eb;">Galaxy S24 series</a>.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2017 - 2019
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITM.png" />
-        </div>
-        <div class="desc">
-          I returned to <strong>Academic Research</strong> at the <a href="https://physics.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Physics</a>, <a href="https://www.iitm.ac.in/" style="text-decoration: none; color: #2563eb;">Indian Institute of Technology Madras</a>, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok" style="text-decoration: none; color: #2563eb;">Prof. Vaibhav Madhok</a>.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2015 - 2016
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/tata.png" />
-        </div>
-        <div class="desc">
-          <strong>Post-Graduate Engineering Trainee</strong> at the Engineering Research Centre of <a href="https://www.tatamotors.com/" style="text-decoration: none; color: #2563eb;">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2013 - 2015
-        </div>
-        <div class="ico">
-          <img src="https://pranavphoenix.github.io/images/IITK.png" />
-        </div>
-        <div class="desc">
-          <strong>M.Tech in Robotics</strong> at the <a href="https://www.iitk.ac.in/" style="text-decoration: none; color: #2563eb;">Department of Mechanical Engineering, Indian Institute of Technology Kanpur,</a>, where I was part of the <a href="http://www.iitk.ac.in/robotics/" style="text-decoration: none; color: #2563eb;">Center for Mechatronics</a>. Under the guidance of <a href="https://home.iitk.ac.in/~adutta/" style="text-decoration: none; color: #2563eb;">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation applications.
-        </div>
-      </div>
-      <div class="entry row">
-        <div class="timespan">
-          2009 - 2013
-        </div>
-        <div class="ico">
-          <img src="/images/calicut.png" />
-        </div>
-        <div class="desc">
-          <strong>B.Tech in Mechanical Engineering</strong> from <a href="https://www.nssce.ac.in/" style="text-decoration: none; color: #2563eb;">NSS College of Engineering</a>, <a href="https://uoc.ac.in/" style="text-decoration: none; color: #2563eb;">University of Calicut</a>. 
-        </div>
-      </div>
+  <div class="abt-entry">
+    <time class="abt-time">2023–2024</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/samsung.png" alt="Samsung R&D" loading="lazy" /></div>
+    <div class="abt-text">
+      I completed a six-month <strong>internship</strong> (July 2023 – January 2024) with the AI Camera Team of the Visual Intelligence Division at <a href="https://research.samsung.com/sri-b">Samsung R&amp;D Institute India, Bangalore (SRI-B)</a>, where I developed and optimized deep learning models for image classification, object detection, and generative tasks. These models have been integrated into Samsung's flagship <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S24">Galaxy S24 series</a>.
+    </div>
+  </div>
+
+  <div class="abt-entry">
+    <time class="abt-time">2017–2019</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/IITM.png" alt="IIT Madras" loading="lazy" /></div>
+    <div class="abt-text">
+      I returned to <strong>academic research</strong> at the <a href="https://physics.iitm.ac.in/">Department of Physics</a>, <a href="https://www.iitm.ac.in/">Indian Institute of Technology Madras</a>, focusing on theoretical physics, quantum computing, and quantum information under <a href="https://sites.google.com/view/madhok">Prof. Vaibhav Madhok</a>.
+    </div>
+  </div>
+
+  <div class="abt-entry">
+    <time class="abt-time">2015–2016</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/tata.png" alt="Tata Motors" loading="lazy" /></div>
+    <div class="abt-text">
+      <strong>Post-Graduate Engineering Trainee</strong> at the Engineering Research Centre of <a href="https://www.tatamotors.com/">Tata Motors Limited</a>, where I conducted vehicle performance and thermal analysis for braking systems.
+    </div>
+  </div>
+
+  <div class="abt-entry">
+    <time class="abt-time">2013–2015</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/IITK.png" alt="IIT Kanpur" loading="lazy" /></div>
+    <div class="abt-text">
+      <strong>M.Tech in Robotics</strong> at the <a href="https://www.iitk.ac.in/">Department of Mechanical Engineering, Indian Institute of Technology Kanpur</a>, where I was part of the <a href="http://www.iitk.ac.in/robotics/">Center for Mechatronics</a>. Under <a href="https://home.iitk.ac.in/~adutta/">Prof. Ashish Dutta</a>, I designed and prototyped a lower-extremity exoskeleton for rehabilitation.
+    </div>
+  </div>
+
+  <div class="abt-entry">
+    <time class="abt-time">2009–2013</time>
+    <div class="abt-logo"><img src="https://pranavphoenix.github.io/images/calicut.png" alt="NSS College of Engineering" loading="lazy" /></div>
+    <div class="abt-text">
+      <strong>B.Tech in Mechanical Engineering</strong> from <a href="https://www.nssce.ac.in/">NSS College of Engineering</a>, <a href="https://uoc.ac.in/">University of Calicut</a>.
+    </div>
+  </div>
 </div>
 
-
-<div style="text-align: justify; margin-top: 1em;">
-  I regularly serve as a reviewer for premier conferences in computer vision and machine learning, including CVPR, ICCV, ECCV, ICLR, AAAI, and WACV.
+<div class="abt-note">
+  <i class="fa-solid fa-arrows-retweet" aria-hidden="true"></i>
+  <span>I regularly serve as a reviewer for premier computer vision and machine learning conferences, including CVPR, ICCV, ECCV, ICLR, AAAI, and WACV.</span>
 </div>
 
-
-
-
-<div class="mt-8 flex justify-center">
-  <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center" style="text-decoration: none;">
-    <i class="fas fa-file-pdf mr-2"></i>
+<div class="abt-cta-row">
+  <a href="https://drive.google.com/file/d/1-BkKK9OD12Yq5J6TGXAQr53f1jmGQXwN/view?usp=sharing" target="_blank" rel="noopener" class="abt-cta">
+    <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     My Resume
   </a>
 </div>
 
-<!-- News Section -->
-<div class="container news-section">
-    <div class="news-title">News</div>
-    <div class="news-container">
-    <ul class="news-list">
-        {% for i in (1..2) %}
-        <li class="news-item">
-        <span class="news-date">DEC'25</span>
-        <div class="news-content">Our paper <strong>Spatially-Aware Mixture of Experts with Log-Logistic Survival Modeling for Whole-Slide Images</strong> has been accepted at <strong>ISBI 2026</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">DEC'25</span>
-        <div class="news-content">Our paper <strong>Survival Modeling from Whole Slide Images via Patch-Level Graph Clustering and Mixture Density Experts</strong> has been accepted at <strong>ISBI 2026</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'25</span>
-        <div class="news-content">Our paper <strong>WaveMix: A Resource-efficient Neural Network for Image Analysis</strong> has been accepted at <strong>ICML 2026</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'25</span>
-        <div class="news-content">Our paper <strong>Normalizing Flow-Based Metric for Image Generation</strong> has been accepted at <strong>ICML 2026</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'25</span>
-        <div class="news-content">Our paper <strong>Convolutional Xformers for Vision</strong> has been accepted at <strong>ICML 2026</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'25</span>
-        <div class="news-content">I defended my PhD thesis: <strong>Resource-efficient Architectures for Computer Vision</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">AUG'25</span>
-        <div class="news-content">Our book chapter <strong>A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis</strong> has been published in <strong>BIOSTEC 2024 Selected Papers (Springer)</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">JUL'25</span>
-        <div class="news-content">Our paper <strong>FLD+: a data-efficient evaluation metric for generative models</strong> has been accepted for publication at <strong>ICCV 2025</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">JUL'25</span>
-        <div class="news-content">Our paper <strong>WavePaint: a resource-efficient token-mixer for self-supervised inpainting</strong> has been accepted for publication at <strong>ICCV 2025</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">MAR'25</span>
-        <div class="news-content">Our paper <strong>Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision</strong> has been published in <strong>Transactions on Machine Learning Research (TMLR)</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">NOV'24</span>
-        <div class="news-content">Our paper <strong>Evaluation Metric for Quality Control and Generative Models in Histopathology Images</strong> has been accepted at <strong>ISBI 2025</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">NOV'24</span>
-        <div class="news-content">Our paper <strong>PathoGen-X: A Cross-Modal Genomic Feature Trans-Align Network for Enhanced Survival Prediction from Histopathology Images</strong> has been accepted at <strong>ISBI 2025</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'24</span>
-        <div class="news-content">Our paper <strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency, has been accepted at <strong>AAAI 2025</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">SEP'24</span>
-        <div class="news-content">Our paper <strong>EDSNet: Efficient-DSNet for Video Summarization</strong> is available as an <strong>arXiv preprint</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">AUG'24</span>
-        <div class="news-content">Our paper <strong>PawFACS</strong> for pet facial action recognition accepted at <strong>BMVC 2024</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">MAY'24</span>
-        <div class="news-content">Our paper <strong>FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch</strong> has been accepted at <strong>IEEE BigData 2024</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">APR'24</span>
-        <div class="news-content">Our paper <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> has been accepted at <strong>ICPR 2024</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">MAR'24</span>
-        <div class="news-content">Our paper <strong>Advancing Gene Selection in Oncology: A Fusion of Deep Learning and Sparsity for Precision Gene Selection</strong> is available as an <strong>arXiv preprint</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">FEB'24</span>
-        <div class="news-content">Our paper <strong>Magnification Invariant Medical Image Analysis</strong> has received the <strong>Best Student Paper Award</strong> at <strong>Bioimaging 2024</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">JAN'24</span>
-        <div class="news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&D Institute, Bangalore.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'23</span>
-        <div class="news-content">Our paper <strong>WaveMixSR: a resource-efficient neural network for image super-resolution</strong> has been accepted at <strong>WACV 2024</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">AUG'23</span>
-        <div class="news-content">Our paper <strong>Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis</strong> has been accepted at <strong>MICCAI 2023</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">MAR'23</span>
-        <div class="news-content">Our paper <strong>Resource-efficient Image Inpainting</strong> has been accepted as a Tiny paper at <strong>ICLR 2023</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">OCT'21</span>
-        <div class="news-content">Our paper <strong>Resource-efficient Hybrid X-formers for Vision</strong> has been accepted at <strong>WACV 2022</strong>.</div>
-        </li>
-        <li class="news-item">
-        <span class="news-date">JUL'21</span>
-        <div class="news-content">Our paper <strong>“So You Think You’re Funny?”: Rating the Humour Quotient in Standup Comedy</strong> has been accepted at <strong>EMNLP 2021</strong>.</div>
-        </li>
-        {% endfor %}
-    </ul>
-    </div>
-</div>
-
-
- <section class="bg-white rounded-2xl shadow-lg p-8 mb-10 card-hover">
-            <h2 class="text-2xl font-bold mb-6" style="color: #111;">Expertise</h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div class="bg-blue-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-brain text-2xl text-blue-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Deep Learning</h3>
-                </div>
-                <div class="bg-purple-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-image text-2xl text-purple-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Computer Vision</h3>
-                </div>
-                <div class="bg-green-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-project-diagram text-2xl text-green-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Generative Models</h3>
-                </div>
-                <div class="bg-yellow-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-microchip text-2xl text-yellow-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Neural Architecture</h3>
-                </div>
-                <div class="bg-red-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-medkit text-2xl text-red-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Medical Imaging</h3>
-                </div>
-                <div class="bg-indigo-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-robot text-2xl text-indigo-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Robotics</h3>
-                </div>
-                <div class="bg-pink-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-atom text-2xl text-pink-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Theoretical Physics</h3>
-                </div>
-                <div class="bg-teal-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-language text-2xl text-teal-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">NLP</h3>
-                </div>
-                <div class="bg-orange-50 p-4 rounded-lg text-center">
-                    <i class="fas fa-cogs text-2xl text-orange-600 mb-2"></i>
-                    <h3 class="font-semibold text-gray-900">Mechanical Engg</h3>
-                </div>
-            </div>
-            <div class="mt-6 pt-6 border-t border-gray-200" style="color: #111;">
-                <h3 class="font-semibold text-gray-900 mb-3">Programming & Tools</h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Python</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">PyTorch</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">TensorFlow</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">CUDA</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">OpenCV</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">MATLAB</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">C++</span>
-                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Git</span>
-                </div>
-            </div>
+<section class="abt-news" aria-label="News">
+  <p class="abt-eyebrow">News</p>
+  <h2 class="abt-section-title">Latest Updates</h2>
+  {% capture abt_news_items %}
+  <li class="abt-news-item">
+    <span class="abt-news-date">DEC'25</span>
+    <div class="abt-news-content">Our paper <strong>Spatially-Aware Mixture of Experts with Log-Logistic Survival Modeling for Whole-Slide Images</strong> has been accepted at <strong>ISBI 2026</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">DEC'25</span>
+    <div class="abt-news-content">Our paper <strong>Survival Modeling from Whole Slide Images via Patch-Level Graph Clustering and Mixture Density Experts</strong> has been accepted at <strong>ISBI 2026</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'25</span>
+    <div class="abt-news-content">Our paper <strong>WaveMix: A Resource-efficient Neural Network for Image Analysis</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'25</span>
+    <div class="abt-news-content">Our paper <strong>Normalizing Flow-Based Metric for Image Generation</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'25</span>
+    <div class="abt-news-content">Our paper <strong>Convolutional Xformers for Vision</strong> has been accepted at <strong>ICML 2026</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'25</span>
+    <div class="abt-news-content">I defended my Ph.D. thesis: <strong>Resource-efficient Architectures for Computer Vision</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">AUG'25</span>
+    <div class="abt-news-content">Our book chapter <strong>A Comparative Study of Deep Neural Network Architectures in Magnification Invariant Breast Cancer Histopathology Image Analysis</strong> has been published in <strong>BIOSTEC 2024 Selected Papers (Springer)</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">JUL'25</span>
+    <div class="abt-news-content">Our paper <strong>FLD+: a data-efficient evaluation metric for generative models</strong> has been accepted at <strong>ICCV 2025</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">JUL'25</span>
+    <div class="abt-news-content">Our paper <strong>WavePaint: a resource-efficient token-mixer for self-supervised inpainting</strong> has been accepted at <strong>ICCV 2025</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">MAR'25</span>
+    <div class="abt-news-content">Our paper <strong>Which Backbone to Use: A Resource-efficient Domain Specific Comparison for Computer Vision</strong> has been published in <strong>Transactions on Machine Learning Research (TMLR)</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">NOV'24</span>
+    <div class="abt-news-content">Our paper <strong>Evaluation Metric for Quality Control and Generative Models in Histopathology Images</strong> has been accepted at <strong>ISBI 2025</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">NOV'24</span>
+    <div class="abt-news-content">Our paper <strong>PathoGen-X: A Cross-Modal Genomic Feature Trans-Align Network for Enhanced Survival Prediction from Histopathology Images</strong> has been accepted at <strong>ISBI 2025</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'24</span>
+    <div class="abt-news-content">Our paper <strong>WaveMixSR-V2</strong>, enhancing super-resolution with higher efficiency, has been accepted at <strong>AAAI 2025</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">SEP'24</span>
+    <div class="abt-news-content">Our paper <strong>EDSNet: Efficient-DSNet for Video Summarization</strong> is available as an <strong>arXiv preprint</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">AUG'24</span>
+    <div class="abt-news-content">Our paper <strong>PawFACS</strong> for pet facial action recognition has been accepted at <strong>BMVC 2024</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">MAY'24</span>
+    <div class="abt-news-content">Our paper <strong>FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch</strong> has been accepted at <strong>IEEE BigData 2024</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">APR'24</span>
+    <div class="abt-news-content">Our paper <strong>Adversarial Transport Terms for Unsupervised Domain Adaptation</strong> has been accepted at <strong>ICPR 2024</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">MAR'24</span>
+    <div class="abt-news-content">Our paper <strong>Advancing Gene Selection in Oncology: A Fusion of Deep Learning and Sparsity for Precision Gene Selection</strong> is available as an <strong>arXiv preprint</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">FEB'24</span>
+    <div class="abt-news-content">Our paper <strong>Magnification Invariant Medical Image Analysis</strong> has received the <strong>Best Student Paper Award</strong> at <strong>Bioimaging 2024</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">JAN'24</span>
+    <div class="abt-news-content">Successfully completed a six-month internship with the AI Camera Team at Samsung R&amp;D Institute, Bangalore.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'23</span>
+    <div class="abt-news-content">Our paper <strong>WaveMixSR: a resource-efficient neural network for image super-resolution</strong> has been accepted at <strong>WACV 2024</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">AUG'23</span>
+    <div class="abt-news-content">Our paper <strong>Heterogeneous Graphs Model Spatial Relationships for Breast Cancer Diagnosis</strong> has been accepted at <strong>MICCAI 2023</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">MAR'23</span>
+    <div class="abt-news-content">Our paper <strong>Resource-efficient Image Inpainting</strong> has been accepted as a Tiny paper at <strong>ICLR 2023</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">OCT'21</span>
+    <div class="abt-news-content">Our paper <strong>Resource-efficient Hybrid X-formers for Vision</strong> has been accepted at <strong>WACV 2022</strong>.</div>
+  </li>
+  <li class="abt-news-item">
+    <span class="abt-news-date">JUL'21</span>
+    <div class="abt-news-content">Our paper <strong>"So You Think You're Funny?": Rating the Humour Quotient in Standup Comedy</strong> has been accepted at <strong>EMNLP 2021</strong>.</div>
+  </li>
+  {% endcapture %}
+  <div class="abt-news-viewport">
+    <ul class="abt-news-list">{{ abt_news_items }}{{ abt_news_items }}</ul>
+    <div class="abt-news-fade" aria-hidden="true"></div>
+  </div>
 </section>
 
-
-
+<section class="abt-expert" aria-label="Expertise">
+  <p class="abt-eyebrow">Expertise</p>
+  <h2 class="abt-section-title">What I Work On</h2>
+  <div class="abt-expert-grid">
+    <div class="abt-exi">
+      <div class="abt-exi-icon abt-exi-icon--a"><i class="fa-solid fa-wave-square" aria-hidden="true"></i></div>
+      <div>
+        <h3 class="abt-exi-title">Deep Learning &amp; Generative Models</h3>
+        <p class="abt-exi-desc">Diffusion &amp; flow matching, GANs, transformers, and token-mixers — resource-efficient from the ground up.</p>
+      </div>
+    </div>
+    <div class="abt-exi">
+      <div class="abt-exi-icon abt-exi-icon--b"><i class="fa-solid fa-video" aria-hidden="true"></i></div>
+      <div>
+        <h3 class="abt-exi-title">Computer Vision &amp; Video Editing</h3>
+        <p class="abt-exi-desc">Controllable editing of appearance, lips, motion, and expression in video — super-resolution, inpainting, segmentation.</p>
+      </div>
+    </div>
+    <div class="abt-exi">
+      <div class="abt-exi-icon abt-exi-icon--c"><i class="fa-solid fa-microscope" aria-hidden="true"></i></div>
+      <div>
+        <h3 class="abt-exi-title">Medical Imaging &amp; Health AI</h3>
+        <p class="abt-exi-desc">Histopathology over whole-slide images, survival modeling, and magnification-invariant analysis for diagnosis.</p>
+      </div>
+    </div>
+    <div class="abt-exi">
+      <div class="abt-exi-icon abt-exi-icon--d"><i class="fa-solid fa-atom" aria-hidden="true"></i></div>
+      <div>
+        <h3 class="abt-exi-title">Science &amp; Engineering</h3>
+        <p class="abt-exi-desc">Theoretical physics, quantum information, robotics, and exoskeletons — an interdisciplinary toolkit for hard problems.</p>
+      </div>
+    </div>
+  </div>
+  <div class="abt-tools">
+    <span class="abt-pill">Python</span>
+    <span class="abt-pill">PyTorch</span>
+    <span class="abt-pill">TensorFlow</span>
+    <span class="abt-pill">CUDA</span>
+    <span class="abt-pill">OpenCV</span>
+    <span class="abt-pill">MATLAB</span>
+    <span class="abt-pill">C++</span>
+    <span class="abt-pill">Git</span>
+  </div>
+</section>

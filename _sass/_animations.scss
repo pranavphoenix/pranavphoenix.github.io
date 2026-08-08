@@ -1,5 +1,7 @@
 /* ==========================================================================
    ANIMATIONS
+   Staggered page intro: masthead fades in first, then the page content
+   rises into place. Everything respects prefers-reduced-motion.
    ========================================================================== */
 
 @-webkit-keyframes intro {
@@ -17,5 +19,73 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* soft rise — used for the page core */
+@-webkit-keyframes rise {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/* slow drift of the spectral hairline under the masthead */
+@-webkit-keyframes spectral {
+  0% {
+    -webkit-filter: hue-rotate(0deg); }
+  100% {
+    -webkit-filter: hue-rotate(45deg); }
+}
+
+@keyframes spectral {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(45deg);
+  }
+}
+
+/* news ticker */
+@keyframes newsScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }
