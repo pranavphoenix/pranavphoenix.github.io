@@ -105,7 +105,7 @@ html[data-theme="dark"] {
     position: absolute;
     top: 0;
     bottom: -1.6rem;
-    left: 118px;
+    left: 93px;
     width: 1px;
     background: linear-gradient(to bottom, var(--ab-border-strong), var(--ab-border));
   }
@@ -133,7 +133,7 @@ html[data-theme="dark"] {
     &::before {
       content: "";
       position: absolute;
-      top: 13px;
+      top: 19px;
       left: -18px;
       width: 7px;
       height: 7px;
@@ -460,11 +460,15 @@ html[data-theme="dark"] .abt-exi-icon {
     column-gap: 0.6rem;
 
     &::before {
-      left: 88px;
+      left: 65px;
     }
 
     .abt-logo::before {
       left: -14px;
+    }
+
+    .abt-text {
+      text-align: left;
     }
   }
 }

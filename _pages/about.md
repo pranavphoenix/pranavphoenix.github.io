@@ -198,14 +198,14 @@ redirect_from:
       <div class="abt-exi-icon abt-exi-icon--a"><i class="fa-solid fa-wave-square" aria-hidden="true"></i></div>
       <div>
         <h3 class="abt-exi-title">Deep Learning &amp; Generative Models</h3>
-        <p class="abt-exi-desc">Diffusion &amp; flow matching, GANs, transformers, and token-mixers — resource-efficient from the ground up.</p>
+        <p class="abt-exi-desc">Diffusion &amp; flow matching, GANs, transformers, and token-mixers — resource-efficient, faster, smaller.</p>
       </div>
     </div>
     <div class="abt-exi">
       <div class="abt-exi-icon abt-exi-icon--b"><i class="fa-solid fa-video" aria-hidden="true"></i></div>
       <div>
         <h3 class="abt-exi-title">Computer Vision &amp; Video Editing</h3>
-        <p class="abt-exi-desc">Controllable editing of appearance, lips, motion, and expression in video — super-resolution, inpainting, segmentation.</p>
+        <p class="abt-exi-desc">Controllable editing of appearance, lips, and expression in video — super-resolution, inpainting, segmentation,action detection, motion transfer.</p>
       </div>
     </div>
     <div class="abt-exi">
@@ -219,7 +219,7 @@ redirect_from:
       <div class="abt-exi-icon abt-exi-icon--d"><i class="fa-solid fa-atom" aria-hidden="true"></i></div>
       <div>
         <h3 class="abt-exi-title">Science &amp; Engineering</h3>
-        <p class="abt-exi-desc">Theoretical physics, quantum information, robotics, and exoskeletons — an interdisciplinary toolkit for hard problems.</p>
+        <p class="abt-exi-desc">Theoretical physics, quantum computing, robotics, and exoskeletons.</p>
       </div>
     </div>
   </div>
